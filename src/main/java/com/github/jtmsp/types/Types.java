@@ -10,13 +10,13 @@ public final class Types {
   }
   /**
    * <pre>
-   * Not being used
+   * Not being used 
    * Could be added to request/response
    * so we don't have to type switch
    * (would be twice as fast, but we're talking about 15ns)
    * </pre>
    *
-   * Protobuf enum {@code com.github.jtmsp.types.MessageType}
+   * Protobuf enum {@code types.MessageType}
    */
   public enum MessageType
       implements com.google.protobuf.ProtocolMessageEnum {
@@ -209,11 +209,11 @@ public final class Types {
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:com.github.jtmsp.types.MessageType)
+    // @@protoc_insertion_point(enum_scope:types.MessageType)
   }
 
   /**
-   * Protobuf enum {@code com.github.jtmsp.types.CodeType}
+   * Protobuf enum {@code types.CodeType}
    */
   public enum CodeType
       implements com.google.protobuf.ProtocolMessageEnum {
@@ -583,120 +583,120 @@ public final class Types {
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:com.github.jtmsp.types.CodeType)
+    // @@protoc_insertion_point(enum_scope:types.CodeType)
   }
 
   public interface RequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.Request)
+      // @@protoc_insertion_point(interface_extends:types.Request)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+     * <code>optional .types.RequestEcho echo = 1;</code>
      */
     com.github.jtmsp.types.Types.RequestEcho getEcho();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+     * <code>optional .types.RequestEcho echo = 1;</code>
      */
     com.github.jtmsp.types.Types.RequestEchoOrBuilder getEchoOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+     * <code>optional .types.RequestFlush flush = 2;</code>
      */
     com.github.jtmsp.types.Types.RequestFlush getFlush();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+     * <code>optional .types.RequestFlush flush = 2;</code>
      */
     com.github.jtmsp.types.Types.RequestFlushOrBuilder getFlushOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+     * <code>optional .types.RequestInfo info = 3;</code>
      */
     com.github.jtmsp.types.Types.RequestInfo getInfo();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+     * <code>optional .types.RequestInfo info = 3;</code>
      */
     com.github.jtmsp.types.Types.RequestInfoOrBuilder getInfoOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+     * <code>optional .types.RequestSetOption set_option = 4;</code>
      */
     com.github.jtmsp.types.Types.RequestSetOption getSetOption();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+     * <code>optional .types.RequestSetOption set_option = 4;</code>
      */
     com.github.jtmsp.types.Types.RequestSetOptionOrBuilder getSetOptionOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+     * <code>optional .types.RequestAppendTx append_tx = 5;</code>
      */
     com.github.jtmsp.types.Types.RequestAppendTx getAppendTx();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+     * <code>optional .types.RequestAppendTx append_tx = 5;</code>
      */
     com.github.jtmsp.types.Types.RequestAppendTxOrBuilder getAppendTxOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+     * <code>optional .types.RequestCheckTx check_tx = 6;</code>
      */
     com.github.jtmsp.types.Types.RequestCheckTx getCheckTx();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+     * <code>optional .types.RequestCheckTx check_tx = 6;</code>
      */
     com.github.jtmsp.types.Types.RequestCheckTxOrBuilder getCheckTxOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+     * <code>optional .types.RequestCommit commit = 7;</code>
      */
     com.github.jtmsp.types.Types.RequestCommit getCommit();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+     * <code>optional .types.RequestCommit commit = 7;</code>
      */
     com.github.jtmsp.types.Types.RequestCommitOrBuilder getCommitOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+     * <code>optional .types.RequestQuery query = 8;</code>
      */
     com.github.jtmsp.types.Types.RequestQuery getQuery();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+     * <code>optional .types.RequestQuery query = 8;</code>
      */
     com.github.jtmsp.types.Types.RequestQueryOrBuilder getQueryOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+     * <code>optional .types.RequestInitChain init_chain = 9;</code>
      */
     com.github.jtmsp.types.Types.RequestInitChain getInitChain();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+     * <code>optional .types.RequestInitChain init_chain = 9;</code>
      */
     com.github.jtmsp.types.Types.RequestInitChainOrBuilder getInitChainOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+     * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
      */
     com.github.jtmsp.types.Types.RequestBeginBlock getBeginBlock();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+     * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
      */
     com.github.jtmsp.types.Types.RequestBeginBlockOrBuilder getBeginBlockOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+     * <code>optional .types.RequestEndBlock end_block = 11;</code>
      */
     com.github.jtmsp.types.Types.RequestEndBlock getEndBlock();
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+     * <code>optional .types.RequestEndBlock end_block = 11;</code>
      */
     com.github.jtmsp.types.Types.RequestEndBlockOrBuilder getEndBlockOrBuilder();
 
     public com.github.jtmsp.types.Types.Request.ValueCase getValueCase();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.Request}
+   * Protobuf type {@code types.Request}
    */
   public  static final class Request extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.Request)
+      // @@protoc_insertion_point(message_implements:types.Request)
       RequestOrBuilder {
     // Use Request.newBuilder() to construct.
     private Request(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -897,12 +897,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Request_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_Request_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Request_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_Request_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.Request.class, com.github.jtmsp.types.Types.Request.Builder.class);
     }
@@ -965,7 +965,7 @@ public final class Types {
 
     public static final int ECHO_FIELD_NUMBER = 1;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+     * <code>optional .types.RequestEcho echo = 1;</code>
      */
     public com.github.jtmsp.types.Types.RequestEcho getEcho() {
       if (valueCase_ == 1) {
@@ -974,7 +974,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestEcho.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+     * <code>optional .types.RequestEcho echo = 1;</code>
      */
     public com.github.jtmsp.types.Types.RequestEchoOrBuilder getEchoOrBuilder() {
       if (valueCase_ == 1) {
@@ -985,7 +985,7 @@ public final class Types {
 
     public static final int FLUSH_FIELD_NUMBER = 2;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+     * <code>optional .types.RequestFlush flush = 2;</code>
      */
     public com.github.jtmsp.types.Types.RequestFlush getFlush() {
       if (valueCase_ == 2) {
@@ -994,7 +994,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestFlush.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+     * <code>optional .types.RequestFlush flush = 2;</code>
      */
     public com.github.jtmsp.types.Types.RequestFlushOrBuilder getFlushOrBuilder() {
       if (valueCase_ == 2) {
@@ -1005,7 +1005,7 @@ public final class Types {
 
     public static final int INFO_FIELD_NUMBER = 3;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+     * <code>optional .types.RequestInfo info = 3;</code>
      */
     public com.github.jtmsp.types.Types.RequestInfo getInfo() {
       if (valueCase_ == 3) {
@@ -1014,7 +1014,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestInfo.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+     * <code>optional .types.RequestInfo info = 3;</code>
      */
     public com.github.jtmsp.types.Types.RequestInfoOrBuilder getInfoOrBuilder() {
       if (valueCase_ == 3) {
@@ -1025,7 +1025,7 @@ public final class Types {
 
     public static final int SET_OPTION_FIELD_NUMBER = 4;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+     * <code>optional .types.RequestSetOption set_option = 4;</code>
      */
     public com.github.jtmsp.types.Types.RequestSetOption getSetOption() {
       if (valueCase_ == 4) {
@@ -1034,7 +1034,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestSetOption.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+     * <code>optional .types.RequestSetOption set_option = 4;</code>
      */
     public com.github.jtmsp.types.Types.RequestSetOptionOrBuilder getSetOptionOrBuilder() {
       if (valueCase_ == 4) {
@@ -1045,7 +1045,7 @@ public final class Types {
 
     public static final int APPEND_TX_FIELD_NUMBER = 5;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+     * <code>optional .types.RequestAppendTx append_tx = 5;</code>
      */
     public com.github.jtmsp.types.Types.RequestAppendTx getAppendTx() {
       if (valueCase_ == 5) {
@@ -1054,7 +1054,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestAppendTx.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+     * <code>optional .types.RequestAppendTx append_tx = 5;</code>
      */
     public com.github.jtmsp.types.Types.RequestAppendTxOrBuilder getAppendTxOrBuilder() {
       if (valueCase_ == 5) {
@@ -1065,7 +1065,7 @@ public final class Types {
 
     public static final int CHECK_TX_FIELD_NUMBER = 6;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+     * <code>optional .types.RequestCheckTx check_tx = 6;</code>
      */
     public com.github.jtmsp.types.Types.RequestCheckTx getCheckTx() {
       if (valueCase_ == 6) {
@@ -1074,7 +1074,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestCheckTx.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+     * <code>optional .types.RequestCheckTx check_tx = 6;</code>
      */
     public com.github.jtmsp.types.Types.RequestCheckTxOrBuilder getCheckTxOrBuilder() {
       if (valueCase_ == 6) {
@@ -1085,7 +1085,7 @@ public final class Types {
 
     public static final int COMMIT_FIELD_NUMBER = 7;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+     * <code>optional .types.RequestCommit commit = 7;</code>
      */
     public com.github.jtmsp.types.Types.RequestCommit getCommit() {
       if (valueCase_ == 7) {
@@ -1094,7 +1094,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestCommit.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+     * <code>optional .types.RequestCommit commit = 7;</code>
      */
     public com.github.jtmsp.types.Types.RequestCommitOrBuilder getCommitOrBuilder() {
       if (valueCase_ == 7) {
@@ -1105,7 +1105,7 @@ public final class Types {
 
     public static final int QUERY_FIELD_NUMBER = 8;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+     * <code>optional .types.RequestQuery query = 8;</code>
      */
     public com.github.jtmsp.types.Types.RequestQuery getQuery() {
       if (valueCase_ == 8) {
@@ -1114,7 +1114,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestQuery.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+     * <code>optional .types.RequestQuery query = 8;</code>
      */
     public com.github.jtmsp.types.Types.RequestQueryOrBuilder getQueryOrBuilder() {
       if (valueCase_ == 8) {
@@ -1125,7 +1125,7 @@ public final class Types {
 
     public static final int INIT_CHAIN_FIELD_NUMBER = 9;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+     * <code>optional .types.RequestInitChain init_chain = 9;</code>
      */
     public com.github.jtmsp.types.Types.RequestInitChain getInitChain() {
       if (valueCase_ == 9) {
@@ -1134,7 +1134,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestInitChain.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+     * <code>optional .types.RequestInitChain init_chain = 9;</code>
      */
     public com.github.jtmsp.types.Types.RequestInitChainOrBuilder getInitChainOrBuilder() {
       if (valueCase_ == 9) {
@@ -1145,7 +1145,7 @@ public final class Types {
 
     public static final int BEGIN_BLOCK_FIELD_NUMBER = 10;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+     * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
      */
     public com.github.jtmsp.types.Types.RequestBeginBlock getBeginBlock() {
       if (valueCase_ == 10) {
@@ -1154,7 +1154,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestBeginBlock.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+     * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
      */
     public com.github.jtmsp.types.Types.RequestBeginBlockOrBuilder getBeginBlockOrBuilder() {
       if (valueCase_ == 10) {
@@ -1165,7 +1165,7 @@ public final class Types {
 
     public static final int END_BLOCK_FIELD_NUMBER = 11;
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+     * <code>optional .types.RequestEndBlock end_block = 11;</code>
      */
     public com.github.jtmsp.types.Types.RequestEndBlock getEndBlock() {
       if (valueCase_ == 11) {
@@ -1174,7 +1174,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.RequestEndBlock.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+     * <code>optional .types.RequestEndBlock end_block = 11;</code>
      */
     public com.github.jtmsp.types.Types.RequestEndBlockOrBuilder getEndBlockOrBuilder() {
       if (valueCase_ == 11) {
@@ -1362,20 +1362,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.Request}
+     * Protobuf type {@code types.Request}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.Request)
+        // @@protoc_insertion_point(builder_implements:types.Request)
         com.github.jtmsp.types.Types.RequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Request_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_Request_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Request_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_Request_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.Request.class, com.github.jtmsp.types.Types.Request.Builder.class);
       }
@@ -1403,7 +1403,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Request_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_Request_descriptor;
       }
 
       public com.github.jtmsp.types.Types.Request getDefaultInstanceForType() {
@@ -1606,7 +1606,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestEcho, com.github.jtmsp.types.Types.RequestEcho.Builder, com.github.jtmsp.types.Types.RequestEchoOrBuilder> echoBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public com.github.jtmsp.types.Types.RequestEcho getEcho() {
         if (echoBuilder_ == null) {
@@ -1622,7 +1622,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public Builder setEcho(com.github.jtmsp.types.Types.RequestEcho value) {
         if (echoBuilder_ == null) {
@@ -1638,7 +1638,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public Builder setEcho(
           com.github.jtmsp.types.Types.RequestEcho.Builder builderForValue) {
@@ -1652,7 +1652,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public Builder mergeEcho(com.github.jtmsp.types.Types.RequestEcho value) {
         if (echoBuilder_ == null) {
@@ -1674,7 +1674,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public Builder clearEcho() {
         if (echoBuilder_ == null) {
@@ -1693,13 +1693,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public com.github.jtmsp.types.Types.RequestEcho.Builder getEchoBuilder() {
         return getEchoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       public com.github.jtmsp.types.Types.RequestEchoOrBuilder getEchoOrBuilder() {
         if ((valueCase_ == 1) && (echoBuilder_ != null)) {
@@ -1712,7 +1712,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEcho echo = 1;</code>
+       * <code>optional .types.RequestEcho echo = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestEcho, com.github.jtmsp.types.Types.RequestEcho.Builder, com.github.jtmsp.types.Types.RequestEchoOrBuilder> 
@@ -1736,7 +1736,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestFlush, com.github.jtmsp.types.Types.RequestFlush.Builder, com.github.jtmsp.types.Types.RequestFlushOrBuilder> flushBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public com.github.jtmsp.types.Types.RequestFlush getFlush() {
         if (flushBuilder_ == null) {
@@ -1752,7 +1752,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public Builder setFlush(com.github.jtmsp.types.Types.RequestFlush value) {
         if (flushBuilder_ == null) {
@@ -1768,7 +1768,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public Builder setFlush(
           com.github.jtmsp.types.Types.RequestFlush.Builder builderForValue) {
@@ -1782,7 +1782,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public Builder mergeFlush(com.github.jtmsp.types.Types.RequestFlush value) {
         if (flushBuilder_ == null) {
@@ -1804,7 +1804,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public Builder clearFlush() {
         if (flushBuilder_ == null) {
@@ -1823,13 +1823,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public com.github.jtmsp.types.Types.RequestFlush.Builder getFlushBuilder() {
         return getFlushFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       public com.github.jtmsp.types.Types.RequestFlushOrBuilder getFlushOrBuilder() {
         if ((valueCase_ == 2) && (flushBuilder_ != null)) {
@@ -1842,7 +1842,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestFlush flush = 2;</code>
+       * <code>optional .types.RequestFlush flush = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestFlush, com.github.jtmsp.types.Types.RequestFlush.Builder, com.github.jtmsp.types.Types.RequestFlushOrBuilder> 
@@ -1866,7 +1866,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestInfo, com.github.jtmsp.types.Types.RequestInfo.Builder, com.github.jtmsp.types.Types.RequestInfoOrBuilder> infoBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public com.github.jtmsp.types.Types.RequestInfo getInfo() {
         if (infoBuilder_ == null) {
@@ -1882,7 +1882,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public Builder setInfo(com.github.jtmsp.types.Types.RequestInfo value) {
         if (infoBuilder_ == null) {
@@ -1898,7 +1898,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public Builder setInfo(
           com.github.jtmsp.types.Types.RequestInfo.Builder builderForValue) {
@@ -1912,7 +1912,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public Builder mergeInfo(com.github.jtmsp.types.Types.RequestInfo value) {
         if (infoBuilder_ == null) {
@@ -1934,7 +1934,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public Builder clearInfo() {
         if (infoBuilder_ == null) {
@@ -1953,13 +1953,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public com.github.jtmsp.types.Types.RequestInfo.Builder getInfoBuilder() {
         return getInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       public com.github.jtmsp.types.Types.RequestInfoOrBuilder getInfoOrBuilder() {
         if ((valueCase_ == 3) && (infoBuilder_ != null)) {
@@ -1972,7 +1972,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInfo info = 3;</code>
+       * <code>optional .types.RequestInfo info = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestInfo, com.github.jtmsp.types.Types.RequestInfo.Builder, com.github.jtmsp.types.Types.RequestInfoOrBuilder> 
@@ -1996,7 +1996,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestSetOption, com.github.jtmsp.types.Types.RequestSetOption.Builder, com.github.jtmsp.types.Types.RequestSetOptionOrBuilder> setOptionBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public com.github.jtmsp.types.Types.RequestSetOption getSetOption() {
         if (setOptionBuilder_ == null) {
@@ -2012,7 +2012,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public Builder setSetOption(com.github.jtmsp.types.Types.RequestSetOption value) {
         if (setOptionBuilder_ == null) {
@@ -2028,7 +2028,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public Builder setSetOption(
           com.github.jtmsp.types.Types.RequestSetOption.Builder builderForValue) {
@@ -2042,7 +2042,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public Builder mergeSetOption(com.github.jtmsp.types.Types.RequestSetOption value) {
         if (setOptionBuilder_ == null) {
@@ -2064,7 +2064,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public Builder clearSetOption() {
         if (setOptionBuilder_ == null) {
@@ -2083,13 +2083,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public com.github.jtmsp.types.Types.RequestSetOption.Builder getSetOptionBuilder() {
         return getSetOptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       public com.github.jtmsp.types.Types.RequestSetOptionOrBuilder getSetOptionOrBuilder() {
         if ((valueCase_ == 4) && (setOptionBuilder_ != null)) {
@@ -2102,7 +2102,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestSetOption set_option = 4;</code>
+       * <code>optional .types.RequestSetOption set_option = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestSetOption, com.github.jtmsp.types.Types.RequestSetOption.Builder, com.github.jtmsp.types.Types.RequestSetOptionOrBuilder> 
@@ -2126,7 +2126,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestAppendTx, com.github.jtmsp.types.Types.RequestAppendTx.Builder, com.github.jtmsp.types.Types.RequestAppendTxOrBuilder> appendTxBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public com.github.jtmsp.types.Types.RequestAppendTx getAppendTx() {
         if (appendTxBuilder_ == null) {
@@ -2142,7 +2142,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public Builder setAppendTx(com.github.jtmsp.types.Types.RequestAppendTx value) {
         if (appendTxBuilder_ == null) {
@@ -2158,7 +2158,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public Builder setAppendTx(
           com.github.jtmsp.types.Types.RequestAppendTx.Builder builderForValue) {
@@ -2172,7 +2172,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public Builder mergeAppendTx(com.github.jtmsp.types.Types.RequestAppendTx value) {
         if (appendTxBuilder_ == null) {
@@ -2194,7 +2194,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public Builder clearAppendTx() {
         if (appendTxBuilder_ == null) {
@@ -2213,13 +2213,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public com.github.jtmsp.types.Types.RequestAppendTx.Builder getAppendTxBuilder() {
         return getAppendTxFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       public com.github.jtmsp.types.Types.RequestAppendTxOrBuilder getAppendTxOrBuilder() {
         if ((valueCase_ == 5) && (appendTxBuilder_ != null)) {
@@ -2232,7 +2232,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestAppendTx append_tx = 5;</code>
+       * <code>optional .types.RequestAppendTx append_tx = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestAppendTx, com.github.jtmsp.types.Types.RequestAppendTx.Builder, com.github.jtmsp.types.Types.RequestAppendTxOrBuilder> 
@@ -2256,7 +2256,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestCheckTx, com.github.jtmsp.types.Types.RequestCheckTx.Builder, com.github.jtmsp.types.Types.RequestCheckTxOrBuilder> checkTxBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public com.github.jtmsp.types.Types.RequestCheckTx getCheckTx() {
         if (checkTxBuilder_ == null) {
@@ -2272,7 +2272,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public Builder setCheckTx(com.github.jtmsp.types.Types.RequestCheckTx value) {
         if (checkTxBuilder_ == null) {
@@ -2288,7 +2288,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public Builder setCheckTx(
           com.github.jtmsp.types.Types.RequestCheckTx.Builder builderForValue) {
@@ -2302,7 +2302,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public Builder mergeCheckTx(com.github.jtmsp.types.Types.RequestCheckTx value) {
         if (checkTxBuilder_ == null) {
@@ -2324,7 +2324,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public Builder clearCheckTx() {
         if (checkTxBuilder_ == null) {
@@ -2343,13 +2343,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public com.github.jtmsp.types.Types.RequestCheckTx.Builder getCheckTxBuilder() {
         return getCheckTxFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       public com.github.jtmsp.types.Types.RequestCheckTxOrBuilder getCheckTxOrBuilder() {
         if ((valueCase_ == 6) && (checkTxBuilder_ != null)) {
@@ -2362,7 +2362,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCheckTx check_tx = 6;</code>
+       * <code>optional .types.RequestCheckTx check_tx = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestCheckTx, com.github.jtmsp.types.Types.RequestCheckTx.Builder, com.github.jtmsp.types.Types.RequestCheckTxOrBuilder> 
@@ -2386,7 +2386,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestCommit, com.github.jtmsp.types.Types.RequestCommit.Builder, com.github.jtmsp.types.Types.RequestCommitOrBuilder> commitBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public com.github.jtmsp.types.Types.RequestCommit getCommit() {
         if (commitBuilder_ == null) {
@@ -2402,7 +2402,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public Builder setCommit(com.github.jtmsp.types.Types.RequestCommit value) {
         if (commitBuilder_ == null) {
@@ -2418,7 +2418,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public Builder setCommit(
           com.github.jtmsp.types.Types.RequestCommit.Builder builderForValue) {
@@ -2432,7 +2432,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public Builder mergeCommit(com.github.jtmsp.types.Types.RequestCommit value) {
         if (commitBuilder_ == null) {
@@ -2454,7 +2454,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public Builder clearCommit() {
         if (commitBuilder_ == null) {
@@ -2473,13 +2473,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public com.github.jtmsp.types.Types.RequestCommit.Builder getCommitBuilder() {
         return getCommitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       public com.github.jtmsp.types.Types.RequestCommitOrBuilder getCommitOrBuilder() {
         if ((valueCase_ == 7) && (commitBuilder_ != null)) {
@@ -2492,7 +2492,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestCommit commit = 7;</code>
+       * <code>optional .types.RequestCommit commit = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestCommit, com.github.jtmsp.types.Types.RequestCommit.Builder, com.github.jtmsp.types.Types.RequestCommitOrBuilder> 
@@ -2516,7 +2516,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestQuery, com.github.jtmsp.types.Types.RequestQuery.Builder, com.github.jtmsp.types.Types.RequestQueryOrBuilder> queryBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public com.github.jtmsp.types.Types.RequestQuery getQuery() {
         if (queryBuilder_ == null) {
@@ -2532,7 +2532,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public Builder setQuery(com.github.jtmsp.types.Types.RequestQuery value) {
         if (queryBuilder_ == null) {
@@ -2548,7 +2548,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public Builder setQuery(
           com.github.jtmsp.types.Types.RequestQuery.Builder builderForValue) {
@@ -2562,7 +2562,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public Builder mergeQuery(com.github.jtmsp.types.Types.RequestQuery value) {
         if (queryBuilder_ == null) {
@@ -2584,7 +2584,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public Builder clearQuery() {
         if (queryBuilder_ == null) {
@@ -2603,13 +2603,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public com.github.jtmsp.types.Types.RequestQuery.Builder getQueryBuilder() {
         return getQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       public com.github.jtmsp.types.Types.RequestQueryOrBuilder getQueryOrBuilder() {
         if ((valueCase_ == 8) && (queryBuilder_ != null)) {
@@ -2622,7 +2622,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestQuery query = 8;</code>
+       * <code>optional .types.RequestQuery query = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestQuery, com.github.jtmsp.types.Types.RequestQuery.Builder, com.github.jtmsp.types.Types.RequestQueryOrBuilder> 
@@ -2646,7 +2646,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestInitChain, com.github.jtmsp.types.Types.RequestInitChain.Builder, com.github.jtmsp.types.Types.RequestInitChainOrBuilder> initChainBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public com.github.jtmsp.types.Types.RequestInitChain getInitChain() {
         if (initChainBuilder_ == null) {
@@ -2662,7 +2662,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public Builder setInitChain(com.github.jtmsp.types.Types.RequestInitChain value) {
         if (initChainBuilder_ == null) {
@@ -2678,7 +2678,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public Builder setInitChain(
           com.github.jtmsp.types.Types.RequestInitChain.Builder builderForValue) {
@@ -2692,7 +2692,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public Builder mergeInitChain(com.github.jtmsp.types.Types.RequestInitChain value) {
         if (initChainBuilder_ == null) {
@@ -2714,7 +2714,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public Builder clearInitChain() {
         if (initChainBuilder_ == null) {
@@ -2733,13 +2733,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public com.github.jtmsp.types.Types.RequestInitChain.Builder getInitChainBuilder() {
         return getInitChainFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       public com.github.jtmsp.types.Types.RequestInitChainOrBuilder getInitChainOrBuilder() {
         if ((valueCase_ == 9) && (initChainBuilder_ != null)) {
@@ -2752,7 +2752,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestInitChain init_chain = 9;</code>
+       * <code>optional .types.RequestInitChain init_chain = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestInitChain, com.github.jtmsp.types.Types.RequestInitChain.Builder, com.github.jtmsp.types.Types.RequestInitChainOrBuilder> 
@@ -2776,7 +2776,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestBeginBlock, com.github.jtmsp.types.Types.RequestBeginBlock.Builder, com.github.jtmsp.types.Types.RequestBeginBlockOrBuilder> beginBlockBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public com.github.jtmsp.types.Types.RequestBeginBlock getBeginBlock() {
         if (beginBlockBuilder_ == null) {
@@ -2792,7 +2792,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public Builder setBeginBlock(com.github.jtmsp.types.Types.RequestBeginBlock value) {
         if (beginBlockBuilder_ == null) {
@@ -2808,7 +2808,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public Builder setBeginBlock(
           com.github.jtmsp.types.Types.RequestBeginBlock.Builder builderForValue) {
@@ -2822,7 +2822,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public Builder mergeBeginBlock(com.github.jtmsp.types.Types.RequestBeginBlock value) {
         if (beginBlockBuilder_ == null) {
@@ -2844,7 +2844,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public Builder clearBeginBlock() {
         if (beginBlockBuilder_ == null) {
@@ -2863,13 +2863,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public com.github.jtmsp.types.Types.RequestBeginBlock.Builder getBeginBlockBuilder() {
         return getBeginBlockFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       public com.github.jtmsp.types.Types.RequestBeginBlockOrBuilder getBeginBlockOrBuilder() {
         if ((valueCase_ == 10) && (beginBlockBuilder_ != null)) {
@@ -2882,7 +2882,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestBeginBlock begin_block = 10;</code>
+       * <code>optional .types.RequestBeginBlock begin_block = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestBeginBlock, com.github.jtmsp.types.Types.RequestBeginBlock.Builder, com.github.jtmsp.types.Types.RequestBeginBlockOrBuilder> 
@@ -2906,7 +2906,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestEndBlock, com.github.jtmsp.types.Types.RequestEndBlock.Builder, com.github.jtmsp.types.Types.RequestEndBlockOrBuilder> endBlockBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public com.github.jtmsp.types.Types.RequestEndBlock getEndBlock() {
         if (endBlockBuilder_ == null) {
@@ -2922,7 +2922,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public Builder setEndBlock(com.github.jtmsp.types.Types.RequestEndBlock value) {
         if (endBlockBuilder_ == null) {
@@ -2938,7 +2938,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public Builder setEndBlock(
           com.github.jtmsp.types.Types.RequestEndBlock.Builder builderForValue) {
@@ -2952,7 +2952,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public Builder mergeEndBlock(com.github.jtmsp.types.Types.RequestEndBlock value) {
         if (endBlockBuilder_ == null) {
@@ -2974,7 +2974,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public Builder clearEndBlock() {
         if (endBlockBuilder_ == null) {
@@ -2993,13 +2993,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public com.github.jtmsp.types.Types.RequestEndBlock.Builder getEndBlockBuilder() {
         return getEndBlockFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       public com.github.jtmsp.types.Types.RequestEndBlockOrBuilder getEndBlockOrBuilder() {
         if ((valueCase_ == 11) && (endBlockBuilder_ != null)) {
@@ -3012,7 +3012,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.RequestEndBlock end_block = 11;</code>
+       * <code>optional .types.RequestEndBlock end_block = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.RequestEndBlock, com.github.jtmsp.types.Types.RequestEndBlock.Builder, com.github.jtmsp.types.Types.RequestEndBlockOrBuilder> 
@@ -3043,10 +3043,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.Request)
+      // @@protoc_insertion_point(builder_scope:types.Request)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.Request)
+    // @@protoc_insertion_point(class_scope:types.Request)
     private static final com.github.jtmsp.types.Types.Request DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.Request();
@@ -3082,7 +3082,7 @@ public final class Types {
   }
 
   public interface RequestEchoOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestEcho)
+      // @@protoc_insertion_point(interface_extends:types.RequestEcho)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -3096,11 +3096,11 @@ public final class Types {
         getMessageBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestEcho}
+   * Protobuf type {@code types.RequestEcho}
    */
   public  static final class RequestEcho extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestEcho)
+      // @@protoc_insertion_point(message_implements:types.RequestEcho)
       RequestEchoOrBuilder {
     // Use RequestEcho.newBuilder() to construct.
     private RequestEcho(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -3154,12 +3154,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEcho_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestEcho_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEcho_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestEcho_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestEcho.class, com.github.jtmsp.types.Types.RequestEcho.Builder.class);
     }
@@ -3306,20 +3306,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestEcho}
+     * Protobuf type {@code types.RequestEcho}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestEcho)
+        // @@protoc_insertion_point(builder_implements:types.RequestEcho)
         com.github.jtmsp.types.Types.RequestEchoOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEcho_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestEcho_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEcho_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestEcho_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestEcho.class, com.github.jtmsp.types.Types.RequestEcho.Builder.class);
       }
@@ -3347,7 +3347,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEcho_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestEcho_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestEcho getDefaultInstanceForType() {
@@ -3489,10 +3489,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestEcho)
+      // @@protoc_insertion_point(builder_scope:types.RequestEcho)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestEcho)
+    // @@protoc_insertion_point(class_scope:types.RequestEcho)
     private static final com.github.jtmsp.types.Types.RequestEcho DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestEcho();
@@ -3528,15 +3528,15 @@ public final class Types {
   }
 
   public interface RequestFlushOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestFlush)
+      // @@protoc_insertion_point(interface_extends:types.RequestFlush)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestFlush}
+   * Protobuf type {@code types.RequestFlush}
    */
   public  static final class RequestFlush extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestFlush)
+      // @@protoc_insertion_point(message_implements:types.RequestFlush)
       RequestFlushOrBuilder {
     // Use RequestFlush.newBuilder() to construct.
     private RequestFlush(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -3582,12 +3582,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestFlush_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestFlush_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestFlush_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestFlush_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestFlush.class, com.github.jtmsp.types.Types.RequestFlush.Builder.class);
     }
@@ -3694,20 +3694,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestFlush}
+     * Protobuf type {@code types.RequestFlush}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestFlush)
+        // @@protoc_insertion_point(builder_implements:types.RequestFlush)
         com.github.jtmsp.types.Types.RequestFlushOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestFlush_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestFlush_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestFlush_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestFlush_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestFlush.class, com.github.jtmsp.types.Types.RequestFlush.Builder.class);
       }
@@ -3733,7 +3733,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestFlush_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestFlush_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestFlush getDefaultInstanceForType() {
@@ -3801,10 +3801,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestFlush)
+      // @@protoc_insertion_point(builder_scope:types.RequestFlush)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestFlush)
+    // @@protoc_insertion_point(class_scope:types.RequestFlush)
     private static final com.github.jtmsp.types.Types.RequestFlush DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestFlush();
@@ -3840,15 +3840,15 @@ public final class Types {
   }
 
   public interface RequestInfoOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestInfo)
+      // @@protoc_insertion_point(interface_extends:types.RequestInfo)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestInfo}
+   * Protobuf type {@code types.RequestInfo}
    */
   public  static final class RequestInfo extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestInfo)
+      // @@protoc_insertion_point(message_implements:types.RequestInfo)
       RequestInfoOrBuilder {
     // Use RequestInfo.newBuilder() to construct.
     private RequestInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -3894,12 +3894,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInfo_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestInfo_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInfo_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestInfo_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestInfo.class, com.github.jtmsp.types.Types.RequestInfo.Builder.class);
     }
@@ -4006,20 +4006,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestInfo}
+     * Protobuf type {@code types.RequestInfo}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestInfo)
+        // @@protoc_insertion_point(builder_implements:types.RequestInfo)
         com.github.jtmsp.types.Types.RequestInfoOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInfo_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestInfo_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInfo_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestInfo_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestInfo.class, com.github.jtmsp.types.Types.RequestInfo.Builder.class);
       }
@@ -4045,7 +4045,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInfo_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestInfo_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestInfo getDefaultInstanceForType() {
@@ -4113,10 +4113,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestInfo)
+      // @@protoc_insertion_point(builder_scope:types.RequestInfo)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestInfo)
+    // @@protoc_insertion_point(class_scope:types.RequestInfo)
     private static final com.github.jtmsp.types.Types.RequestInfo DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestInfo();
@@ -4152,7 +4152,7 @@ public final class Types {
   }
 
   public interface RequestSetOptionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestSetOption)
+      // @@protoc_insertion_point(interface_extends:types.RequestSetOption)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -4176,11 +4176,11 @@ public final class Types {
         getValueBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestSetOption}
+   * Protobuf type {@code types.RequestSetOption}
    */
   public  static final class RequestSetOption extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestSetOption)
+      // @@protoc_insertion_point(message_implements:types.RequestSetOption)
       RequestSetOptionOrBuilder {
     // Use RequestSetOption.newBuilder() to construct.
     private RequestSetOption(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -4241,12 +4241,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestSetOption_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestSetOption_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestSetOption_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestSetOption_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestSetOption.class, com.github.jtmsp.types.Types.RequestSetOption.Builder.class);
     }
@@ -4433,20 +4433,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestSetOption}
+     * Protobuf type {@code types.RequestSetOption}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestSetOption)
+        // @@protoc_insertion_point(builder_implements:types.RequestSetOption)
         com.github.jtmsp.types.Types.RequestSetOptionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestSetOption_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestSetOption_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestSetOption_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestSetOption_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestSetOption.class, com.github.jtmsp.types.Types.RequestSetOption.Builder.class);
       }
@@ -4476,7 +4476,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestSetOption_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestSetOption_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestSetOption getDefaultInstanceForType() {
@@ -4692,10 +4692,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestSetOption)
+      // @@protoc_insertion_point(builder_scope:types.RequestSetOption)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestSetOption)
+    // @@protoc_insertion_point(class_scope:types.RequestSetOption)
     private static final com.github.jtmsp.types.Types.RequestSetOption DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestSetOption();
@@ -4731,7 +4731,7 @@ public final class Types {
   }
 
   public interface RequestAppendTxOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestAppendTx)
+      // @@protoc_insertion_point(interface_extends:types.RequestAppendTx)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -4740,11 +4740,11 @@ public final class Types {
     com.google.protobuf.ByteString getTx();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestAppendTx}
+   * Protobuf type {@code types.RequestAppendTx}
    */
   public  static final class RequestAppendTx extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestAppendTx)
+      // @@protoc_insertion_point(message_implements:types.RequestAppendTx)
       RequestAppendTxOrBuilder {
     // Use RequestAppendTx.newBuilder() to construct.
     private RequestAppendTx(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -4797,12 +4797,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestAppendTx_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestAppendTx_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestAppendTx_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestAppendTx_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestAppendTx.class, com.github.jtmsp.types.Types.RequestAppendTx.Builder.class);
     }
@@ -4925,20 +4925,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestAppendTx}
+     * Protobuf type {@code types.RequestAppendTx}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestAppendTx)
+        // @@protoc_insertion_point(builder_implements:types.RequestAppendTx)
         com.github.jtmsp.types.Types.RequestAppendTxOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestAppendTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestAppendTx_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestAppendTx_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestAppendTx_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestAppendTx.class, com.github.jtmsp.types.Types.RequestAppendTx.Builder.class);
       }
@@ -4966,7 +4966,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestAppendTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestAppendTx_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestAppendTx getDefaultInstanceForType() {
@@ -5067,10 +5067,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestAppendTx)
+      // @@protoc_insertion_point(builder_scope:types.RequestAppendTx)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestAppendTx)
+    // @@protoc_insertion_point(class_scope:types.RequestAppendTx)
     private static final com.github.jtmsp.types.Types.RequestAppendTx DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestAppendTx();
@@ -5106,7 +5106,7 @@ public final class Types {
   }
 
   public interface RequestCheckTxOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestCheckTx)
+      // @@protoc_insertion_point(interface_extends:types.RequestCheckTx)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -5115,11 +5115,11 @@ public final class Types {
     com.google.protobuf.ByteString getTx();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestCheckTx}
+   * Protobuf type {@code types.RequestCheckTx}
    */
   public  static final class RequestCheckTx extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestCheckTx)
+      // @@protoc_insertion_point(message_implements:types.RequestCheckTx)
       RequestCheckTxOrBuilder {
     // Use RequestCheckTx.newBuilder() to construct.
     private RequestCheckTx(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -5172,12 +5172,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCheckTx_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestCheckTx_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCheckTx_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestCheckTx_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestCheckTx.class, com.github.jtmsp.types.Types.RequestCheckTx.Builder.class);
     }
@@ -5300,20 +5300,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestCheckTx}
+     * Protobuf type {@code types.RequestCheckTx}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestCheckTx)
+        // @@protoc_insertion_point(builder_implements:types.RequestCheckTx)
         com.github.jtmsp.types.Types.RequestCheckTxOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCheckTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestCheckTx_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCheckTx_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestCheckTx_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestCheckTx.class, com.github.jtmsp.types.Types.RequestCheckTx.Builder.class);
       }
@@ -5341,7 +5341,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCheckTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestCheckTx_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestCheckTx getDefaultInstanceForType() {
@@ -5442,10 +5442,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestCheckTx)
+      // @@protoc_insertion_point(builder_scope:types.RequestCheckTx)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestCheckTx)
+    // @@protoc_insertion_point(class_scope:types.RequestCheckTx)
     private static final com.github.jtmsp.types.Types.RequestCheckTx DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestCheckTx();
@@ -5481,7 +5481,7 @@ public final class Types {
   }
 
   public interface RequestQueryOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestQuery)
+      // @@protoc_insertion_point(interface_extends:types.RequestQuery)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -5490,11 +5490,11 @@ public final class Types {
     com.google.protobuf.ByteString getQuery();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestQuery}
+   * Protobuf type {@code types.RequestQuery}
    */
   public  static final class RequestQuery extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestQuery)
+      // @@protoc_insertion_point(message_implements:types.RequestQuery)
       RequestQueryOrBuilder {
     // Use RequestQuery.newBuilder() to construct.
     private RequestQuery(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -5547,12 +5547,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestQuery_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestQuery_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestQuery_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestQuery_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestQuery.class, com.github.jtmsp.types.Types.RequestQuery.Builder.class);
     }
@@ -5675,20 +5675,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestQuery}
+     * Protobuf type {@code types.RequestQuery}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestQuery)
+        // @@protoc_insertion_point(builder_implements:types.RequestQuery)
         com.github.jtmsp.types.Types.RequestQueryOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestQuery_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestQuery_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestQuery_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestQuery_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestQuery.class, com.github.jtmsp.types.Types.RequestQuery.Builder.class);
       }
@@ -5716,7 +5716,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestQuery_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestQuery_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestQuery getDefaultInstanceForType() {
@@ -5817,10 +5817,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestQuery)
+      // @@protoc_insertion_point(builder_scope:types.RequestQuery)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestQuery)
+    // @@protoc_insertion_point(class_scope:types.RequestQuery)
     private static final com.github.jtmsp.types.Types.RequestQuery DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestQuery();
@@ -5856,15 +5856,15 @@ public final class Types {
   }
 
   public interface RequestCommitOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestCommit)
+      // @@protoc_insertion_point(interface_extends:types.RequestCommit)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestCommit}
+   * Protobuf type {@code types.RequestCommit}
    */
   public  static final class RequestCommit extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestCommit)
+      // @@protoc_insertion_point(message_implements:types.RequestCommit)
       RequestCommitOrBuilder {
     // Use RequestCommit.newBuilder() to construct.
     private RequestCommit(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -5910,12 +5910,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCommit_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestCommit_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCommit_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestCommit_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestCommit.class, com.github.jtmsp.types.Types.RequestCommit.Builder.class);
     }
@@ -6022,20 +6022,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestCommit}
+     * Protobuf type {@code types.RequestCommit}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestCommit)
+        // @@protoc_insertion_point(builder_implements:types.RequestCommit)
         com.github.jtmsp.types.Types.RequestCommitOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCommit_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestCommit_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCommit_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestCommit_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestCommit.class, com.github.jtmsp.types.Types.RequestCommit.Builder.class);
       }
@@ -6061,7 +6061,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestCommit_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestCommit_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestCommit getDefaultInstanceForType() {
@@ -6129,10 +6129,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestCommit)
+      // @@protoc_insertion_point(builder_scope:types.RequestCommit)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestCommit)
+    // @@protoc_insertion_point(class_scope:types.RequestCommit)
     private static final com.github.jtmsp.types.Types.RequestCommit DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestCommit();
@@ -6168,39 +6168,39 @@ public final class Types {
   }
 
   public interface RequestInitChainOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestInitChain)
+      // @@protoc_insertion_point(interface_extends:types.RequestInitChain)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     java.util.List<com.github.jtmsp.types.Types.Validator> 
         getValidatorsList();
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     com.github.jtmsp.types.Types.Validator getValidators(int index);
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     int getValidatorsCount();
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     java.util.List<? extends com.github.jtmsp.types.Types.ValidatorOrBuilder> 
         getValidatorsOrBuilderList();
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     com.github.jtmsp.types.Types.ValidatorOrBuilder getValidatorsOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestInitChain}
+   * Protobuf type {@code types.RequestInitChain}
    */
   public  static final class RequestInitChain extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestInitChain)
+      // @@protoc_insertion_point(message_implements:types.RequestInitChain)
       RequestInitChainOrBuilder {
     // Use RequestInitChain.newBuilder() to construct.
     private RequestInitChain(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -6259,12 +6259,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInitChain_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestInitChain_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInitChain_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestInitChain_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestInitChain.class, com.github.jtmsp.types.Types.RequestInitChain.Builder.class);
     }
@@ -6272,32 +6272,32 @@ public final class Types {
     public static final int VALIDATORS_FIELD_NUMBER = 1;
     private java.util.List<com.github.jtmsp.types.Types.Validator> validators_;
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     public java.util.List<com.github.jtmsp.types.Types.Validator> getValidatorsList() {
       return validators_;
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     public java.util.List<? extends com.github.jtmsp.types.Types.ValidatorOrBuilder> 
         getValidatorsOrBuilderList() {
       return validators_;
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     public int getValidatorsCount() {
       return validators_.size();
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     public com.github.jtmsp.types.Types.Validator getValidators(int index) {
       return validators_.get(index);
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+     * <code>repeated .types.Validator validators = 1;</code>
      */
     public com.github.jtmsp.types.Types.ValidatorOrBuilder getValidatorsOrBuilder(
         int index) {
@@ -6413,20 +6413,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestInitChain}
+     * Protobuf type {@code types.RequestInitChain}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestInitChain)
+        // @@protoc_insertion_point(builder_implements:types.RequestInitChain)
         com.github.jtmsp.types.Types.RequestInitChainOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInitChain_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestInitChain_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInitChain_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestInitChain_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestInitChain.class, com.github.jtmsp.types.Types.RequestInitChain.Builder.class);
       }
@@ -6459,7 +6459,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestInitChain_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestInitChain_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestInitChain getDefaultInstanceForType() {
@@ -6567,7 +6567,7 @@ public final class Types {
           com.github.jtmsp.types.Types.Validator, com.github.jtmsp.types.Types.Validator.Builder, com.github.jtmsp.types.Types.ValidatorOrBuilder> validatorsBuilder_;
 
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public java.util.List<com.github.jtmsp.types.Types.Validator> getValidatorsList() {
         if (validatorsBuilder_ == null) {
@@ -6577,7 +6577,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public int getValidatorsCount() {
         if (validatorsBuilder_ == null) {
@@ -6587,7 +6587,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public com.github.jtmsp.types.Types.Validator getValidators(int index) {
         if (validatorsBuilder_ == null) {
@@ -6597,7 +6597,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder setValidators(
           int index, com.github.jtmsp.types.Types.Validator value) {
@@ -6614,7 +6614,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder setValidators(
           int index, com.github.jtmsp.types.Types.Validator.Builder builderForValue) {
@@ -6628,7 +6628,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder addValidators(com.github.jtmsp.types.Types.Validator value) {
         if (validatorsBuilder_ == null) {
@@ -6644,7 +6644,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder addValidators(
           int index, com.github.jtmsp.types.Types.Validator value) {
@@ -6661,7 +6661,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder addValidators(
           com.github.jtmsp.types.Types.Validator.Builder builderForValue) {
@@ -6675,7 +6675,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder addValidators(
           int index, com.github.jtmsp.types.Types.Validator.Builder builderForValue) {
@@ -6689,7 +6689,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder addAllValidators(
           java.lang.Iterable<? extends com.github.jtmsp.types.Types.Validator> values) {
@@ -6704,7 +6704,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder clearValidators() {
         if (validatorsBuilder_ == null) {
@@ -6717,7 +6717,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public Builder removeValidators(int index) {
         if (validatorsBuilder_ == null) {
@@ -6730,14 +6730,14 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public com.github.jtmsp.types.Types.Validator.Builder getValidatorsBuilder(
           int index) {
         return getValidatorsFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public com.github.jtmsp.types.Types.ValidatorOrBuilder getValidatorsOrBuilder(
           int index) {
@@ -6747,7 +6747,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public java.util.List<? extends com.github.jtmsp.types.Types.ValidatorOrBuilder> 
            getValidatorsOrBuilderList() {
@@ -6758,14 +6758,14 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public com.github.jtmsp.types.Types.Validator.Builder addValidatorsBuilder() {
         return getValidatorsFieldBuilder().addBuilder(
             com.github.jtmsp.types.Types.Validator.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public com.github.jtmsp.types.Types.Validator.Builder addValidatorsBuilder(
           int index) {
@@ -6773,7 +6773,7 @@ public final class Types {
             index, com.github.jtmsp.types.Types.Validator.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator validators = 1;</code>
+       * <code>repeated .types.Validator validators = 1;</code>
        */
       public java.util.List<com.github.jtmsp.types.Types.Validator.Builder> 
            getValidatorsBuilderList() {
@@ -6804,10 +6804,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestInitChain)
+      // @@protoc_insertion_point(builder_scope:types.RequestInitChain)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestInitChain)
+    // @@protoc_insertion_point(class_scope:types.RequestInitChain)
     private static final com.github.jtmsp.types.Types.RequestInitChain DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestInitChain();
@@ -6843,27 +6843,34 @@ public final class Types {
   }
 
   public interface RequestBeginBlockOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestBeginBlock)
+      // @@protoc_insertion_point(interface_extends:types.RequestBeginBlock)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional uint64 height = 1;</code>
+     * <code>optional .types.Header header = 1;</code>
      */
-    long getHeight();
+    boolean hasHeader();
+    /**
+     * <code>optional .types.Header header = 1;</code>
+     */
+    com.github.jtmsp.types.Types.Header getHeader();
+    /**
+     * <code>optional .types.Header header = 1;</code>
+     */
+    com.github.jtmsp.types.Types.HeaderOrBuilder getHeaderOrBuilder();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestBeginBlock}
+   * Protobuf type {@code types.RequestBeginBlock}
    */
   public  static final class RequestBeginBlock extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestBeginBlock)
+      // @@protoc_insertion_point(message_implements:types.RequestBeginBlock)
       RequestBeginBlockOrBuilder {
     // Use RequestBeginBlock.newBuilder() to construct.
     private RequestBeginBlock(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private RequestBeginBlock() {
-      height_ = 0L;
     }
 
     @java.lang.Override
@@ -6891,9 +6898,17 @@ public final class Types {
               }
               break;
             }
-            case 8: {
+            case 10: {
+              com.github.jtmsp.types.Types.Header.Builder subBuilder = null;
+              if (header_ != null) {
+                subBuilder = header_.toBuilder();
+              }
+              header_ = input.readMessage(com.github.jtmsp.types.Types.Header.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(header_);
+                header_ = subBuilder.buildPartial();
+              }
 
-              height_ = input.readUInt64();
               break;
             }
           }
@@ -6909,23 +6924,35 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestBeginBlock_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestBeginBlock_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestBeginBlock_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestBeginBlock_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestBeginBlock.class, com.github.jtmsp.types.Types.RequestBeginBlock.Builder.class);
     }
 
-    public static final int HEIGHT_FIELD_NUMBER = 1;
-    private long height_;
+    public static final int HEADER_FIELD_NUMBER = 1;
+    private com.github.jtmsp.types.Types.Header header_;
     /**
-     * <code>optional uint64 height = 1;</code>
+     * <code>optional .types.Header header = 1;</code>
      */
-    public long getHeight() {
-      return height_;
+    public boolean hasHeader() {
+      return header_ != null;
+    }
+    /**
+     * <code>optional .types.Header header = 1;</code>
+     */
+    public com.github.jtmsp.types.Types.Header getHeader() {
+      return header_ == null ? com.github.jtmsp.types.Types.Header.getDefaultInstance() : header_;
+    }
+    /**
+     * <code>optional .types.Header header = 1;</code>
+     */
+    public com.github.jtmsp.types.Types.HeaderOrBuilder getHeaderOrBuilder() {
+      return getHeader();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -6940,8 +6967,8 @@ public final class Types {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (height_ != 0L) {
-        output.writeUInt64(1, height_);
+      if (header_ != null) {
+        output.writeMessage(1, getHeader());
       }
     }
 
@@ -6950,9 +6977,9 @@ public final class Types {
       if (size != -1) return size;
 
       size = 0;
-      if (height_ != 0L) {
+      if (header_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, height_);
+          .computeMessageSize(1, getHeader());
       }
       memoizedSize = size;
       return size;
@@ -7037,20 +7064,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestBeginBlock}
+     * Protobuf type {@code types.RequestBeginBlock}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestBeginBlock)
+        // @@protoc_insertion_point(builder_implements:types.RequestBeginBlock)
         com.github.jtmsp.types.Types.RequestBeginBlockOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestBeginBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestBeginBlock_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestBeginBlock_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestBeginBlock_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestBeginBlock.class, com.github.jtmsp.types.Types.RequestBeginBlock.Builder.class);
       }
@@ -7071,14 +7098,18 @@ public final class Types {
       }
       public Builder clear() {
         super.clear();
-        height_ = 0L;
-
+        if (headerBuilder_ == null) {
+          header_ = null;
+        } else {
+          header_ = null;
+          headerBuilder_ = null;
+        }
         return this;
       }
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestBeginBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestBeginBlock_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestBeginBlock getDefaultInstanceForType() {
@@ -7095,7 +7126,11 @@ public final class Types {
 
       public com.github.jtmsp.types.Types.RequestBeginBlock buildPartial() {
         com.github.jtmsp.types.Types.RequestBeginBlock result = new com.github.jtmsp.types.Types.RequestBeginBlock(this);
-        result.height_ = height_;
+        if (headerBuilder_ == null) {
+          result.header_ = header_;
+        } else {
+          result.header_ = headerBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -7111,8 +7146,8 @@ public final class Types {
 
       public Builder mergeFrom(com.github.jtmsp.types.Types.RequestBeginBlock other) {
         if (other == com.github.jtmsp.types.Types.RequestBeginBlock.getDefaultInstance()) return this;
-        if (other.getHeight() != 0L) {
-          setHeight(other.getHeight());
+        if (other.hasHeader()) {
+          mergeHeader(other.getHeader());
         }
         onChanged();
         return this;
@@ -7140,30 +7175,121 @@ public final class Types {
         return this;
       }
 
-      private long height_ ;
+      private com.github.jtmsp.types.Types.Header header_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.Header, com.github.jtmsp.types.Types.Header.Builder, com.github.jtmsp.types.Types.HeaderOrBuilder> headerBuilder_;
       /**
-       * <code>optional uint64 height = 1;</code>
+       * <code>optional .types.Header header = 1;</code>
        */
-      public long getHeight() {
-        return height_;
+      public boolean hasHeader() {
+        return headerBuilder_ != null || header_ != null;
       }
       /**
-       * <code>optional uint64 height = 1;</code>
+       * <code>optional .types.Header header = 1;</code>
        */
-      public Builder setHeight(long value) {
-        
-        height_ = value;
-        onChanged();
+      public com.github.jtmsp.types.Types.Header getHeader() {
+        if (headerBuilder_ == null) {
+          return header_ == null ? com.github.jtmsp.types.Types.Header.getDefaultInstance() : header_;
+        } else {
+          return headerBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .types.Header header = 1;</code>
+       */
+      public Builder setHeader(com.github.jtmsp.types.Types.Header value) {
+        if (headerBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          header_ = value;
+          onChanged();
+        } else {
+          headerBuilder_.setMessage(value);
+        }
+
         return this;
       }
       /**
-       * <code>optional uint64 height = 1;</code>
+       * <code>optional .types.Header header = 1;</code>
        */
-      public Builder clearHeight() {
-        
-        height_ = 0L;
-        onChanged();
+      public Builder setHeader(
+          com.github.jtmsp.types.Types.Header.Builder builderForValue) {
+        if (headerBuilder_ == null) {
+          header_ = builderForValue.build();
+          onChanged();
+        } else {
+          headerBuilder_.setMessage(builderForValue.build());
+        }
+
         return this;
+      }
+      /**
+       * <code>optional .types.Header header = 1;</code>
+       */
+      public Builder mergeHeader(com.github.jtmsp.types.Types.Header value) {
+        if (headerBuilder_ == null) {
+          if (header_ != null) {
+            header_ =
+              com.github.jtmsp.types.Types.Header.newBuilder(header_).mergeFrom(value).buildPartial();
+          } else {
+            header_ = value;
+          }
+          onChanged();
+        } else {
+          headerBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.Header header = 1;</code>
+       */
+      public Builder clearHeader() {
+        if (headerBuilder_ == null) {
+          header_ = null;
+          onChanged();
+        } else {
+          header_ = null;
+          headerBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.Header header = 1;</code>
+       */
+      public com.github.jtmsp.types.Types.Header.Builder getHeaderBuilder() {
+        
+        onChanged();
+        return getHeaderFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .types.Header header = 1;</code>
+       */
+      public com.github.jtmsp.types.Types.HeaderOrBuilder getHeaderOrBuilder() {
+        if (headerBuilder_ != null) {
+          return headerBuilder_.getMessageOrBuilder();
+        } else {
+          return header_ == null ?
+              com.github.jtmsp.types.Types.Header.getDefaultInstance() : header_;
+        }
+      }
+      /**
+       * <code>optional .types.Header header = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.Header, com.github.jtmsp.types.Types.Header.Builder, com.github.jtmsp.types.Types.HeaderOrBuilder> 
+          getHeaderFieldBuilder() {
+        if (headerBuilder_ == null) {
+          headerBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              com.github.jtmsp.types.Types.Header, com.github.jtmsp.types.Types.Header.Builder, com.github.jtmsp.types.Types.HeaderOrBuilder>(
+                  getHeader(),
+                  getParentForChildren(),
+                  isClean());
+          header_ = null;
+        }
+        return headerBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -7176,10 +7302,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestBeginBlock)
+      // @@protoc_insertion_point(builder_scope:types.RequestBeginBlock)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestBeginBlock)
+    // @@protoc_insertion_point(class_scope:types.RequestBeginBlock)
     private static final com.github.jtmsp.types.Types.RequestBeginBlock DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestBeginBlock();
@@ -7215,7 +7341,7 @@ public final class Types {
   }
 
   public interface RequestEndBlockOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.RequestEndBlock)
+      // @@protoc_insertion_point(interface_extends:types.RequestEndBlock)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -7224,11 +7350,11 @@ public final class Types {
     long getHeight();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.RequestEndBlock}
+   * Protobuf type {@code types.RequestEndBlock}
    */
   public  static final class RequestEndBlock extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.RequestEndBlock)
+      // @@protoc_insertion_point(message_implements:types.RequestEndBlock)
       RequestEndBlockOrBuilder {
     // Use RequestEndBlock.newBuilder() to construct.
     private RequestEndBlock(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -7281,12 +7407,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEndBlock_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_RequestEndBlock_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEndBlock_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_RequestEndBlock_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.RequestEndBlock.class, com.github.jtmsp.types.Types.RequestEndBlock.Builder.class);
     }
@@ -7409,20 +7535,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.RequestEndBlock}
+     * Protobuf type {@code types.RequestEndBlock}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.RequestEndBlock)
+        // @@protoc_insertion_point(builder_implements:types.RequestEndBlock)
         com.github.jtmsp.types.Types.RequestEndBlockOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEndBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestEndBlock_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEndBlock_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_RequestEndBlock_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.RequestEndBlock.class, com.github.jtmsp.types.Types.RequestEndBlock.Builder.class);
       }
@@ -7450,7 +7576,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_RequestEndBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_RequestEndBlock_descriptor;
       }
 
       public com.github.jtmsp.types.Types.RequestEndBlock getDefaultInstanceForType() {
@@ -7548,10 +7674,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.RequestEndBlock)
+      // @@protoc_insertion_point(builder_scope:types.RequestEndBlock)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.RequestEndBlock)
+    // @@protoc_insertion_point(class_scope:types.RequestEndBlock)
     private static final com.github.jtmsp.types.Types.RequestEndBlock DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.RequestEndBlock();
@@ -7587,125 +7713,125 @@ public final class Types {
   }
 
   public interface ResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.Response)
+      // @@protoc_insertion_point(interface_extends:types.Response)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+     * <code>optional .types.ResponseException exception = 1;</code>
      */
     com.github.jtmsp.types.Types.ResponseException getException();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+     * <code>optional .types.ResponseException exception = 1;</code>
      */
     com.github.jtmsp.types.Types.ResponseExceptionOrBuilder getExceptionOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+     * <code>optional .types.ResponseEcho echo = 2;</code>
      */
     com.github.jtmsp.types.Types.ResponseEcho getEcho();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+     * <code>optional .types.ResponseEcho echo = 2;</code>
      */
     com.github.jtmsp.types.Types.ResponseEchoOrBuilder getEchoOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+     * <code>optional .types.ResponseFlush flush = 3;</code>
      */
     com.github.jtmsp.types.Types.ResponseFlush getFlush();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+     * <code>optional .types.ResponseFlush flush = 3;</code>
      */
     com.github.jtmsp.types.Types.ResponseFlushOrBuilder getFlushOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+     * <code>optional .types.ResponseInfo info = 4;</code>
      */
     com.github.jtmsp.types.Types.ResponseInfo getInfo();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+     * <code>optional .types.ResponseInfo info = 4;</code>
      */
     com.github.jtmsp.types.Types.ResponseInfoOrBuilder getInfoOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+     * <code>optional .types.ResponseSetOption set_option = 5;</code>
      */
     com.github.jtmsp.types.Types.ResponseSetOption getSetOption();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+     * <code>optional .types.ResponseSetOption set_option = 5;</code>
      */
     com.github.jtmsp.types.Types.ResponseSetOptionOrBuilder getSetOptionOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+     * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
      */
     com.github.jtmsp.types.Types.ResponseAppendTx getAppendTx();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+     * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
      */
     com.github.jtmsp.types.Types.ResponseAppendTxOrBuilder getAppendTxOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+     * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
      */
     com.github.jtmsp.types.Types.ResponseCheckTx getCheckTx();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+     * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
      */
     com.github.jtmsp.types.Types.ResponseCheckTxOrBuilder getCheckTxOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+     * <code>optional .types.ResponseCommit commit = 8;</code>
      */
     com.github.jtmsp.types.Types.ResponseCommit getCommit();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+     * <code>optional .types.ResponseCommit commit = 8;</code>
      */
     com.github.jtmsp.types.Types.ResponseCommitOrBuilder getCommitOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+     * <code>optional .types.ResponseQuery query = 9;</code>
      */
     com.github.jtmsp.types.Types.ResponseQuery getQuery();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+     * <code>optional .types.ResponseQuery query = 9;</code>
      */
     com.github.jtmsp.types.Types.ResponseQueryOrBuilder getQueryOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+     * <code>optional .types.ResponseInitChain init_chain = 10;</code>
      */
     com.github.jtmsp.types.Types.ResponseInitChain getInitChain();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+     * <code>optional .types.ResponseInitChain init_chain = 10;</code>
      */
     com.github.jtmsp.types.Types.ResponseInitChainOrBuilder getInitChainOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+     * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
      */
     com.github.jtmsp.types.Types.ResponseBeginBlock getBeginBlock();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+     * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
      */
     com.github.jtmsp.types.Types.ResponseBeginBlockOrBuilder getBeginBlockOrBuilder();
 
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+     * <code>optional .types.ResponseEndBlock end_block = 12;</code>
      */
     com.github.jtmsp.types.Types.ResponseEndBlock getEndBlock();
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+     * <code>optional .types.ResponseEndBlock end_block = 12;</code>
      */
     com.github.jtmsp.types.Types.ResponseEndBlockOrBuilder getEndBlockOrBuilder();
 
     public com.github.jtmsp.types.Types.Response.ValueCase getValueCase();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.Response}
+   * Protobuf type {@code types.Response}
    */
   public  static final class Response extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.Response)
+      // @@protoc_insertion_point(message_implements:types.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
     private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -7920,12 +8046,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Response_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_Response_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Response_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_Response_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.Response.class, com.github.jtmsp.types.Types.Response.Builder.class);
     }
@@ -7990,7 +8116,7 @@ public final class Types {
 
     public static final int EXCEPTION_FIELD_NUMBER = 1;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+     * <code>optional .types.ResponseException exception = 1;</code>
      */
     public com.github.jtmsp.types.Types.ResponseException getException() {
       if (valueCase_ == 1) {
@@ -7999,7 +8125,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseException.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+     * <code>optional .types.ResponseException exception = 1;</code>
      */
     public com.github.jtmsp.types.Types.ResponseExceptionOrBuilder getExceptionOrBuilder() {
       if (valueCase_ == 1) {
@@ -8010,7 +8136,7 @@ public final class Types {
 
     public static final int ECHO_FIELD_NUMBER = 2;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+     * <code>optional .types.ResponseEcho echo = 2;</code>
      */
     public com.github.jtmsp.types.Types.ResponseEcho getEcho() {
       if (valueCase_ == 2) {
@@ -8019,7 +8145,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseEcho.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+     * <code>optional .types.ResponseEcho echo = 2;</code>
      */
     public com.github.jtmsp.types.Types.ResponseEchoOrBuilder getEchoOrBuilder() {
       if (valueCase_ == 2) {
@@ -8030,7 +8156,7 @@ public final class Types {
 
     public static final int FLUSH_FIELD_NUMBER = 3;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+     * <code>optional .types.ResponseFlush flush = 3;</code>
      */
     public com.github.jtmsp.types.Types.ResponseFlush getFlush() {
       if (valueCase_ == 3) {
@@ -8039,7 +8165,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseFlush.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+     * <code>optional .types.ResponseFlush flush = 3;</code>
      */
     public com.github.jtmsp.types.Types.ResponseFlushOrBuilder getFlushOrBuilder() {
       if (valueCase_ == 3) {
@@ -8050,7 +8176,7 @@ public final class Types {
 
     public static final int INFO_FIELD_NUMBER = 4;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+     * <code>optional .types.ResponseInfo info = 4;</code>
      */
     public com.github.jtmsp.types.Types.ResponseInfo getInfo() {
       if (valueCase_ == 4) {
@@ -8059,7 +8185,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseInfo.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+     * <code>optional .types.ResponseInfo info = 4;</code>
      */
     public com.github.jtmsp.types.Types.ResponseInfoOrBuilder getInfoOrBuilder() {
       if (valueCase_ == 4) {
@@ -8070,7 +8196,7 @@ public final class Types {
 
     public static final int SET_OPTION_FIELD_NUMBER = 5;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+     * <code>optional .types.ResponseSetOption set_option = 5;</code>
      */
     public com.github.jtmsp.types.Types.ResponseSetOption getSetOption() {
       if (valueCase_ == 5) {
@@ -8079,7 +8205,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseSetOption.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+     * <code>optional .types.ResponseSetOption set_option = 5;</code>
      */
     public com.github.jtmsp.types.Types.ResponseSetOptionOrBuilder getSetOptionOrBuilder() {
       if (valueCase_ == 5) {
@@ -8090,7 +8216,7 @@ public final class Types {
 
     public static final int APPEND_TX_FIELD_NUMBER = 6;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+     * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
      */
     public com.github.jtmsp.types.Types.ResponseAppendTx getAppendTx() {
       if (valueCase_ == 6) {
@@ -8099,7 +8225,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseAppendTx.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+     * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
      */
     public com.github.jtmsp.types.Types.ResponseAppendTxOrBuilder getAppendTxOrBuilder() {
       if (valueCase_ == 6) {
@@ -8110,7 +8236,7 @@ public final class Types {
 
     public static final int CHECK_TX_FIELD_NUMBER = 7;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+     * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
      */
     public com.github.jtmsp.types.Types.ResponseCheckTx getCheckTx() {
       if (valueCase_ == 7) {
@@ -8119,7 +8245,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseCheckTx.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+     * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
      */
     public com.github.jtmsp.types.Types.ResponseCheckTxOrBuilder getCheckTxOrBuilder() {
       if (valueCase_ == 7) {
@@ -8130,7 +8256,7 @@ public final class Types {
 
     public static final int COMMIT_FIELD_NUMBER = 8;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+     * <code>optional .types.ResponseCommit commit = 8;</code>
      */
     public com.github.jtmsp.types.Types.ResponseCommit getCommit() {
       if (valueCase_ == 8) {
@@ -8139,7 +8265,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseCommit.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+     * <code>optional .types.ResponseCommit commit = 8;</code>
      */
     public com.github.jtmsp.types.Types.ResponseCommitOrBuilder getCommitOrBuilder() {
       if (valueCase_ == 8) {
@@ -8150,7 +8276,7 @@ public final class Types {
 
     public static final int QUERY_FIELD_NUMBER = 9;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+     * <code>optional .types.ResponseQuery query = 9;</code>
      */
     public com.github.jtmsp.types.Types.ResponseQuery getQuery() {
       if (valueCase_ == 9) {
@@ -8159,7 +8285,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseQuery.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+     * <code>optional .types.ResponseQuery query = 9;</code>
      */
     public com.github.jtmsp.types.Types.ResponseQueryOrBuilder getQueryOrBuilder() {
       if (valueCase_ == 9) {
@@ -8170,7 +8296,7 @@ public final class Types {
 
     public static final int INIT_CHAIN_FIELD_NUMBER = 10;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+     * <code>optional .types.ResponseInitChain init_chain = 10;</code>
      */
     public com.github.jtmsp.types.Types.ResponseInitChain getInitChain() {
       if (valueCase_ == 10) {
@@ -8179,7 +8305,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseInitChain.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+     * <code>optional .types.ResponseInitChain init_chain = 10;</code>
      */
     public com.github.jtmsp.types.Types.ResponseInitChainOrBuilder getInitChainOrBuilder() {
       if (valueCase_ == 10) {
@@ -8190,7 +8316,7 @@ public final class Types {
 
     public static final int BEGIN_BLOCK_FIELD_NUMBER = 11;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+     * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
      */
     public com.github.jtmsp.types.Types.ResponseBeginBlock getBeginBlock() {
       if (valueCase_ == 11) {
@@ -8199,7 +8325,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseBeginBlock.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+     * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
      */
     public com.github.jtmsp.types.Types.ResponseBeginBlockOrBuilder getBeginBlockOrBuilder() {
       if (valueCase_ == 11) {
@@ -8210,7 +8336,7 @@ public final class Types {
 
     public static final int END_BLOCK_FIELD_NUMBER = 12;
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+     * <code>optional .types.ResponseEndBlock end_block = 12;</code>
      */
     public com.github.jtmsp.types.Types.ResponseEndBlock getEndBlock() {
       if (valueCase_ == 12) {
@@ -8219,7 +8345,7 @@ public final class Types {
       return com.github.jtmsp.types.Types.ResponseEndBlock.getDefaultInstance();
     }
     /**
-     * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+     * <code>optional .types.ResponseEndBlock end_block = 12;</code>
      */
     public com.github.jtmsp.types.Types.ResponseEndBlockOrBuilder getEndBlockOrBuilder() {
       if (valueCase_ == 12) {
@@ -8414,20 +8540,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.Response}
+     * Protobuf type {@code types.Response}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.Response)
+        // @@protoc_insertion_point(builder_implements:types.Response)
         com.github.jtmsp.types.Types.ResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Response_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_Response_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Response_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_Response_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.Response.class, com.github.jtmsp.types.Types.Response.Builder.class);
       }
@@ -8455,7 +8581,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Response_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_Response_descriptor;
       }
 
       public com.github.jtmsp.types.Types.Response getDefaultInstanceForType() {
@@ -8669,7 +8795,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseException, com.github.jtmsp.types.Types.ResponseException.Builder, com.github.jtmsp.types.Types.ResponseExceptionOrBuilder> exceptionBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public com.github.jtmsp.types.Types.ResponseException getException() {
         if (exceptionBuilder_ == null) {
@@ -8685,7 +8811,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public Builder setException(com.github.jtmsp.types.Types.ResponseException value) {
         if (exceptionBuilder_ == null) {
@@ -8701,7 +8827,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public Builder setException(
           com.github.jtmsp.types.Types.ResponseException.Builder builderForValue) {
@@ -8715,7 +8841,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public Builder mergeException(com.github.jtmsp.types.Types.ResponseException value) {
         if (exceptionBuilder_ == null) {
@@ -8737,7 +8863,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public Builder clearException() {
         if (exceptionBuilder_ == null) {
@@ -8756,13 +8882,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public com.github.jtmsp.types.Types.ResponseException.Builder getExceptionBuilder() {
         return getExceptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       public com.github.jtmsp.types.Types.ResponseExceptionOrBuilder getExceptionOrBuilder() {
         if ((valueCase_ == 1) && (exceptionBuilder_ != null)) {
@@ -8775,7 +8901,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseException exception = 1;</code>
+       * <code>optional .types.ResponseException exception = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseException, com.github.jtmsp.types.Types.ResponseException.Builder, com.github.jtmsp.types.Types.ResponseExceptionOrBuilder> 
@@ -8799,7 +8925,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseEcho, com.github.jtmsp.types.Types.ResponseEcho.Builder, com.github.jtmsp.types.Types.ResponseEchoOrBuilder> echoBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public com.github.jtmsp.types.Types.ResponseEcho getEcho() {
         if (echoBuilder_ == null) {
@@ -8815,7 +8941,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public Builder setEcho(com.github.jtmsp.types.Types.ResponseEcho value) {
         if (echoBuilder_ == null) {
@@ -8831,7 +8957,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public Builder setEcho(
           com.github.jtmsp.types.Types.ResponseEcho.Builder builderForValue) {
@@ -8845,7 +8971,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public Builder mergeEcho(com.github.jtmsp.types.Types.ResponseEcho value) {
         if (echoBuilder_ == null) {
@@ -8867,7 +8993,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public Builder clearEcho() {
         if (echoBuilder_ == null) {
@@ -8886,13 +9012,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public com.github.jtmsp.types.Types.ResponseEcho.Builder getEchoBuilder() {
         return getEchoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       public com.github.jtmsp.types.Types.ResponseEchoOrBuilder getEchoOrBuilder() {
         if ((valueCase_ == 2) && (echoBuilder_ != null)) {
@@ -8905,7 +9031,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEcho echo = 2;</code>
+       * <code>optional .types.ResponseEcho echo = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseEcho, com.github.jtmsp.types.Types.ResponseEcho.Builder, com.github.jtmsp.types.Types.ResponseEchoOrBuilder> 
@@ -8929,7 +9055,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseFlush, com.github.jtmsp.types.Types.ResponseFlush.Builder, com.github.jtmsp.types.Types.ResponseFlushOrBuilder> flushBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public com.github.jtmsp.types.Types.ResponseFlush getFlush() {
         if (flushBuilder_ == null) {
@@ -8945,7 +9071,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public Builder setFlush(com.github.jtmsp.types.Types.ResponseFlush value) {
         if (flushBuilder_ == null) {
@@ -8961,7 +9087,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public Builder setFlush(
           com.github.jtmsp.types.Types.ResponseFlush.Builder builderForValue) {
@@ -8975,7 +9101,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public Builder mergeFlush(com.github.jtmsp.types.Types.ResponseFlush value) {
         if (flushBuilder_ == null) {
@@ -8997,7 +9123,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public Builder clearFlush() {
         if (flushBuilder_ == null) {
@@ -9016,13 +9142,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public com.github.jtmsp.types.Types.ResponseFlush.Builder getFlushBuilder() {
         return getFlushFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       public com.github.jtmsp.types.Types.ResponseFlushOrBuilder getFlushOrBuilder() {
         if ((valueCase_ == 3) && (flushBuilder_ != null)) {
@@ -9035,7 +9161,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseFlush flush = 3;</code>
+       * <code>optional .types.ResponseFlush flush = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseFlush, com.github.jtmsp.types.Types.ResponseFlush.Builder, com.github.jtmsp.types.Types.ResponseFlushOrBuilder> 
@@ -9059,7 +9185,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseInfo, com.github.jtmsp.types.Types.ResponseInfo.Builder, com.github.jtmsp.types.Types.ResponseInfoOrBuilder> infoBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public com.github.jtmsp.types.Types.ResponseInfo getInfo() {
         if (infoBuilder_ == null) {
@@ -9075,7 +9201,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public Builder setInfo(com.github.jtmsp.types.Types.ResponseInfo value) {
         if (infoBuilder_ == null) {
@@ -9091,7 +9217,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public Builder setInfo(
           com.github.jtmsp.types.Types.ResponseInfo.Builder builderForValue) {
@@ -9105,7 +9231,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public Builder mergeInfo(com.github.jtmsp.types.Types.ResponseInfo value) {
         if (infoBuilder_ == null) {
@@ -9127,7 +9253,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public Builder clearInfo() {
         if (infoBuilder_ == null) {
@@ -9146,13 +9272,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public com.github.jtmsp.types.Types.ResponseInfo.Builder getInfoBuilder() {
         return getInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       public com.github.jtmsp.types.Types.ResponseInfoOrBuilder getInfoOrBuilder() {
         if ((valueCase_ == 4) && (infoBuilder_ != null)) {
@@ -9165,7 +9291,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInfo info = 4;</code>
+       * <code>optional .types.ResponseInfo info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseInfo, com.github.jtmsp.types.Types.ResponseInfo.Builder, com.github.jtmsp.types.Types.ResponseInfoOrBuilder> 
@@ -9189,7 +9315,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseSetOption, com.github.jtmsp.types.Types.ResponseSetOption.Builder, com.github.jtmsp.types.Types.ResponseSetOptionOrBuilder> setOptionBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public com.github.jtmsp.types.Types.ResponseSetOption getSetOption() {
         if (setOptionBuilder_ == null) {
@@ -9205,7 +9331,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public Builder setSetOption(com.github.jtmsp.types.Types.ResponseSetOption value) {
         if (setOptionBuilder_ == null) {
@@ -9221,7 +9347,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public Builder setSetOption(
           com.github.jtmsp.types.Types.ResponseSetOption.Builder builderForValue) {
@@ -9235,7 +9361,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public Builder mergeSetOption(com.github.jtmsp.types.Types.ResponseSetOption value) {
         if (setOptionBuilder_ == null) {
@@ -9257,7 +9383,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public Builder clearSetOption() {
         if (setOptionBuilder_ == null) {
@@ -9276,13 +9402,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public com.github.jtmsp.types.Types.ResponseSetOption.Builder getSetOptionBuilder() {
         return getSetOptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       public com.github.jtmsp.types.Types.ResponseSetOptionOrBuilder getSetOptionOrBuilder() {
         if ((valueCase_ == 5) && (setOptionBuilder_ != null)) {
@@ -9295,7 +9421,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseSetOption set_option = 5;</code>
+       * <code>optional .types.ResponseSetOption set_option = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseSetOption, com.github.jtmsp.types.Types.ResponseSetOption.Builder, com.github.jtmsp.types.Types.ResponseSetOptionOrBuilder> 
@@ -9319,7 +9445,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseAppendTx, com.github.jtmsp.types.Types.ResponseAppendTx.Builder, com.github.jtmsp.types.Types.ResponseAppendTxOrBuilder> appendTxBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public com.github.jtmsp.types.Types.ResponseAppendTx getAppendTx() {
         if (appendTxBuilder_ == null) {
@@ -9335,7 +9461,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public Builder setAppendTx(com.github.jtmsp.types.Types.ResponseAppendTx value) {
         if (appendTxBuilder_ == null) {
@@ -9351,7 +9477,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public Builder setAppendTx(
           com.github.jtmsp.types.Types.ResponseAppendTx.Builder builderForValue) {
@@ -9365,7 +9491,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public Builder mergeAppendTx(com.github.jtmsp.types.Types.ResponseAppendTx value) {
         if (appendTxBuilder_ == null) {
@@ -9387,7 +9513,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public Builder clearAppendTx() {
         if (appendTxBuilder_ == null) {
@@ -9406,13 +9532,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public com.github.jtmsp.types.Types.ResponseAppendTx.Builder getAppendTxBuilder() {
         return getAppendTxFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       public com.github.jtmsp.types.Types.ResponseAppendTxOrBuilder getAppendTxOrBuilder() {
         if ((valueCase_ == 6) && (appendTxBuilder_ != null)) {
@@ -9425,7 +9551,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseAppendTx append_tx = 6;</code>
+       * <code>optional .types.ResponseAppendTx append_tx = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseAppendTx, com.github.jtmsp.types.Types.ResponseAppendTx.Builder, com.github.jtmsp.types.Types.ResponseAppendTxOrBuilder> 
@@ -9449,7 +9575,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseCheckTx, com.github.jtmsp.types.Types.ResponseCheckTx.Builder, com.github.jtmsp.types.Types.ResponseCheckTxOrBuilder> checkTxBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public com.github.jtmsp.types.Types.ResponseCheckTx getCheckTx() {
         if (checkTxBuilder_ == null) {
@@ -9465,7 +9591,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public Builder setCheckTx(com.github.jtmsp.types.Types.ResponseCheckTx value) {
         if (checkTxBuilder_ == null) {
@@ -9481,7 +9607,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public Builder setCheckTx(
           com.github.jtmsp.types.Types.ResponseCheckTx.Builder builderForValue) {
@@ -9495,7 +9621,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public Builder mergeCheckTx(com.github.jtmsp.types.Types.ResponseCheckTx value) {
         if (checkTxBuilder_ == null) {
@@ -9517,7 +9643,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public Builder clearCheckTx() {
         if (checkTxBuilder_ == null) {
@@ -9536,13 +9662,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public com.github.jtmsp.types.Types.ResponseCheckTx.Builder getCheckTxBuilder() {
         return getCheckTxFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       public com.github.jtmsp.types.Types.ResponseCheckTxOrBuilder getCheckTxOrBuilder() {
         if ((valueCase_ == 7) && (checkTxBuilder_ != null)) {
@@ -9555,7 +9681,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCheckTx check_tx = 7;</code>
+       * <code>optional .types.ResponseCheckTx check_tx = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseCheckTx, com.github.jtmsp.types.Types.ResponseCheckTx.Builder, com.github.jtmsp.types.Types.ResponseCheckTxOrBuilder> 
@@ -9579,7 +9705,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseCommit, com.github.jtmsp.types.Types.ResponseCommit.Builder, com.github.jtmsp.types.Types.ResponseCommitOrBuilder> commitBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public com.github.jtmsp.types.Types.ResponseCommit getCommit() {
         if (commitBuilder_ == null) {
@@ -9595,7 +9721,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public Builder setCommit(com.github.jtmsp.types.Types.ResponseCommit value) {
         if (commitBuilder_ == null) {
@@ -9611,7 +9737,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public Builder setCommit(
           com.github.jtmsp.types.Types.ResponseCommit.Builder builderForValue) {
@@ -9625,7 +9751,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public Builder mergeCommit(com.github.jtmsp.types.Types.ResponseCommit value) {
         if (commitBuilder_ == null) {
@@ -9647,7 +9773,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public Builder clearCommit() {
         if (commitBuilder_ == null) {
@@ -9666,13 +9792,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public com.github.jtmsp.types.Types.ResponseCommit.Builder getCommitBuilder() {
         return getCommitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       public com.github.jtmsp.types.Types.ResponseCommitOrBuilder getCommitOrBuilder() {
         if ((valueCase_ == 8) && (commitBuilder_ != null)) {
@@ -9685,7 +9811,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseCommit commit = 8;</code>
+       * <code>optional .types.ResponseCommit commit = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseCommit, com.github.jtmsp.types.Types.ResponseCommit.Builder, com.github.jtmsp.types.Types.ResponseCommitOrBuilder> 
@@ -9709,7 +9835,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseQuery, com.github.jtmsp.types.Types.ResponseQuery.Builder, com.github.jtmsp.types.Types.ResponseQueryOrBuilder> queryBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public com.github.jtmsp.types.Types.ResponseQuery getQuery() {
         if (queryBuilder_ == null) {
@@ -9725,7 +9851,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public Builder setQuery(com.github.jtmsp.types.Types.ResponseQuery value) {
         if (queryBuilder_ == null) {
@@ -9741,7 +9867,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public Builder setQuery(
           com.github.jtmsp.types.Types.ResponseQuery.Builder builderForValue) {
@@ -9755,7 +9881,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public Builder mergeQuery(com.github.jtmsp.types.Types.ResponseQuery value) {
         if (queryBuilder_ == null) {
@@ -9777,7 +9903,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public Builder clearQuery() {
         if (queryBuilder_ == null) {
@@ -9796,13 +9922,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public com.github.jtmsp.types.Types.ResponseQuery.Builder getQueryBuilder() {
         return getQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       public com.github.jtmsp.types.Types.ResponseQueryOrBuilder getQueryOrBuilder() {
         if ((valueCase_ == 9) && (queryBuilder_ != null)) {
@@ -9815,7 +9941,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseQuery query = 9;</code>
+       * <code>optional .types.ResponseQuery query = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseQuery, com.github.jtmsp.types.Types.ResponseQuery.Builder, com.github.jtmsp.types.Types.ResponseQueryOrBuilder> 
@@ -9839,7 +9965,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseInitChain, com.github.jtmsp.types.Types.ResponseInitChain.Builder, com.github.jtmsp.types.Types.ResponseInitChainOrBuilder> initChainBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public com.github.jtmsp.types.Types.ResponseInitChain getInitChain() {
         if (initChainBuilder_ == null) {
@@ -9855,7 +9981,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public Builder setInitChain(com.github.jtmsp.types.Types.ResponseInitChain value) {
         if (initChainBuilder_ == null) {
@@ -9871,7 +9997,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public Builder setInitChain(
           com.github.jtmsp.types.Types.ResponseInitChain.Builder builderForValue) {
@@ -9885,7 +10011,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public Builder mergeInitChain(com.github.jtmsp.types.Types.ResponseInitChain value) {
         if (initChainBuilder_ == null) {
@@ -9907,7 +10033,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public Builder clearInitChain() {
         if (initChainBuilder_ == null) {
@@ -9926,13 +10052,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public com.github.jtmsp.types.Types.ResponseInitChain.Builder getInitChainBuilder() {
         return getInitChainFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       public com.github.jtmsp.types.Types.ResponseInitChainOrBuilder getInitChainOrBuilder() {
         if ((valueCase_ == 10) && (initChainBuilder_ != null)) {
@@ -9945,7 +10071,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseInitChain init_chain = 10;</code>
+       * <code>optional .types.ResponseInitChain init_chain = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseInitChain, com.github.jtmsp.types.Types.ResponseInitChain.Builder, com.github.jtmsp.types.Types.ResponseInitChainOrBuilder> 
@@ -9969,7 +10095,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseBeginBlock, com.github.jtmsp.types.Types.ResponseBeginBlock.Builder, com.github.jtmsp.types.Types.ResponseBeginBlockOrBuilder> beginBlockBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public com.github.jtmsp.types.Types.ResponseBeginBlock getBeginBlock() {
         if (beginBlockBuilder_ == null) {
@@ -9985,7 +10111,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public Builder setBeginBlock(com.github.jtmsp.types.Types.ResponseBeginBlock value) {
         if (beginBlockBuilder_ == null) {
@@ -10001,7 +10127,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public Builder setBeginBlock(
           com.github.jtmsp.types.Types.ResponseBeginBlock.Builder builderForValue) {
@@ -10015,7 +10141,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public Builder mergeBeginBlock(com.github.jtmsp.types.Types.ResponseBeginBlock value) {
         if (beginBlockBuilder_ == null) {
@@ -10037,7 +10163,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public Builder clearBeginBlock() {
         if (beginBlockBuilder_ == null) {
@@ -10056,13 +10182,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public com.github.jtmsp.types.Types.ResponseBeginBlock.Builder getBeginBlockBuilder() {
         return getBeginBlockFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       public com.github.jtmsp.types.Types.ResponseBeginBlockOrBuilder getBeginBlockOrBuilder() {
         if ((valueCase_ == 11) && (beginBlockBuilder_ != null)) {
@@ -10075,7 +10201,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseBeginBlock begin_block = 11;</code>
+       * <code>optional .types.ResponseBeginBlock begin_block = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseBeginBlock, com.github.jtmsp.types.Types.ResponseBeginBlock.Builder, com.github.jtmsp.types.Types.ResponseBeginBlockOrBuilder> 
@@ -10099,7 +10225,7 @@ public final class Types {
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseEndBlock, com.github.jtmsp.types.Types.ResponseEndBlock.Builder, com.github.jtmsp.types.Types.ResponseEndBlockOrBuilder> endBlockBuilder_;
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public com.github.jtmsp.types.Types.ResponseEndBlock getEndBlock() {
         if (endBlockBuilder_ == null) {
@@ -10115,7 +10241,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public Builder setEndBlock(com.github.jtmsp.types.Types.ResponseEndBlock value) {
         if (endBlockBuilder_ == null) {
@@ -10131,7 +10257,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public Builder setEndBlock(
           com.github.jtmsp.types.Types.ResponseEndBlock.Builder builderForValue) {
@@ -10145,7 +10271,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public Builder mergeEndBlock(com.github.jtmsp.types.Types.ResponseEndBlock value) {
         if (endBlockBuilder_ == null) {
@@ -10167,7 +10293,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public Builder clearEndBlock() {
         if (endBlockBuilder_ == null) {
@@ -10186,13 +10312,13 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public com.github.jtmsp.types.Types.ResponseEndBlock.Builder getEndBlockBuilder() {
         return getEndBlockFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       public com.github.jtmsp.types.Types.ResponseEndBlockOrBuilder getEndBlockOrBuilder() {
         if ((valueCase_ == 12) && (endBlockBuilder_ != null)) {
@@ -10205,7 +10331,7 @@ public final class Types {
         }
       }
       /**
-       * <code>optional .com.github.jtmsp.types.ResponseEndBlock end_block = 12;</code>
+       * <code>optional .types.ResponseEndBlock end_block = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           com.github.jtmsp.types.Types.ResponseEndBlock, com.github.jtmsp.types.Types.ResponseEndBlock.Builder, com.github.jtmsp.types.Types.ResponseEndBlockOrBuilder> 
@@ -10236,10 +10362,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.Response)
+      // @@protoc_insertion_point(builder_scope:types.Response)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.Response)
+    // @@protoc_insertion_point(class_scope:types.Response)
     private static final com.github.jtmsp.types.Types.Response DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.Response();
@@ -10275,7 +10401,7 @@ public final class Types {
   }
 
   public interface ResponseExceptionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseException)
+      // @@protoc_insertion_point(interface_extends:types.ResponseException)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -10289,11 +10415,11 @@ public final class Types {
         getErrorBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseException}
+   * Protobuf type {@code types.ResponseException}
    */
   public  static final class ResponseException extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseException)
+      // @@protoc_insertion_point(message_implements:types.ResponseException)
       ResponseExceptionOrBuilder {
     // Use ResponseException.newBuilder() to construct.
     private ResponseException(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -10347,12 +10473,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseException_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseException_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseException_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseException_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseException.class, com.github.jtmsp.types.Types.ResponseException.Builder.class);
     }
@@ -10499,20 +10625,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseException}
+     * Protobuf type {@code types.ResponseException}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseException)
+        // @@protoc_insertion_point(builder_implements:types.ResponseException)
         com.github.jtmsp.types.Types.ResponseExceptionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseException_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseException_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseException_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseException_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseException.class, com.github.jtmsp.types.Types.ResponseException.Builder.class);
       }
@@ -10540,7 +10666,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseException_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseException_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseException getDefaultInstanceForType() {
@@ -10682,10 +10808,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseException)
+      // @@protoc_insertion_point(builder_scope:types.ResponseException)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseException)
+    // @@protoc_insertion_point(class_scope:types.ResponseException)
     private static final com.github.jtmsp.types.Types.ResponseException DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseException();
@@ -10721,7 +10847,7 @@ public final class Types {
   }
 
   public interface ResponseEchoOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseEcho)
+      // @@protoc_insertion_point(interface_extends:types.ResponseEcho)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -10735,11 +10861,11 @@ public final class Types {
         getMessageBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseEcho}
+   * Protobuf type {@code types.ResponseEcho}
    */
   public  static final class ResponseEcho extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseEcho)
+      // @@protoc_insertion_point(message_implements:types.ResponseEcho)
       ResponseEchoOrBuilder {
     // Use ResponseEcho.newBuilder() to construct.
     private ResponseEcho(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -10793,12 +10919,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEcho_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseEcho_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEcho_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseEcho_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseEcho.class, com.github.jtmsp.types.Types.ResponseEcho.Builder.class);
     }
@@ -10945,20 +11071,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseEcho}
+     * Protobuf type {@code types.ResponseEcho}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseEcho)
+        // @@protoc_insertion_point(builder_implements:types.ResponseEcho)
         com.github.jtmsp.types.Types.ResponseEchoOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEcho_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseEcho_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEcho_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseEcho_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseEcho.class, com.github.jtmsp.types.Types.ResponseEcho.Builder.class);
       }
@@ -10986,7 +11112,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEcho_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseEcho_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseEcho getDefaultInstanceForType() {
@@ -11128,10 +11254,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseEcho)
+      // @@protoc_insertion_point(builder_scope:types.ResponseEcho)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseEcho)
+    // @@protoc_insertion_point(class_scope:types.ResponseEcho)
     private static final com.github.jtmsp.types.Types.ResponseEcho DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseEcho();
@@ -11167,15 +11293,15 @@ public final class Types {
   }
 
   public interface ResponseFlushOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseFlush)
+      // @@protoc_insertion_point(interface_extends:types.ResponseFlush)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseFlush}
+   * Protobuf type {@code types.ResponseFlush}
    */
   public  static final class ResponseFlush extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseFlush)
+      // @@protoc_insertion_point(message_implements:types.ResponseFlush)
       ResponseFlushOrBuilder {
     // Use ResponseFlush.newBuilder() to construct.
     private ResponseFlush(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -11221,12 +11347,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseFlush_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseFlush_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseFlush_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseFlush_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseFlush.class, com.github.jtmsp.types.Types.ResponseFlush.Builder.class);
     }
@@ -11333,20 +11459,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseFlush}
+     * Protobuf type {@code types.ResponseFlush}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseFlush)
+        // @@protoc_insertion_point(builder_implements:types.ResponseFlush)
         com.github.jtmsp.types.Types.ResponseFlushOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseFlush_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseFlush_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseFlush_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseFlush_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseFlush.class, com.github.jtmsp.types.Types.ResponseFlush.Builder.class);
       }
@@ -11372,7 +11498,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseFlush_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseFlush_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseFlush getDefaultInstanceForType() {
@@ -11440,10 +11566,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseFlush)
+      // @@protoc_insertion_point(builder_scope:types.ResponseFlush)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseFlush)
+    // @@protoc_insertion_point(class_scope:types.ResponseFlush)
     private static final com.github.jtmsp.types.Types.ResponseFlush DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseFlush();
@@ -11479,25 +11605,72 @@ public final class Types {
   }
 
   public interface ResponseInfoOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseInfo)
+      // @@protoc_insertion_point(interface_extends:types.ResponseInfo)
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     * backwards compatible
+     * </pre>
+     *
      * <code>optional string info = 1;</code>
      */
     java.lang.String getInfo();
     /**
+     * <pre>
+     * backwards compatible
+     * </pre>
+     *
      * <code>optional string info = 1;</code>
      */
     com.google.protobuf.ByteString
         getInfoBytes();
+
+    /**
+     * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+     */
+    boolean hasTmspInfo();
+    /**
+     * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+     */
+    com.github.jtmsp.types.Types.TMSPInfo getTmspInfo();
+    /**
+     * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+     */
+    com.github.jtmsp.types.Types.TMSPInfoOrBuilder getTmspInfoOrBuilder();
+
+    /**
+     * <code>optional .types.LastBlockInfo last_block = 3;</code>
+     */
+    boolean hasLastBlock();
+    /**
+     * <code>optional .types.LastBlockInfo last_block = 3;</code>
+     */
+    com.github.jtmsp.types.Types.LastBlockInfo getLastBlock();
+    /**
+     * <code>optional .types.LastBlockInfo last_block = 3;</code>
+     */
+    com.github.jtmsp.types.Types.LastBlockInfoOrBuilder getLastBlockOrBuilder();
+
+    /**
+     * <code>optional .types.ConfigInfo config = 4;</code>
+     */
+    boolean hasConfig();
+    /**
+     * <code>optional .types.ConfigInfo config = 4;</code>
+     */
+    com.github.jtmsp.types.Types.ConfigInfo getConfig();
+    /**
+     * <code>optional .types.ConfigInfo config = 4;</code>
+     */
+    com.github.jtmsp.types.Types.ConfigInfoOrBuilder getConfigOrBuilder();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseInfo}
+   * Protobuf type {@code types.ResponseInfo}
    */
   public  static final class ResponseInfo extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseInfo)
+      // @@protoc_insertion_point(message_implements:types.ResponseInfo)
       ResponseInfoOrBuilder {
     // Use ResponseInfo.newBuilder() to construct.
     private ResponseInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -11538,6 +11711,45 @@ public final class Types {
               info_ = s;
               break;
             }
+            case 18: {
+              com.github.jtmsp.types.Types.TMSPInfo.Builder subBuilder = null;
+              if (tmspInfo_ != null) {
+                subBuilder = tmspInfo_.toBuilder();
+              }
+              tmspInfo_ = input.readMessage(com.github.jtmsp.types.Types.TMSPInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(tmspInfo_);
+                tmspInfo_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
+              com.github.jtmsp.types.Types.LastBlockInfo.Builder subBuilder = null;
+              if (lastBlock_ != null) {
+                subBuilder = lastBlock_.toBuilder();
+              }
+              lastBlock_ = input.readMessage(com.github.jtmsp.types.Types.LastBlockInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(lastBlock_);
+                lastBlock_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
+              com.github.jtmsp.types.Types.ConfigInfo.Builder subBuilder = null;
+              if (config_ != null) {
+                subBuilder = config_.toBuilder();
+              }
+              config_ = input.readMessage(com.github.jtmsp.types.Types.ConfigInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(config_);
+                config_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
@@ -11551,12 +11763,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInfo_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseInfo_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInfo_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseInfo_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseInfo.class, com.github.jtmsp.types.Types.ResponseInfo.Builder.class);
     }
@@ -11564,6 +11776,10 @@ public final class Types {
     public static final int INFO_FIELD_NUMBER = 1;
     private volatile java.lang.Object info_;
     /**
+     * <pre>
+     * backwards compatible
+     * </pre>
+     *
      * <code>optional string info = 1;</code>
      */
     public java.lang.String getInfo() {
@@ -11579,6 +11795,10 @@ public final class Types {
       }
     }
     /**
+     * <pre>
+     * backwards compatible
+     * </pre>
+     *
      * <code>optional string info = 1;</code>
      */
     public com.google.protobuf.ByteString
@@ -11593,6 +11813,69 @@ public final class Types {
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
+    }
+
+    public static final int TMSP_INFO_FIELD_NUMBER = 2;
+    private com.github.jtmsp.types.Types.TMSPInfo tmspInfo_;
+    /**
+     * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+     */
+    public boolean hasTmspInfo() {
+      return tmspInfo_ != null;
+    }
+    /**
+     * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+     */
+    public com.github.jtmsp.types.Types.TMSPInfo getTmspInfo() {
+      return tmspInfo_ == null ? com.github.jtmsp.types.Types.TMSPInfo.getDefaultInstance() : tmspInfo_;
+    }
+    /**
+     * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+     */
+    public com.github.jtmsp.types.Types.TMSPInfoOrBuilder getTmspInfoOrBuilder() {
+      return getTmspInfo();
+    }
+
+    public static final int LAST_BLOCK_FIELD_NUMBER = 3;
+    private com.github.jtmsp.types.Types.LastBlockInfo lastBlock_;
+    /**
+     * <code>optional .types.LastBlockInfo last_block = 3;</code>
+     */
+    public boolean hasLastBlock() {
+      return lastBlock_ != null;
+    }
+    /**
+     * <code>optional .types.LastBlockInfo last_block = 3;</code>
+     */
+    public com.github.jtmsp.types.Types.LastBlockInfo getLastBlock() {
+      return lastBlock_ == null ? com.github.jtmsp.types.Types.LastBlockInfo.getDefaultInstance() : lastBlock_;
+    }
+    /**
+     * <code>optional .types.LastBlockInfo last_block = 3;</code>
+     */
+    public com.github.jtmsp.types.Types.LastBlockInfoOrBuilder getLastBlockOrBuilder() {
+      return getLastBlock();
+    }
+
+    public static final int CONFIG_FIELD_NUMBER = 4;
+    private com.github.jtmsp.types.Types.ConfigInfo config_;
+    /**
+     * <code>optional .types.ConfigInfo config = 4;</code>
+     */
+    public boolean hasConfig() {
+      return config_ != null;
+    }
+    /**
+     * <code>optional .types.ConfigInfo config = 4;</code>
+     */
+    public com.github.jtmsp.types.Types.ConfigInfo getConfig() {
+      return config_ == null ? com.github.jtmsp.types.Types.ConfigInfo.getDefaultInstance() : config_;
+    }
+    /**
+     * <code>optional .types.ConfigInfo config = 4;</code>
+     */
+    public com.github.jtmsp.types.Types.ConfigInfoOrBuilder getConfigOrBuilder() {
+      return getConfig();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -11610,6 +11893,15 @@ public final class Types {
       if (!getInfoBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessage.writeString(output, 1, info_);
       }
+      if (tmspInfo_ != null) {
+        output.writeMessage(2, getTmspInfo());
+      }
+      if (lastBlock_ != null) {
+        output.writeMessage(3, getLastBlock());
+      }
+      if (config_ != null) {
+        output.writeMessage(4, getConfig());
+      }
     }
 
     public int getSerializedSize() {
@@ -11619,6 +11911,18 @@ public final class Types {
       size = 0;
       if (!getInfoBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessage.computeStringSize(1, info_);
+      }
+      if (tmspInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getTmspInfo());
+      }
+      if (lastBlock_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getLastBlock());
+      }
+      if (config_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getConfig());
       }
       memoizedSize = size;
       return size;
@@ -11703,20 +12007,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseInfo}
+     * Protobuf type {@code types.ResponseInfo}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseInfo)
+        // @@protoc_insertion_point(builder_implements:types.ResponseInfo)
         com.github.jtmsp.types.Types.ResponseInfoOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInfo_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseInfo_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInfo_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseInfo_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseInfo.class, com.github.jtmsp.types.Types.ResponseInfo.Builder.class);
       }
@@ -11739,12 +12043,30 @@ public final class Types {
         super.clear();
         info_ = "";
 
+        if (tmspInfoBuilder_ == null) {
+          tmspInfo_ = null;
+        } else {
+          tmspInfo_ = null;
+          tmspInfoBuilder_ = null;
+        }
+        if (lastBlockBuilder_ == null) {
+          lastBlock_ = null;
+        } else {
+          lastBlock_ = null;
+          lastBlockBuilder_ = null;
+        }
+        if (configBuilder_ == null) {
+          config_ = null;
+        } else {
+          config_ = null;
+          configBuilder_ = null;
+        }
         return this;
       }
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInfo_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseInfo_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseInfo getDefaultInstanceForType() {
@@ -11762,6 +12084,21 @@ public final class Types {
       public com.github.jtmsp.types.Types.ResponseInfo buildPartial() {
         com.github.jtmsp.types.Types.ResponseInfo result = new com.github.jtmsp.types.Types.ResponseInfo(this);
         result.info_ = info_;
+        if (tmspInfoBuilder_ == null) {
+          result.tmspInfo_ = tmspInfo_;
+        } else {
+          result.tmspInfo_ = tmspInfoBuilder_.build();
+        }
+        if (lastBlockBuilder_ == null) {
+          result.lastBlock_ = lastBlock_;
+        } else {
+          result.lastBlock_ = lastBlockBuilder_.build();
+        }
+        if (configBuilder_ == null) {
+          result.config_ = config_;
+        } else {
+          result.config_ = configBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -11780,6 +12117,15 @@ public final class Types {
         if (!other.getInfo().isEmpty()) {
           info_ = other.info_;
           onChanged();
+        }
+        if (other.hasTmspInfo()) {
+          mergeTmspInfo(other.getTmspInfo());
+        }
+        if (other.hasLastBlock()) {
+          mergeLastBlock(other.getLastBlock());
+        }
+        if (other.hasConfig()) {
+          mergeConfig(other.getConfig());
         }
         onChanged();
         return this;
@@ -11809,6 +12155,10 @@ public final class Types {
 
       private java.lang.Object info_ = "";
       /**
+       * <pre>
+       * backwards compatible
+       * </pre>
+       *
        * <code>optional string info = 1;</code>
        */
       public java.lang.String getInfo() {
@@ -11824,6 +12174,10 @@ public final class Types {
         }
       }
       /**
+       * <pre>
+       * backwards compatible
+       * </pre>
+       *
        * <code>optional string info = 1;</code>
        */
       public com.google.protobuf.ByteString
@@ -11840,6 +12194,10 @@ public final class Types {
         }
       }
       /**
+       * <pre>
+       * backwards compatible
+       * </pre>
+       *
        * <code>optional string info = 1;</code>
        */
       public Builder setInfo(
@@ -11853,6 +12211,10 @@ public final class Types {
         return this;
       }
       /**
+       * <pre>
+       * backwards compatible
+       * </pre>
+       *
        * <code>optional string info = 1;</code>
        */
       public Builder clearInfo() {
@@ -11862,6 +12224,10 @@ public final class Types {
         return this;
       }
       /**
+       * <pre>
+       * backwards compatible
+       * </pre>
+       *
        * <code>optional string info = 1;</code>
        */
       public Builder setInfoBytes(
@@ -11875,6 +12241,357 @@ public final class Types {
         onChanged();
         return this;
       }
+
+      private com.github.jtmsp.types.Types.TMSPInfo tmspInfo_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.TMSPInfo, com.github.jtmsp.types.Types.TMSPInfo.Builder, com.github.jtmsp.types.Types.TMSPInfoOrBuilder> tmspInfoBuilder_;
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public boolean hasTmspInfo() {
+        return tmspInfoBuilder_ != null || tmspInfo_ != null;
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public com.github.jtmsp.types.Types.TMSPInfo getTmspInfo() {
+        if (tmspInfoBuilder_ == null) {
+          return tmspInfo_ == null ? com.github.jtmsp.types.Types.TMSPInfo.getDefaultInstance() : tmspInfo_;
+        } else {
+          return tmspInfoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public Builder setTmspInfo(com.github.jtmsp.types.Types.TMSPInfo value) {
+        if (tmspInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          tmspInfo_ = value;
+          onChanged();
+        } else {
+          tmspInfoBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public Builder setTmspInfo(
+          com.github.jtmsp.types.Types.TMSPInfo.Builder builderForValue) {
+        if (tmspInfoBuilder_ == null) {
+          tmspInfo_ = builderForValue.build();
+          onChanged();
+        } else {
+          tmspInfoBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public Builder mergeTmspInfo(com.github.jtmsp.types.Types.TMSPInfo value) {
+        if (tmspInfoBuilder_ == null) {
+          if (tmspInfo_ != null) {
+            tmspInfo_ =
+              com.github.jtmsp.types.Types.TMSPInfo.newBuilder(tmspInfo_).mergeFrom(value).buildPartial();
+          } else {
+            tmspInfo_ = value;
+          }
+          onChanged();
+        } else {
+          tmspInfoBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public Builder clearTmspInfo() {
+        if (tmspInfoBuilder_ == null) {
+          tmspInfo_ = null;
+          onChanged();
+        } else {
+          tmspInfo_ = null;
+          tmspInfoBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public com.github.jtmsp.types.Types.TMSPInfo.Builder getTmspInfoBuilder() {
+        
+        onChanged();
+        return getTmspInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      public com.github.jtmsp.types.Types.TMSPInfoOrBuilder getTmspInfoOrBuilder() {
+        if (tmspInfoBuilder_ != null) {
+          return tmspInfoBuilder_.getMessageOrBuilder();
+        } else {
+          return tmspInfo_ == null ?
+              com.github.jtmsp.types.Types.TMSPInfo.getDefaultInstance() : tmspInfo_;
+        }
+      }
+      /**
+       * <code>optional .types.TMSPInfo tmsp_info = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.TMSPInfo, com.github.jtmsp.types.Types.TMSPInfo.Builder, com.github.jtmsp.types.Types.TMSPInfoOrBuilder> 
+          getTmspInfoFieldBuilder() {
+        if (tmspInfoBuilder_ == null) {
+          tmspInfoBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              com.github.jtmsp.types.Types.TMSPInfo, com.github.jtmsp.types.Types.TMSPInfo.Builder, com.github.jtmsp.types.Types.TMSPInfoOrBuilder>(
+                  getTmspInfo(),
+                  getParentForChildren(),
+                  isClean());
+          tmspInfo_ = null;
+        }
+        return tmspInfoBuilder_;
+      }
+
+      private com.github.jtmsp.types.Types.LastBlockInfo lastBlock_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.LastBlockInfo, com.github.jtmsp.types.Types.LastBlockInfo.Builder, com.github.jtmsp.types.Types.LastBlockInfoOrBuilder> lastBlockBuilder_;
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public boolean hasLastBlock() {
+        return lastBlockBuilder_ != null || lastBlock_ != null;
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public com.github.jtmsp.types.Types.LastBlockInfo getLastBlock() {
+        if (lastBlockBuilder_ == null) {
+          return lastBlock_ == null ? com.github.jtmsp.types.Types.LastBlockInfo.getDefaultInstance() : lastBlock_;
+        } else {
+          return lastBlockBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public Builder setLastBlock(com.github.jtmsp.types.Types.LastBlockInfo value) {
+        if (lastBlockBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          lastBlock_ = value;
+          onChanged();
+        } else {
+          lastBlockBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public Builder setLastBlock(
+          com.github.jtmsp.types.Types.LastBlockInfo.Builder builderForValue) {
+        if (lastBlockBuilder_ == null) {
+          lastBlock_ = builderForValue.build();
+          onChanged();
+        } else {
+          lastBlockBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public Builder mergeLastBlock(com.github.jtmsp.types.Types.LastBlockInfo value) {
+        if (lastBlockBuilder_ == null) {
+          if (lastBlock_ != null) {
+            lastBlock_ =
+              com.github.jtmsp.types.Types.LastBlockInfo.newBuilder(lastBlock_).mergeFrom(value).buildPartial();
+          } else {
+            lastBlock_ = value;
+          }
+          onChanged();
+        } else {
+          lastBlockBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public Builder clearLastBlock() {
+        if (lastBlockBuilder_ == null) {
+          lastBlock_ = null;
+          onChanged();
+        } else {
+          lastBlock_ = null;
+          lastBlockBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public com.github.jtmsp.types.Types.LastBlockInfo.Builder getLastBlockBuilder() {
+        
+        onChanged();
+        return getLastBlockFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      public com.github.jtmsp.types.Types.LastBlockInfoOrBuilder getLastBlockOrBuilder() {
+        if (lastBlockBuilder_ != null) {
+          return lastBlockBuilder_.getMessageOrBuilder();
+        } else {
+          return lastBlock_ == null ?
+              com.github.jtmsp.types.Types.LastBlockInfo.getDefaultInstance() : lastBlock_;
+        }
+      }
+      /**
+       * <code>optional .types.LastBlockInfo last_block = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.LastBlockInfo, com.github.jtmsp.types.Types.LastBlockInfo.Builder, com.github.jtmsp.types.Types.LastBlockInfoOrBuilder> 
+          getLastBlockFieldBuilder() {
+        if (lastBlockBuilder_ == null) {
+          lastBlockBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              com.github.jtmsp.types.Types.LastBlockInfo, com.github.jtmsp.types.Types.LastBlockInfo.Builder, com.github.jtmsp.types.Types.LastBlockInfoOrBuilder>(
+                  getLastBlock(),
+                  getParentForChildren(),
+                  isClean());
+          lastBlock_ = null;
+        }
+        return lastBlockBuilder_;
+      }
+
+      private com.github.jtmsp.types.Types.ConfigInfo config_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.ConfigInfo, com.github.jtmsp.types.Types.ConfigInfo.Builder, com.github.jtmsp.types.Types.ConfigInfoOrBuilder> configBuilder_;
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public boolean hasConfig() {
+        return configBuilder_ != null || config_ != null;
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public com.github.jtmsp.types.Types.ConfigInfo getConfig() {
+        if (configBuilder_ == null) {
+          return config_ == null ? com.github.jtmsp.types.Types.ConfigInfo.getDefaultInstance() : config_;
+        } else {
+          return configBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public Builder setConfig(com.github.jtmsp.types.Types.ConfigInfo value) {
+        if (configBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          config_ = value;
+          onChanged();
+        } else {
+          configBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public Builder setConfig(
+          com.github.jtmsp.types.Types.ConfigInfo.Builder builderForValue) {
+        if (configBuilder_ == null) {
+          config_ = builderForValue.build();
+          onChanged();
+        } else {
+          configBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public Builder mergeConfig(com.github.jtmsp.types.Types.ConfigInfo value) {
+        if (configBuilder_ == null) {
+          if (config_ != null) {
+            config_ =
+              com.github.jtmsp.types.Types.ConfigInfo.newBuilder(config_).mergeFrom(value).buildPartial();
+          } else {
+            config_ = value;
+          }
+          onChanged();
+        } else {
+          configBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public Builder clearConfig() {
+        if (configBuilder_ == null) {
+          config_ = null;
+          onChanged();
+        } else {
+          config_ = null;
+          configBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public com.github.jtmsp.types.Types.ConfigInfo.Builder getConfigBuilder() {
+        
+        onChanged();
+        return getConfigFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      public com.github.jtmsp.types.Types.ConfigInfoOrBuilder getConfigOrBuilder() {
+        if (configBuilder_ != null) {
+          return configBuilder_.getMessageOrBuilder();
+        } else {
+          return config_ == null ?
+              com.github.jtmsp.types.Types.ConfigInfo.getDefaultInstance() : config_;
+        }
+      }
+      /**
+       * <code>optional .types.ConfigInfo config = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.ConfigInfo, com.github.jtmsp.types.Types.ConfigInfo.Builder, com.github.jtmsp.types.Types.ConfigInfoOrBuilder> 
+          getConfigFieldBuilder() {
+        if (configBuilder_ == null) {
+          configBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              com.github.jtmsp.types.Types.ConfigInfo, com.github.jtmsp.types.Types.ConfigInfo.Builder, com.github.jtmsp.types.Types.ConfigInfoOrBuilder>(
+                  getConfig(),
+                  getParentForChildren(),
+                  isClean());
+          config_ = null;
+        }
+        return configBuilder_;
+      }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return this;
@@ -11886,10 +12603,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseInfo)
+      // @@protoc_insertion_point(builder_scope:types.ResponseInfo)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseInfo)
+    // @@protoc_insertion_point(class_scope:types.ResponseInfo)
     private static final com.github.jtmsp.types.Types.ResponseInfo DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseInfo();
@@ -11925,7 +12642,7 @@ public final class Types {
   }
 
   public interface ResponseSetOptionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseSetOption)
+      // @@protoc_insertion_point(interface_extends:types.ResponseSetOption)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -11939,11 +12656,11 @@ public final class Types {
         getLogBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseSetOption}
+   * Protobuf type {@code types.ResponseSetOption}
    */
   public  static final class ResponseSetOption extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseSetOption)
+      // @@protoc_insertion_point(message_implements:types.ResponseSetOption)
       ResponseSetOptionOrBuilder {
     // Use ResponseSetOption.newBuilder() to construct.
     private ResponseSetOption(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -11997,12 +12714,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseSetOption_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseSetOption_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseSetOption_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseSetOption_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseSetOption.class, com.github.jtmsp.types.Types.ResponseSetOption.Builder.class);
     }
@@ -12149,20 +12866,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseSetOption}
+     * Protobuf type {@code types.ResponseSetOption}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseSetOption)
+        // @@protoc_insertion_point(builder_implements:types.ResponseSetOption)
         com.github.jtmsp.types.Types.ResponseSetOptionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseSetOption_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseSetOption_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseSetOption_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseSetOption_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseSetOption.class, com.github.jtmsp.types.Types.ResponseSetOption.Builder.class);
       }
@@ -12190,7 +12907,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseSetOption_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseSetOption_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseSetOption getDefaultInstanceForType() {
@@ -12332,10 +13049,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseSetOption)
+      // @@protoc_insertion_point(builder_scope:types.ResponseSetOption)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseSetOption)
+    // @@protoc_insertion_point(class_scope:types.ResponseSetOption)
     private static final com.github.jtmsp.types.Types.ResponseSetOption DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseSetOption();
@@ -12371,15 +13088,15 @@ public final class Types {
   }
 
   public interface ResponseAppendTxOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseAppendTx)
+      // @@protoc_insertion_point(interface_extends:types.ResponseAppendTx)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     int getCodeValue();
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     com.github.jtmsp.types.Types.CodeType getCode();
 
@@ -12399,11 +13116,11 @@ public final class Types {
         getLogBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseAppendTx}
+   * Protobuf type {@code types.ResponseAppendTx}
    */
   public  static final class ResponseAppendTx extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseAppendTx)
+      // @@protoc_insertion_point(message_implements:types.ResponseAppendTx)
       ResponseAppendTxOrBuilder {
     // Use ResponseAppendTx.newBuilder() to construct.
     private ResponseAppendTx(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -12470,12 +13187,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseAppendTx_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseAppendTx_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseAppendTx_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseAppendTx_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseAppendTx.class, com.github.jtmsp.types.Types.ResponseAppendTx.Builder.class);
     }
@@ -12483,13 +13200,13 @@ public final class Types {
     public static final int CODE_FIELD_NUMBER = 1;
     private int code_;
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public int getCodeValue() {
       return code_;
     }
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public com.github.jtmsp.types.Types.CodeType getCode() {
       com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
@@ -12661,20 +13378,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseAppendTx}
+     * Protobuf type {@code types.ResponseAppendTx}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseAppendTx)
+        // @@protoc_insertion_point(builder_implements:types.ResponseAppendTx)
         com.github.jtmsp.types.Types.ResponseAppendTxOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseAppendTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseAppendTx_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseAppendTx_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseAppendTx_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseAppendTx.class, com.github.jtmsp.types.Types.ResponseAppendTx.Builder.class);
       }
@@ -12706,7 +13423,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseAppendTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseAppendTx_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseAppendTx getDefaultInstanceForType() {
@@ -12779,13 +13496,13 @@ public final class Types {
 
       private int code_ = 0;
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public int getCodeValue() {
         return code_;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCodeValue(int value) {
         code_ = value;
@@ -12793,14 +13510,14 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public com.github.jtmsp.types.Types.CodeType getCode() {
         com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
         return result == null ? com.github.jtmsp.types.Types.CodeType.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCode(com.github.jtmsp.types.Types.CodeType value) {
         if (value == null) {
@@ -12812,7 +13529,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder clearCode() {
         
@@ -12929,10 +13646,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseAppendTx)
+      // @@protoc_insertion_point(builder_scope:types.ResponseAppendTx)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseAppendTx)
+    // @@protoc_insertion_point(class_scope:types.ResponseAppendTx)
     private static final com.github.jtmsp.types.Types.ResponseAppendTx DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseAppendTx();
@@ -12968,15 +13685,15 @@ public final class Types {
   }
 
   public interface ResponseCheckTxOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseCheckTx)
+      // @@protoc_insertion_point(interface_extends:types.ResponseCheckTx)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     int getCodeValue();
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     com.github.jtmsp.types.Types.CodeType getCode();
 
@@ -12996,11 +13713,11 @@ public final class Types {
         getLogBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseCheckTx}
+   * Protobuf type {@code types.ResponseCheckTx}
    */
   public  static final class ResponseCheckTx extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseCheckTx)
+      // @@protoc_insertion_point(message_implements:types.ResponseCheckTx)
       ResponseCheckTxOrBuilder {
     // Use ResponseCheckTx.newBuilder() to construct.
     private ResponseCheckTx(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -13067,12 +13784,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCheckTx_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseCheckTx_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCheckTx_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseCheckTx_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseCheckTx.class, com.github.jtmsp.types.Types.ResponseCheckTx.Builder.class);
     }
@@ -13080,13 +13797,13 @@ public final class Types {
     public static final int CODE_FIELD_NUMBER = 1;
     private int code_;
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public int getCodeValue() {
       return code_;
     }
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public com.github.jtmsp.types.Types.CodeType getCode() {
       com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
@@ -13258,20 +13975,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseCheckTx}
+     * Protobuf type {@code types.ResponseCheckTx}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseCheckTx)
+        // @@protoc_insertion_point(builder_implements:types.ResponseCheckTx)
         com.github.jtmsp.types.Types.ResponseCheckTxOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCheckTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseCheckTx_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCheckTx_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseCheckTx_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseCheckTx.class, com.github.jtmsp.types.Types.ResponseCheckTx.Builder.class);
       }
@@ -13303,7 +14020,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCheckTx_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseCheckTx_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseCheckTx getDefaultInstanceForType() {
@@ -13376,13 +14093,13 @@ public final class Types {
 
       private int code_ = 0;
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public int getCodeValue() {
         return code_;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCodeValue(int value) {
         code_ = value;
@@ -13390,14 +14107,14 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public com.github.jtmsp.types.Types.CodeType getCode() {
         com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
         return result == null ? com.github.jtmsp.types.Types.CodeType.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCode(com.github.jtmsp.types.Types.CodeType value) {
         if (value == null) {
@@ -13409,7 +14126,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder clearCode() {
         
@@ -13526,10 +14243,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseCheckTx)
+      // @@protoc_insertion_point(builder_scope:types.ResponseCheckTx)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseCheckTx)
+    // @@protoc_insertion_point(class_scope:types.ResponseCheckTx)
     private static final com.github.jtmsp.types.Types.ResponseCheckTx DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseCheckTx();
@@ -13565,15 +14282,15 @@ public final class Types {
   }
 
   public interface ResponseQueryOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseQuery)
+      // @@protoc_insertion_point(interface_extends:types.ResponseQuery)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     int getCodeValue();
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     com.github.jtmsp.types.Types.CodeType getCode();
 
@@ -13593,11 +14310,11 @@ public final class Types {
         getLogBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseQuery}
+   * Protobuf type {@code types.ResponseQuery}
    */
   public  static final class ResponseQuery extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseQuery)
+      // @@protoc_insertion_point(message_implements:types.ResponseQuery)
       ResponseQueryOrBuilder {
     // Use ResponseQuery.newBuilder() to construct.
     private ResponseQuery(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -13664,12 +14381,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseQuery_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseQuery_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseQuery_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseQuery_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseQuery.class, com.github.jtmsp.types.Types.ResponseQuery.Builder.class);
     }
@@ -13677,13 +14394,13 @@ public final class Types {
     public static final int CODE_FIELD_NUMBER = 1;
     private int code_;
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public int getCodeValue() {
       return code_;
     }
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public com.github.jtmsp.types.Types.CodeType getCode() {
       com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
@@ -13855,20 +14572,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseQuery}
+     * Protobuf type {@code types.ResponseQuery}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseQuery)
+        // @@protoc_insertion_point(builder_implements:types.ResponseQuery)
         com.github.jtmsp.types.Types.ResponseQueryOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseQuery_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseQuery_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseQuery_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseQuery_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseQuery.class, com.github.jtmsp.types.Types.ResponseQuery.Builder.class);
       }
@@ -13900,7 +14617,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseQuery_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseQuery_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseQuery getDefaultInstanceForType() {
@@ -13973,13 +14690,13 @@ public final class Types {
 
       private int code_ = 0;
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public int getCodeValue() {
         return code_;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCodeValue(int value) {
         code_ = value;
@@ -13987,14 +14704,14 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public com.github.jtmsp.types.Types.CodeType getCode() {
         com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
         return result == null ? com.github.jtmsp.types.Types.CodeType.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCode(com.github.jtmsp.types.Types.CodeType value) {
         if (value == null) {
@@ -14006,7 +14723,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder clearCode() {
         
@@ -14123,10 +14840,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseQuery)
+      // @@protoc_insertion_point(builder_scope:types.ResponseQuery)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseQuery)
+    // @@protoc_insertion_point(class_scope:types.ResponseQuery)
     private static final com.github.jtmsp.types.Types.ResponseQuery DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseQuery();
@@ -14162,15 +14879,15 @@ public final class Types {
   }
 
   public interface ResponseCommitOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseCommit)
+      // @@protoc_insertion_point(interface_extends:types.ResponseCommit)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     int getCodeValue();
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     com.github.jtmsp.types.Types.CodeType getCode();
 
@@ -14190,11 +14907,11 @@ public final class Types {
         getLogBytes();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseCommit}
+   * Protobuf type {@code types.ResponseCommit}
    */
   public  static final class ResponseCommit extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseCommit)
+      // @@protoc_insertion_point(message_implements:types.ResponseCommit)
       ResponseCommitOrBuilder {
     // Use ResponseCommit.newBuilder() to construct.
     private ResponseCommit(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -14261,12 +14978,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCommit_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseCommit_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCommit_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseCommit_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseCommit.class, com.github.jtmsp.types.Types.ResponseCommit.Builder.class);
     }
@@ -14274,13 +14991,13 @@ public final class Types {
     public static final int CODE_FIELD_NUMBER = 1;
     private int code_;
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public int getCodeValue() {
       return code_;
     }
     /**
-     * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+     * <code>optional .types.CodeType code = 1;</code>
      */
     public com.github.jtmsp.types.Types.CodeType getCode() {
       com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
@@ -14452,20 +15169,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseCommit}
+     * Protobuf type {@code types.ResponseCommit}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseCommit)
+        // @@protoc_insertion_point(builder_implements:types.ResponseCommit)
         com.github.jtmsp.types.Types.ResponseCommitOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCommit_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseCommit_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCommit_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseCommit_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseCommit.class, com.github.jtmsp.types.Types.ResponseCommit.Builder.class);
       }
@@ -14497,7 +15214,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseCommit_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseCommit_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseCommit getDefaultInstanceForType() {
@@ -14570,13 +15287,13 @@ public final class Types {
 
       private int code_ = 0;
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public int getCodeValue() {
         return code_;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCodeValue(int value) {
         code_ = value;
@@ -14584,14 +15301,14 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public com.github.jtmsp.types.Types.CodeType getCode() {
         com.github.jtmsp.types.Types.CodeType result = com.github.jtmsp.types.Types.CodeType.forNumber(code_);
         return result == null ? com.github.jtmsp.types.Types.CodeType.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder setCode(com.github.jtmsp.types.Types.CodeType value) {
         if (value == null) {
@@ -14603,7 +15320,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>optional .com.github.jtmsp.types.CodeType code = 1;</code>
+       * <code>optional .types.CodeType code = 1;</code>
        */
       public Builder clearCode() {
         
@@ -14720,10 +15437,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseCommit)
+      // @@protoc_insertion_point(builder_scope:types.ResponseCommit)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseCommit)
+    // @@protoc_insertion_point(class_scope:types.ResponseCommit)
     private static final com.github.jtmsp.types.Types.ResponseCommit DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseCommit();
@@ -14759,15 +15476,15 @@ public final class Types {
   }
 
   public interface ResponseInitChainOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseInitChain)
+      // @@protoc_insertion_point(interface_extends:types.ResponseInitChain)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseInitChain}
+   * Protobuf type {@code types.ResponseInitChain}
    */
   public  static final class ResponseInitChain extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseInitChain)
+      // @@protoc_insertion_point(message_implements:types.ResponseInitChain)
       ResponseInitChainOrBuilder {
     // Use ResponseInitChain.newBuilder() to construct.
     private ResponseInitChain(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -14813,12 +15530,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInitChain_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseInitChain_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInitChain_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseInitChain_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseInitChain.class, com.github.jtmsp.types.Types.ResponseInitChain.Builder.class);
     }
@@ -14925,20 +15642,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseInitChain}
+     * Protobuf type {@code types.ResponseInitChain}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseInitChain)
+        // @@protoc_insertion_point(builder_implements:types.ResponseInitChain)
         com.github.jtmsp.types.Types.ResponseInitChainOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInitChain_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseInitChain_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInitChain_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseInitChain_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseInitChain.class, com.github.jtmsp.types.Types.ResponseInitChain.Builder.class);
       }
@@ -14964,7 +15681,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseInitChain_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseInitChain_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseInitChain getDefaultInstanceForType() {
@@ -15032,10 +15749,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseInitChain)
+      // @@protoc_insertion_point(builder_scope:types.ResponseInitChain)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseInitChain)
+    // @@protoc_insertion_point(class_scope:types.ResponseInitChain)
     private static final com.github.jtmsp.types.Types.ResponseInitChain DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseInitChain();
@@ -15071,15 +15788,15 @@ public final class Types {
   }
 
   public interface ResponseBeginBlockOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseBeginBlock)
+      // @@protoc_insertion_point(interface_extends:types.ResponseBeginBlock)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseBeginBlock}
+   * Protobuf type {@code types.ResponseBeginBlock}
    */
   public  static final class ResponseBeginBlock extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseBeginBlock)
+      // @@protoc_insertion_point(message_implements:types.ResponseBeginBlock)
       ResponseBeginBlockOrBuilder {
     // Use ResponseBeginBlock.newBuilder() to construct.
     private ResponseBeginBlock(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -15125,12 +15842,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseBeginBlock_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseBeginBlock_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseBeginBlock_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseBeginBlock_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseBeginBlock.class, com.github.jtmsp.types.Types.ResponseBeginBlock.Builder.class);
     }
@@ -15237,20 +15954,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseBeginBlock}
+     * Protobuf type {@code types.ResponseBeginBlock}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseBeginBlock)
+        // @@protoc_insertion_point(builder_implements:types.ResponseBeginBlock)
         com.github.jtmsp.types.Types.ResponseBeginBlockOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseBeginBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseBeginBlock_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseBeginBlock_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseBeginBlock_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseBeginBlock.class, com.github.jtmsp.types.Types.ResponseBeginBlock.Builder.class);
       }
@@ -15276,7 +15993,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseBeginBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseBeginBlock_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseBeginBlock getDefaultInstanceForType() {
@@ -15344,10 +16061,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseBeginBlock)
+      // @@protoc_insertion_point(builder_scope:types.ResponseBeginBlock)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseBeginBlock)
+    // @@protoc_insertion_point(class_scope:types.ResponseBeginBlock)
     private static final com.github.jtmsp.types.Types.ResponseBeginBlock DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseBeginBlock();
@@ -15383,39 +16100,39 @@ public final class Types {
   }
 
   public interface ResponseEndBlockOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.ResponseEndBlock)
+      // @@protoc_insertion_point(interface_extends:types.ResponseEndBlock)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     java.util.List<com.github.jtmsp.types.Types.Validator> 
         getDiffsList();
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     com.github.jtmsp.types.Types.Validator getDiffs(int index);
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     int getDiffsCount();
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     java.util.List<? extends com.github.jtmsp.types.Types.ValidatorOrBuilder> 
         getDiffsOrBuilderList();
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     com.github.jtmsp.types.Types.ValidatorOrBuilder getDiffsOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.ResponseEndBlock}
+   * Protobuf type {@code types.ResponseEndBlock}
    */
   public  static final class ResponseEndBlock extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.ResponseEndBlock)
+      // @@protoc_insertion_point(message_implements:types.ResponseEndBlock)
       ResponseEndBlockOrBuilder {
     // Use ResponseEndBlock.newBuilder() to construct.
     private ResponseEndBlock(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -15474,12 +16191,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEndBlock_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseEndBlock_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEndBlock_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_ResponseEndBlock_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.ResponseEndBlock.class, com.github.jtmsp.types.Types.ResponseEndBlock.Builder.class);
     }
@@ -15487,32 +16204,32 @@ public final class Types {
     public static final int DIFFS_FIELD_NUMBER = 4;
     private java.util.List<com.github.jtmsp.types.Types.Validator> diffs_;
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     public java.util.List<com.github.jtmsp.types.Types.Validator> getDiffsList() {
       return diffs_;
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     public java.util.List<? extends com.github.jtmsp.types.Types.ValidatorOrBuilder> 
         getDiffsOrBuilderList() {
       return diffs_;
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     public int getDiffsCount() {
       return diffs_.size();
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     public com.github.jtmsp.types.Types.Validator getDiffs(int index) {
       return diffs_.get(index);
     }
     /**
-     * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+     * <code>repeated .types.Validator diffs = 4;</code>
      */
     public com.github.jtmsp.types.Types.ValidatorOrBuilder getDiffsOrBuilder(
         int index) {
@@ -15628,20 +16345,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.ResponseEndBlock}
+     * Protobuf type {@code types.ResponseEndBlock}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.ResponseEndBlock)
+        // @@protoc_insertion_point(builder_implements:types.ResponseEndBlock)
         com.github.jtmsp.types.Types.ResponseEndBlockOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEndBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseEndBlock_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEndBlock_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseEndBlock_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.ResponseEndBlock.class, com.github.jtmsp.types.Types.ResponseEndBlock.Builder.class);
       }
@@ -15674,7 +16391,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_ResponseEndBlock_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_ResponseEndBlock_descriptor;
       }
 
       public com.github.jtmsp.types.Types.ResponseEndBlock getDefaultInstanceForType() {
@@ -15782,7 +16499,7 @@ public final class Types {
           com.github.jtmsp.types.Types.Validator, com.github.jtmsp.types.Types.Validator.Builder, com.github.jtmsp.types.Types.ValidatorOrBuilder> diffsBuilder_;
 
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public java.util.List<com.github.jtmsp.types.Types.Validator> getDiffsList() {
         if (diffsBuilder_ == null) {
@@ -15792,7 +16509,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public int getDiffsCount() {
         if (diffsBuilder_ == null) {
@@ -15802,7 +16519,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public com.github.jtmsp.types.Types.Validator getDiffs(int index) {
         if (diffsBuilder_ == null) {
@@ -15812,7 +16529,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder setDiffs(
           int index, com.github.jtmsp.types.Types.Validator value) {
@@ -15829,7 +16546,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder setDiffs(
           int index, com.github.jtmsp.types.Types.Validator.Builder builderForValue) {
@@ -15843,7 +16560,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder addDiffs(com.github.jtmsp.types.Types.Validator value) {
         if (diffsBuilder_ == null) {
@@ -15859,7 +16576,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder addDiffs(
           int index, com.github.jtmsp.types.Types.Validator value) {
@@ -15876,7 +16593,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder addDiffs(
           com.github.jtmsp.types.Types.Validator.Builder builderForValue) {
@@ -15890,7 +16607,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder addDiffs(
           int index, com.github.jtmsp.types.Types.Validator.Builder builderForValue) {
@@ -15904,7 +16621,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder addAllDiffs(
           java.lang.Iterable<? extends com.github.jtmsp.types.Types.Validator> values) {
@@ -15919,7 +16636,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder clearDiffs() {
         if (diffsBuilder_ == null) {
@@ -15932,7 +16649,7 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public Builder removeDiffs(int index) {
         if (diffsBuilder_ == null) {
@@ -15945,14 +16662,14 @@ public final class Types {
         return this;
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public com.github.jtmsp.types.Types.Validator.Builder getDiffsBuilder(
           int index) {
         return getDiffsFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public com.github.jtmsp.types.Types.ValidatorOrBuilder getDiffsOrBuilder(
           int index) {
@@ -15962,7 +16679,7 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public java.util.List<? extends com.github.jtmsp.types.Types.ValidatorOrBuilder> 
            getDiffsOrBuilderList() {
@@ -15973,14 +16690,14 @@ public final class Types {
         }
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public com.github.jtmsp.types.Types.Validator.Builder addDiffsBuilder() {
         return getDiffsFieldBuilder().addBuilder(
             com.github.jtmsp.types.Types.Validator.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public com.github.jtmsp.types.Types.Validator.Builder addDiffsBuilder(
           int index) {
@@ -15988,7 +16705,7 @@ public final class Types {
             index, com.github.jtmsp.types.Types.Validator.getDefaultInstance());
       }
       /**
-       * <code>repeated .com.github.jtmsp.types.Validator diffs = 4;</code>
+       * <code>repeated .types.Validator diffs = 4;</code>
        */
       public java.util.List<com.github.jtmsp.types.Types.Validator.Builder> 
            getDiffsBuilderList() {
@@ -16019,10 +16736,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.ResponseEndBlock)
+      // @@protoc_insertion_point(builder_scope:types.ResponseEndBlock)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.ResponseEndBlock)
+    // @@protoc_insertion_point(class_scope:types.ResponseEndBlock)
     private static final com.github.jtmsp.types.Types.ResponseEndBlock DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ResponseEndBlock();
@@ -16057,8 +16774,2874 @@ public final class Types {
 
   }
 
+  public interface TMSPInfoOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:types.TMSPInfo)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional string Version = 1;</code>
+     */
+    java.lang.String getVersion();
+    /**
+     * <code>optional string Version = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getVersionBytes();
+  }
+  /**
+   * Protobuf type {@code types.TMSPInfo}
+   */
+  public  static final class TMSPInfo extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:types.TMSPInfo)
+      TMSPInfoOrBuilder {
+    // Use TMSPInfo.newBuilder() to construct.
+    private TMSPInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private TMSPInfo() {
+      version_ = "";
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private TMSPInfo(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              version_ = s;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.github.jtmsp.types.Types.internal_static_types_TMSPInfo_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.github.jtmsp.types.Types.internal_static_types_TMSPInfo_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.github.jtmsp.types.Types.TMSPInfo.class, com.github.jtmsp.types.Types.TMSPInfo.Builder.class);
+    }
+
+    public static final int VERSION_FIELD_NUMBER = 1;
+    private volatile java.lang.Object version_;
+    /**
+     * <code>optional string Version = 1;</code>
+     */
+    public java.lang.String getVersion() {
+      java.lang.Object ref = version_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        version_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string Version = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getVersionBytes() {
+      java.lang.Object ref = version_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        version_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (!getVersionBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, version_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (!getVersionBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, version_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.TMSPInfo parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.github.jtmsp.types.Types.TMSPInfo prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code types.TMSPInfo}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:types.TMSPInfo)
+        com.github.jtmsp.types.Types.TMSPInfoOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.github.jtmsp.types.Types.internal_static_types_TMSPInfo_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.github.jtmsp.types.Types.internal_static_types_TMSPInfo_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.github.jtmsp.types.Types.TMSPInfo.class, com.github.jtmsp.types.Types.TMSPInfo.Builder.class);
+      }
+
+      // Construct using com.github.jtmsp.types.Types.TMSPInfo.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        version_ = "";
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.github.jtmsp.types.Types.internal_static_types_TMSPInfo_descriptor;
+      }
+
+      public com.github.jtmsp.types.Types.TMSPInfo getDefaultInstanceForType() {
+        return com.github.jtmsp.types.Types.TMSPInfo.getDefaultInstance();
+      }
+
+      public com.github.jtmsp.types.Types.TMSPInfo build() {
+        com.github.jtmsp.types.Types.TMSPInfo result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.github.jtmsp.types.Types.TMSPInfo buildPartial() {
+        com.github.jtmsp.types.Types.TMSPInfo result = new com.github.jtmsp.types.Types.TMSPInfo(this);
+        result.version_ = version_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.github.jtmsp.types.Types.TMSPInfo) {
+          return mergeFrom((com.github.jtmsp.types.Types.TMSPInfo)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.github.jtmsp.types.Types.TMSPInfo other) {
+        if (other == com.github.jtmsp.types.Types.TMSPInfo.getDefaultInstance()) return this;
+        if (!other.getVersion().isEmpty()) {
+          version_ = other.version_;
+          onChanged();
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.github.jtmsp.types.Types.TMSPInfo parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.github.jtmsp.types.Types.TMSPInfo) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private java.lang.Object version_ = "";
+      /**
+       * <code>optional string Version = 1;</code>
+       */
+      public java.lang.String getVersion() {
+        java.lang.Object ref = version_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          version_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string Version = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getVersionBytes() {
+        java.lang.Object ref = version_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          version_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string Version = 1;</code>
+       */
+      public Builder setVersion(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        version_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string Version = 1;</code>
+       */
+      public Builder clearVersion() {
+        
+        version_ = getDefaultInstance().getVersion();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string Version = 1;</code>
+       */
+      public Builder setVersionBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        version_ = value;
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:types.TMSPInfo)
+    }
+
+    // @@protoc_insertion_point(class_scope:types.TMSPInfo)
+    private static final com.github.jtmsp.types.Types.TMSPInfo DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.TMSPInfo();
+    }
+
+    public static com.github.jtmsp.types.Types.TMSPInfo getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<TMSPInfo>
+        PARSER = new com.google.protobuf.AbstractParser<TMSPInfo>() {
+      public TMSPInfo parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+          return new TMSPInfo(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<TMSPInfo> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<TMSPInfo> getParserForType() {
+      return PARSER;
+    }
+
+    public com.github.jtmsp.types.Types.TMSPInfo getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  public interface LastBlockInfoOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:types.LastBlockInfo)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional uint64 block_height = 1;</code>
+     */
+    long getBlockHeight();
+
+    /**
+     * <code>optional bytes block_hash = 2;</code>
+     */
+    com.google.protobuf.ByteString getBlockHash();
+
+    /**
+     * <code>optional bytes app_hash = 3;</code>
+     */
+    com.google.protobuf.ByteString getAppHash();
+  }
+  /**
+   * Protobuf type {@code types.LastBlockInfo}
+   */
+  public  static final class LastBlockInfo extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:types.LastBlockInfo)
+      LastBlockInfoOrBuilder {
+    // Use LastBlockInfo.newBuilder() to construct.
+    private LastBlockInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private LastBlockInfo() {
+      blockHeight_ = 0L;
+      blockHash_ = com.google.protobuf.ByteString.EMPTY;
+      appHash_ = com.google.protobuf.ByteString.EMPTY;
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private LastBlockInfo(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+
+              blockHeight_ = input.readUInt64();
+              break;
+            }
+            case 18: {
+
+              blockHash_ = input.readBytes();
+              break;
+            }
+            case 26: {
+
+              appHash_ = input.readBytes();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.github.jtmsp.types.Types.internal_static_types_LastBlockInfo_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.github.jtmsp.types.Types.internal_static_types_LastBlockInfo_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.github.jtmsp.types.Types.LastBlockInfo.class, com.github.jtmsp.types.Types.LastBlockInfo.Builder.class);
+    }
+
+    public static final int BLOCK_HEIGHT_FIELD_NUMBER = 1;
+    private long blockHeight_;
+    /**
+     * <code>optional uint64 block_height = 1;</code>
+     */
+    public long getBlockHeight() {
+      return blockHeight_;
+    }
+
+    public static final int BLOCK_HASH_FIELD_NUMBER = 2;
+    private com.google.protobuf.ByteString blockHash_;
+    /**
+     * <code>optional bytes block_hash = 2;</code>
+     */
+    public com.google.protobuf.ByteString getBlockHash() {
+      return blockHash_;
+    }
+
+    public static final int APP_HASH_FIELD_NUMBER = 3;
+    private com.google.protobuf.ByteString appHash_;
+    /**
+     * <code>optional bytes app_hash = 3;</code>
+     */
+    public com.google.protobuf.ByteString getAppHash() {
+      return appHash_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (blockHeight_ != 0L) {
+        output.writeUInt64(1, blockHeight_);
+      }
+      if (!blockHash_.isEmpty()) {
+        output.writeBytes(2, blockHash_);
+      }
+      if (!appHash_.isEmpty()) {
+        output.writeBytes(3, appHash_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (blockHeight_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(1, blockHeight_);
+      }
+      if (!blockHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, blockHash_);
+      }
+      if (!appHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, appHash_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.LastBlockInfo parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.github.jtmsp.types.Types.LastBlockInfo prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code types.LastBlockInfo}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:types.LastBlockInfo)
+        com.github.jtmsp.types.Types.LastBlockInfoOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.github.jtmsp.types.Types.internal_static_types_LastBlockInfo_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.github.jtmsp.types.Types.internal_static_types_LastBlockInfo_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.github.jtmsp.types.Types.LastBlockInfo.class, com.github.jtmsp.types.Types.LastBlockInfo.Builder.class);
+      }
+
+      // Construct using com.github.jtmsp.types.Types.LastBlockInfo.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        blockHeight_ = 0L;
+
+        blockHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        appHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.github.jtmsp.types.Types.internal_static_types_LastBlockInfo_descriptor;
+      }
+
+      public com.github.jtmsp.types.Types.LastBlockInfo getDefaultInstanceForType() {
+        return com.github.jtmsp.types.Types.LastBlockInfo.getDefaultInstance();
+      }
+
+      public com.github.jtmsp.types.Types.LastBlockInfo build() {
+        com.github.jtmsp.types.Types.LastBlockInfo result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.github.jtmsp.types.Types.LastBlockInfo buildPartial() {
+        com.github.jtmsp.types.Types.LastBlockInfo result = new com.github.jtmsp.types.Types.LastBlockInfo(this);
+        result.blockHeight_ = blockHeight_;
+        result.blockHash_ = blockHash_;
+        result.appHash_ = appHash_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.github.jtmsp.types.Types.LastBlockInfo) {
+          return mergeFrom((com.github.jtmsp.types.Types.LastBlockInfo)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.github.jtmsp.types.Types.LastBlockInfo other) {
+        if (other == com.github.jtmsp.types.Types.LastBlockInfo.getDefaultInstance()) return this;
+        if (other.getBlockHeight() != 0L) {
+          setBlockHeight(other.getBlockHeight());
+        }
+        if (other.getBlockHash() != com.google.protobuf.ByteString.EMPTY) {
+          setBlockHash(other.getBlockHash());
+        }
+        if (other.getAppHash() != com.google.protobuf.ByteString.EMPTY) {
+          setAppHash(other.getAppHash());
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.github.jtmsp.types.Types.LastBlockInfo parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.github.jtmsp.types.Types.LastBlockInfo) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private long blockHeight_ ;
+      /**
+       * <code>optional uint64 block_height = 1;</code>
+       */
+      public long getBlockHeight() {
+        return blockHeight_;
+      }
+      /**
+       * <code>optional uint64 block_height = 1;</code>
+       */
+      public Builder setBlockHeight(long value) {
+        
+        blockHeight_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional uint64 block_height = 1;</code>
+       */
+      public Builder clearBlockHeight() {
+        
+        blockHeight_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString blockHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes block_hash = 2;</code>
+       */
+      public com.google.protobuf.ByteString getBlockHash() {
+        return blockHash_;
+      }
+      /**
+       * <code>optional bytes block_hash = 2;</code>
+       */
+      public Builder setBlockHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        blockHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes block_hash = 2;</code>
+       */
+      public Builder clearBlockHash() {
+        
+        blockHash_ = getDefaultInstance().getBlockHash();
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString appHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes app_hash = 3;</code>
+       */
+      public com.google.protobuf.ByteString getAppHash() {
+        return appHash_;
+      }
+      /**
+       * <code>optional bytes app_hash = 3;</code>
+       */
+      public Builder setAppHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        appHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes app_hash = 3;</code>
+       */
+      public Builder clearAppHash() {
+        
+        appHash_ = getDefaultInstance().getAppHash();
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:types.LastBlockInfo)
+    }
+
+    // @@protoc_insertion_point(class_scope:types.LastBlockInfo)
+    private static final com.github.jtmsp.types.Types.LastBlockInfo DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.LastBlockInfo();
+    }
+
+    public static com.github.jtmsp.types.Types.LastBlockInfo getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<LastBlockInfo>
+        PARSER = new com.google.protobuf.AbstractParser<LastBlockInfo>() {
+      public LastBlockInfo parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+          return new LastBlockInfo(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<LastBlockInfo> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<LastBlockInfo> getParserForType() {
+      return PARSER;
+    }
+
+    public com.github.jtmsp.types.Types.LastBlockInfo getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  public interface ConfigInfoOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:types.ConfigInfo)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional uint64 max_block_size = 1;</code>
+     */
+    long getMaxBlockSize();
+  }
+  /**
+   * Protobuf type {@code types.ConfigInfo}
+   */
+  public  static final class ConfigInfo extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:types.ConfigInfo)
+      ConfigInfoOrBuilder {
+    // Use ConfigInfo.newBuilder() to construct.
+    private ConfigInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private ConfigInfo() {
+      maxBlockSize_ = 0L;
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private ConfigInfo(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+
+              maxBlockSize_ = input.readUInt64();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.github.jtmsp.types.Types.internal_static_types_ConfigInfo_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.github.jtmsp.types.Types.internal_static_types_ConfigInfo_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.github.jtmsp.types.Types.ConfigInfo.class, com.github.jtmsp.types.Types.ConfigInfo.Builder.class);
+    }
+
+    public static final int MAX_BLOCK_SIZE_FIELD_NUMBER = 1;
+    private long maxBlockSize_;
+    /**
+     * <code>optional uint64 max_block_size = 1;</code>
+     */
+    public long getMaxBlockSize() {
+      return maxBlockSize_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (maxBlockSize_ != 0L) {
+        output.writeUInt64(1, maxBlockSize_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (maxBlockSize_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(1, maxBlockSize_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.ConfigInfo parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.github.jtmsp.types.Types.ConfigInfo prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code types.ConfigInfo}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:types.ConfigInfo)
+        com.github.jtmsp.types.Types.ConfigInfoOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.github.jtmsp.types.Types.internal_static_types_ConfigInfo_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.github.jtmsp.types.Types.internal_static_types_ConfigInfo_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.github.jtmsp.types.Types.ConfigInfo.class, com.github.jtmsp.types.Types.ConfigInfo.Builder.class);
+      }
+
+      // Construct using com.github.jtmsp.types.Types.ConfigInfo.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        maxBlockSize_ = 0L;
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.github.jtmsp.types.Types.internal_static_types_ConfigInfo_descriptor;
+      }
+
+      public com.github.jtmsp.types.Types.ConfigInfo getDefaultInstanceForType() {
+        return com.github.jtmsp.types.Types.ConfigInfo.getDefaultInstance();
+      }
+
+      public com.github.jtmsp.types.Types.ConfigInfo build() {
+        com.github.jtmsp.types.Types.ConfigInfo result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.github.jtmsp.types.Types.ConfigInfo buildPartial() {
+        com.github.jtmsp.types.Types.ConfigInfo result = new com.github.jtmsp.types.Types.ConfigInfo(this);
+        result.maxBlockSize_ = maxBlockSize_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.github.jtmsp.types.Types.ConfigInfo) {
+          return mergeFrom((com.github.jtmsp.types.Types.ConfigInfo)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.github.jtmsp.types.Types.ConfigInfo other) {
+        if (other == com.github.jtmsp.types.Types.ConfigInfo.getDefaultInstance()) return this;
+        if (other.getMaxBlockSize() != 0L) {
+          setMaxBlockSize(other.getMaxBlockSize());
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.github.jtmsp.types.Types.ConfigInfo parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.github.jtmsp.types.Types.ConfigInfo) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private long maxBlockSize_ ;
+      /**
+       * <code>optional uint64 max_block_size = 1;</code>
+       */
+      public long getMaxBlockSize() {
+        return maxBlockSize_;
+      }
+      /**
+       * <code>optional uint64 max_block_size = 1;</code>
+       */
+      public Builder setMaxBlockSize(long value) {
+        
+        maxBlockSize_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional uint64 max_block_size = 1;</code>
+       */
+      public Builder clearMaxBlockSize() {
+        
+        maxBlockSize_ = 0L;
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:types.ConfigInfo)
+    }
+
+    // @@protoc_insertion_point(class_scope:types.ConfigInfo)
+    private static final com.github.jtmsp.types.Types.ConfigInfo DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.ConfigInfo();
+    }
+
+    public static com.github.jtmsp.types.Types.ConfigInfo getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<ConfigInfo>
+        PARSER = new com.google.protobuf.AbstractParser<ConfigInfo>() {
+      public ConfigInfo parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+          return new ConfigInfo(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<ConfigInfo> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<ConfigInfo> getParserForType() {
+      return PARSER;
+    }
+
+    public com.github.jtmsp.types.Types.ConfigInfo getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  public interface HeaderOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:types.Header)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional string chain_id = 1;</code>
+     */
+    java.lang.String getChainId();
+    /**
+     * <code>optional string chain_id = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getChainIdBytes();
+
+    /**
+     * <code>optional uint64 height = 2;</code>
+     */
+    long getHeight();
+
+    /**
+     * <code>optional uint64 time = 3;</code>
+     */
+    long getTime();
+
+    /**
+     * <code>optional uint64 num_txs = 4;</code>
+     */
+    long getNumTxs();
+
+    /**
+     * <code>optional bytes last_block_hash = 5;</code>
+     */
+    com.google.protobuf.ByteString getLastBlockHash();
+
+    /**
+     * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+     */
+    boolean hasLastBlockParts();
+    /**
+     * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+     */
+    com.github.jtmsp.types.Types.PartSetHeader getLastBlockParts();
+    /**
+     * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+     */
+    com.github.jtmsp.types.Types.PartSetHeaderOrBuilder getLastBlockPartsOrBuilder();
+
+    /**
+     * <code>optional bytes last_commit_hash = 7;</code>
+     */
+    com.google.protobuf.ByteString getLastCommitHash();
+
+    /**
+     * <code>optional bytes data_hash = 8;</code>
+     */
+    com.google.protobuf.ByteString getDataHash();
+
+    /**
+     * <code>optional bytes validators_hash = 9;</code>
+     */
+    com.google.protobuf.ByteString getValidatorsHash();
+
+    /**
+     * <code>optional bytes app_hash = 10;</code>
+     */
+    com.google.protobuf.ByteString getAppHash();
+  }
+  /**
+   * Protobuf type {@code types.Header}
+   */
+  public  static final class Header extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:types.Header)
+      HeaderOrBuilder {
+    // Use Header.newBuilder() to construct.
+    private Header(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private Header() {
+      chainId_ = "";
+      height_ = 0L;
+      time_ = 0L;
+      numTxs_ = 0L;
+      lastBlockHash_ = com.google.protobuf.ByteString.EMPTY;
+      lastCommitHash_ = com.google.protobuf.ByteString.EMPTY;
+      dataHash_ = com.google.protobuf.ByteString.EMPTY;
+      validatorsHash_ = com.google.protobuf.ByteString.EMPTY;
+      appHash_ = com.google.protobuf.ByteString.EMPTY;
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private Header(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              chainId_ = s;
+              break;
+            }
+            case 16: {
+
+              height_ = input.readUInt64();
+              break;
+            }
+            case 24: {
+
+              time_ = input.readUInt64();
+              break;
+            }
+            case 32: {
+
+              numTxs_ = input.readUInt64();
+              break;
+            }
+            case 42: {
+
+              lastBlockHash_ = input.readBytes();
+              break;
+            }
+            case 50: {
+              com.github.jtmsp.types.Types.PartSetHeader.Builder subBuilder = null;
+              if (lastBlockParts_ != null) {
+                subBuilder = lastBlockParts_.toBuilder();
+              }
+              lastBlockParts_ = input.readMessage(com.github.jtmsp.types.Types.PartSetHeader.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(lastBlockParts_);
+                lastBlockParts_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
+
+              lastCommitHash_ = input.readBytes();
+              break;
+            }
+            case 66: {
+
+              dataHash_ = input.readBytes();
+              break;
+            }
+            case 74: {
+
+              validatorsHash_ = input.readBytes();
+              break;
+            }
+            case 82: {
+
+              appHash_ = input.readBytes();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.github.jtmsp.types.Types.internal_static_types_Header_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.github.jtmsp.types.Types.internal_static_types_Header_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.github.jtmsp.types.Types.Header.class, com.github.jtmsp.types.Types.Header.Builder.class);
+    }
+
+    public static final int CHAIN_ID_FIELD_NUMBER = 1;
+    private volatile java.lang.Object chainId_;
+    /**
+     * <code>optional string chain_id = 1;</code>
+     */
+    public java.lang.String getChainId() {
+      java.lang.Object ref = chainId_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        chainId_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string chain_id = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getChainIdBytes() {
+      java.lang.Object ref = chainId_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        chainId_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int HEIGHT_FIELD_NUMBER = 2;
+    private long height_;
+    /**
+     * <code>optional uint64 height = 2;</code>
+     */
+    public long getHeight() {
+      return height_;
+    }
+
+    public static final int TIME_FIELD_NUMBER = 3;
+    private long time_;
+    /**
+     * <code>optional uint64 time = 3;</code>
+     */
+    public long getTime() {
+      return time_;
+    }
+
+    public static final int NUM_TXS_FIELD_NUMBER = 4;
+    private long numTxs_;
+    /**
+     * <code>optional uint64 num_txs = 4;</code>
+     */
+    public long getNumTxs() {
+      return numTxs_;
+    }
+
+    public static final int LAST_BLOCK_HASH_FIELD_NUMBER = 5;
+    private com.google.protobuf.ByteString lastBlockHash_;
+    /**
+     * <code>optional bytes last_block_hash = 5;</code>
+     */
+    public com.google.protobuf.ByteString getLastBlockHash() {
+      return lastBlockHash_;
+    }
+
+    public static final int LAST_BLOCK_PARTS_FIELD_NUMBER = 6;
+    private com.github.jtmsp.types.Types.PartSetHeader lastBlockParts_;
+    /**
+     * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+     */
+    public boolean hasLastBlockParts() {
+      return lastBlockParts_ != null;
+    }
+    /**
+     * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+     */
+    public com.github.jtmsp.types.Types.PartSetHeader getLastBlockParts() {
+      return lastBlockParts_ == null ? com.github.jtmsp.types.Types.PartSetHeader.getDefaultInstance() : lastBlockParts_;
+    }
+    /**
+     * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+     */
+    public com.github.jtmsp.types.Types.PartSetHeaderOrBuilder getLastBlockPartsOrBuilder() {
+      return getLastBlockParts();
+    }
+
+    public static final int LAST_COMMIT_HASH_FIELD_NUMBER = 7;
+    private com.google.protobuf.ByteString lastCommitHash_;
+    /**
+     * <code>optional bytes last_commit_hash = 7;</code>
+     */
+    public com.google.protobuf.ByteString getLastCommitHash() {
+      return lastCommitHash_;
+    }
+
+    public static final int DATA_HASH_FIELD_NUMBER = 8;
+    private com.google.protobuf.ByteString dataHash_;
+    /**
+     * <code>optional bytes data_hash = 8;</code>
+     */
+    public com.google.protobuf.ByteString getDataHash() {
+      return dataHash_;
+    }
+
+    public static final int VALIDATORS_HASH_FIELD_NUMBER = 9;
+    private com.google.protobuf.ByteString validatorsHash_;
+    /**
+     * <code>optional bytes validators_hash = 9;</code>
+     */
+    public com.google.protobuf.ByteString getValidatorsHash() {
+      return validatorsHash_;
+    }
+
+    public static final int APP_HASH_FIELD_NUMBER = 10;
+    private com.google.protobuf.ByteString appHash_;
+    /**
+     * <code>optional bytes app_hash = 10;</code>
+     */
+    public com.google.protobuf.ByteString getAppHash() {
+      return appHash_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (!getChainIdBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, chainId_);
+      }
+      if (height_ != 0L) {
+        output.writeUInt64(2, height_);
+      }
+      if (time_ != 0L) {
+        output.writeUInt64(3, time_);
+      }
+      if (numTxs_ != 0L) {
+        output.writeUInt64(4, numTxs_);
+      }
+      if (!lastBlockHash_.isEmpty()) {
+        output.writeBytes(5, lastBlockHash_);
+      }
+      if (lastBlockParts_ != null) {
+        output.writeMessage(6, getLastBlockParts());
+      }
+      if (!lastCommitHash_.isEmpty()) {
+        output.writeBytes(7, lastCommitHash_);
+      }
+      if (!dataHash_.isEmpty()) {
+        output.writeBytes(8, dataHash_);
+      }
+      if (!validatorsHash_.isEmpty()) {
+        output.writeBytes(9, validatorsHash_);
+      }
+      if (!appHash_.isEmpty()) {
+        output.writeBytes(10, appHash_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (!getChainIdBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, chainId_);
+      }
+      if (height_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(2, height_);
+      }
+      if (time_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(3, time_);
+      }
+      if (numTxs_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(4, numTxs_);
+      }
+      if (!lastBlockHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(5, lastBlockHash_);
+      }
+      if (lastBlockParts_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getLastBlockParts());
+      }
+      if (!lastCommitHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(7, lastCommitHash_);
+      }
+      if (!dataHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(8, dataHash_);
+      }
+      if (!validatorsHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(9, validatorsHash_);
+      }
+      if (!appHash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(10, appHash_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static com.github.jtmsp.types.Types.Header parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.Header parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.Header parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.Header parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.github.jtmsp.types.Types.Header prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code types.Header}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:types.Header)
+        com.github.jtmsp.types.Types.HeaderOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.github.jtmsp.types.Types.internal_static_types_Header_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.github.jtmsp.types.Types.internal_static_types_Header_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.github.jtmsp.types.Types.Header.class, com.github.jtmsp.types.Types.Header.Builder.class);
+      }
+
+      // Construct using com.github.jtmsp.types.Types.Header.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        chainId_ = "";
+
+        height_ = 0L;
+
+        time_ = 0L;
+
+        numTxs_ = 0L;
+
+        lastBlockHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        if (lastBlockPartsBuilder_ == null) {
+          lastBlockParts_ = null;
+        } else {
+          lastBlockParts_ = null;
+          lastBlockPartsBuilder_ = null;
+        }
+        lastCommitHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        dataHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        validatorsHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        appHash_ = com.google.protobuf.ByteString.EMPTY;
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.github.jtmsp.types.Types.internal_static_types_Header_descriptor;
+      }
+
+      public com.github.jtmsp.types.Types.Header getDefaultInstanceForType() {
+        return com.github.jtmsp.types.Types.Header.getDefaultInstance();
+      }
+
+      public com.github.jtmsp.types.Types.Header build() {
+        com.github.jtmsp.types.Types.Header result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.github.jtmsp.types.Types.Header buildPartial() {
+        com.github.jtmsp.types.Types.Header result = new com.github.jtmsp.types.Types.Header(this);
+        result.chainId_ = chainId_;
+        result.height_ = height_;
+        result.time_ = time_;
+        result.numTxs_ = numTxs_;
+        result.lastBlockHash_ = lastBlockHash_;
+        if (lastBlockPartsBuilder_ == null) {
+          result.lastBlockParts_ = lastBlockParts_;
+        } else {
+          result.lastBlockParts_ = lastBlockPartsBuilder_.build();
+        }
+        result.lastCommitHash_ = lastCommitHash_;
+        result.dataHash_ = dataHash_;
+        result.validatorsHash_ = validatorsHash_;
+        result.appHash_ = appHash_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.github.jtmsp.types.Types.Header) {
+          return mergeFrom((com.github.jtmsp.types.Types.Header)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.github.jtmsp.types.Types.Header other) {
+        if (other == com.github.jtmsp.types.Types.Header.getDefaultInstance()) return this;
+        if (!other.getChainId().isEmpty()) {
+          chainId_ = other.chainId_;
+          onChanged();
+        }
+        if (other.getHeight() != 0L) {
+          setHeight(other.getHeight());
+        }
+        if (other.getTime() != 0L) {
+          setTime(other.getTime());
+        }
+        if (other.getNumTxs() != 0L) {
+          setNumTxs(other.getNumTxs());
+        }
+        if (other.getLastBlockHash() != com.google.protobuf.ByteString.EMPTY) {
+          setLastBlockHash(other.getLastBlockHash());
+        }
+        if (other.hasLastBlockParts()) {
+          mergeLastBlockParts(other.getLastBlockParts());
+        }
+        if (other.getLastCommitHash() != com.google.protobuf.ByteString.EMPTY) {
+          setLastCommitHash(other.getLastCommitHash());
+        }
+        if (other.getDataHash() != com.google.protobuf.ByteString.EMPTY) {
+          setDataHash(other.getDataHash());
+        }
+        if (other.getValidatorsHash() != com.google.protobuf.ByteString.EMPTY) {
+          setValidatorsHash(other.getValidatorsHash());
+        }
+        if (other.getAppHash() != com.google.protobuf.ByteString.EMPTY) {
+          setAppHash(other.getAppHash());
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.github.jtmsp.types.Types.Header parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.github.jtmsp.types.Types.Header) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private java.lang.Object chainId_ = "";
+      /**
+       * <code>optional string chain_id = 1;</code>
+       */
+      public java.lang.String getChainId() {
+        java.lang.Object ref = chainId_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          chainId_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string chain_id = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getChainIdBytes() {
+        java.lang.Object ref = chainId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          chainId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string chain_id = 1;</code>
+       */
+      public Builder setChainId(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        chainId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string chain_id = 1;</code>
+       */
+      public Builder clearChainId() {
+        
+        chainId_ = getDefaultInstance().getChainId();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string chain_id = 1;</code>
+       */
+      public Builder setChainIdBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        chainId_ = value;
+        onChanged();
+        return this;
+      }
+
+      private long height_ ;
+      /**
+       * <code>optional uint64 height = 2;</code>
+       */
+      public long getHeight() {
+        return height_;
+      }
+      /**
+       * <code>optional uint64 height = 2;</code>
+       */
+      public Builder setHeight(long value) {
+        
+        height_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional uint64 height = 2;</code>
+       */
+      public Builder clearHeight() {
+        
+        height_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long time_ ;
+      /**
+       * <code>optional uint64 time = 3;</code>
+       */
+      public long getTime() {
+        return time_;
+      }
+      /**
+       * <code>optional uint64 time = 3;</code>
+       */
+      public Builder setTime(long value) {
+        
+        time_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional uint64 time = 3;</code>
+       */
+      public Builder clearTime() {
+        
+        time_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private long numTxs_ ;
+      /**
+       * <code>optional uint64 num_txs = 4;</code>
+       */
+      public long getNumTxs() {
+        return numTxs_;
+      }
+      /**
+       * <code>optional uint64 num_txs = 4;</code>
+       */
+      public Builder setNumTxs(long value) {
+        
+        numTxs_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional uint64 num_txs = 4;</code>
+       */
+      public Builder clearNumTxs() {
+        
+        numTxs_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString lastBlockHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes last_block_hash = 5;</code>
+       */
+      public com.google.protobuf.ByteString getLastBlockHash() {
+        return lastBlockHash_;
+      }
+      /**
+       * <code>optional bytes last_block_hash = 5;</code>
+       */
+      public Builder setLastBlockHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        lastBlockHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes last_block_hash = 5;</code>
+       */
+      public Builder clearLastBlockHash() {
+        
+        lastBlockHash_ = getDefaultInstance().getLastBlockHash();
+        onChanged();
+        return this;
+      }
+
+      private com.github.jtmsp.types.Types.PartSetHeader lastBlockParts_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.PartSetHeader, com.github.jtmsp.types.Types.PartSetHeader.Builder, com.github.jtmsp.types.Types.PartSetHeaderOrBuilder> lastBlockPartsBuilder_;
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public boolean hasLastBlockParts() {
+        return lastBlockPartsBuilder_ != null || lastBlockParts_ != null;
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public com.github.jtmsp.types.Types.PartSetHeader getLastBlockParts() {
+        if (lastBlockPartsBuilder_ == null) {
+          return lastBlockParts_ == null ? com.github.jtmsp.types.Types.PartSetHeader.getDefaultInstance() : lastBlockParts_;
+        } else {
+          return lastBlockPartsBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public Builder setLastBlockParts(com.github.jtmsp.types.Types.PartSetHeader value) {
+        if (lastBlockPartsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          lastBlockParts_ = value;
+          onChanged();
+        } else {
+          lastBlockPartsBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public Builder setLastBlockParts(
+          com.github.jtmsp.types.Types.PartSetHeader.Builder builderForValue) {
+        if (lastBlockPartsBuilder_ == null) {
+          lastBlockParts_ = builderForValue.build();
+          onChanged();
+        } else {
+          lastBlockPartsBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public Builder mergeLastBlockParts(com.github.jtmsp.types.Types.PartSetHeader value) {
+        if (lastBlockPartsBuilder_ == null) {
+          if (lastBlockParts_ != null) {
+            lastBlockParts_ =
+              com.github.jtmsp.types.Types.PartSetHeader.newBuilder(lastBlockParts_).mergeFrom(value).buildPartial();
+          } else {
+            lastBlockParts_ = value;
+          }
+          onChanged();
+        } else {
+          lastBlockPartsBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public Builder clearLastBlockParts() {
+        if (lastBlockPartsBuilder_ == null) {
+          lastBlockParts_ = null;
+          onChanged();
+        } else {
+          lastBlockParts_ = null;
+          lastBlockPartsBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public com.github.jtmsp.types.Types.PartSetHeader.Builder getLastBlockPartsBuilder() {
+        
+        onChanged();
+        return getLastBlockPartsFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      public com.github.jtmsp.types.Types.PartSetHeaderOrBuilder getLastBlockPartsOrBuilder() {
+        if (lastBlockPartsBuilder_ != null) {
+          return lastBlockPartsBuilder_.getMessageOrBuilder();
+        } else {
+          return lastBlockParts_ == null ?
+              com.github.jtmsp.types.Types.PartSetHeader.getDefaultInstance() : lastBlockParts_;
+        }
+      }
+      /**
+       * <code>optional .types.PartSetHeader last_block_parts = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          com.github.jtmsp.types.Types.PartSetHeader, com.github.jtmsp.types.Types.PartSetHeader.Builder, com.github.jtmsp.types.Types.PartSetHeaderOrBuilder> 
+          getLastBlockPartsFieldBuilder() {
+        if (lastBlockPartsBuilder_ == null) {
+          lastBlockPartsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              com.github.jtmsp.types.Types.PartSetHeader, com.github.jtmsp.types.Types.PartSetHeader.Builder, com.github.jtmsp.types.Types.PartSetHeaderOrBuilder>(
+                  getLastBlockParts(),
+                  getParentForChildren(),
+                  isClean());
+          lastBlockParts_ = null;
+        }
+        return lastBlockPartsBuilder_;
+      }
+
+      private com.google.protobuf.ByteString lastCommitHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes last_commit_hash = 7;</code>
+       */
+      public com.google.protobuf.ByteString getLastCommitHash() {
+        return lastCommitHash_;
+      }
+      /**
+       * <code>optional bytes last_commit_hash = 7;</code>
+       */
+      public Builder setLastCommitHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        lastCommitHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes last_commit_hash = 7;</code>
+       */
+      public Builder clearLastCommitHash() {
+        
+        lastCommitHash_ = getDefaultInstance().getLastCommitHash();
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString dataHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes data_hash = 8;</code>
+       */
+      public com.google.protobuf.ByteString getDataHash() {
+        return dataHash_;
+      }
+      /**
+       * <code>optional bytes data_hash = 8;</code>
+       */
+      public Builder setDataHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        dataHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes data_hash = 8;</code>
+       */
+      public Builder clearDataHash() {
+        
+        dataHash_ = getDefaultInstance().getDataHash();
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString validatorsHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes validators_hash = 9;</code>
+       */
+      public com.google.protobuf.ByteString getValidatorsHash() {
+        return validatorsHash_;
+      }
+      /**
+       * <code>optional bytes validators_hash = 9;</code>
+       */
+      public Builder setValidatorsHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        validatorsHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes validators_hash = 9;</code>
+       */
+      public Builder clearValidatorsHash() {
+        
+        validatorsHash_ = getDefaultInstance().getValidatorsHash();
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString appHash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes app_hash = 10;</code>
+       */
+      public com.google.protobuf.ByteString getAppHash() {
+        return appHash_;
+      }
+      /**
+       * <code>optional bytes app_hash = 10;</code>
+       */
+      public Builder setAppHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        appHash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes app_hash = 10;</code>
+       */
+      public Builder clearAppHash() {
+        
+        appHash_ = getDefaultInstance().getAppHash();
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:types.Header)
+    }
+
+    // @@protoc_insertion_point(class_scope:types.Header)
+    private static final com.github.jtmsp.types.Types.Header DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.Header();
+    }
+
+    public static com.github.jtmsp.types.Types.Header getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<Header>
+        PARSER = new com.google.protobuf.AbstractParser<Header>() {
+      public Header parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+          return new Header(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<Header> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<Header> getParserForType() {
+      return PARSER;
+    }
+
+    public com.github.jtmsp.types.Types.Header getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
+  public interface PartSetHeaderOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:types.PartSetHeader)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional uint64 total = 1;</code>
+     */
+    long getTotal();
+
+    /**
+     * <code>optional bytes hash = 2;</code>
+     */
+    com.google.protobuf.ByteString getHash();
+  }
+  /**
+   * Protobuf type {@code types.PartSetHeader}
+   */
+  public  static final class PartSetHeader extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:types.PartSetHeader)
+      PartSetHeaderOrBuilder {
+    // Use PartSetHeader.newBuilder() to construct.
+    private PartSetHeader(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private PartSetHeader() {
+      total_ = 0L;
+      hash_ = com.google.protobuf.ByteString.EMPTY;
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private PartSetHeader(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+
+              total_ = input.readUInt64();
+              break;
+            }
+            case 18: {
+
+              hash_ = input.readBytes();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.github.jtmsp.types.Types.internal_static_types_PartSetHeader_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.github.jtmsp.types.Types.internal_static_types_PartSetHeader_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.github.jtmsp.types.Types.PartSetHeader.class, com.github.jtmsp.types.Types.PartSetHeader.Builder.class);
+    }
+
+    public static final int TOTAL_FIELD_NUMBER = 1;
+    private long total_;
+    /**
+     * <code>optional uint64 total = 1;</code>
+     */
+    public long getTotal() {
+      return total_;
+    }
+
+    public static final int HASH_FIELD_NUMBER = 2;
+    private com.google.protobuf.ByteString hash_;
+    /**
+     * <code>optional bytes hash = 2;</code>
+     */
+    public com.google.protobuf.ByteString getHash() {
+      return hash_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (total_ != 0L) {
+        output.writeUInt64(1, total_);
+      }
+      if (!hash_.isEmpty()) {
+        output.writeBytes(2, hash_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (total_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(1, total_);
+      }
+      if (!hash_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, hash_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.github.jtmsp.types.Types.PartSetHeader parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessage
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.github.jtmsp.types.Types.PartSetHeader prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code types.PartSetHeader}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:types.PartSetHeader)
+        com.github.jtmsp.types.Types.PartSetHeaderOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.github.jtmsp.types.Types.internal_static_types_PartSetHeader_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.github.jtmsp.types.Types.internal_static_types_PartSetHeader_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.github.jtmsp.types.Types.PartSetHeader.class, com.github.jtmsp.types.Types.PartSetHeader.Builder.class);
+      }
+
+      // Construct using com.github.jtmsp.types.Types.PartSetHeader.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        total_ = 0L;
+
+        hash_ = com.google.protobuf.ByteString.EMPTY;
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.github.jtmsp.types.Types.internal_static_types_PartSetHeader_descriptor;
+      }
+
+      public com.github.jtmsp.types.Types.PartSetHeader getDefaultInstanceForType() {
+        return com.github.jtmsp.types.Types.PartSetHeader.getDefaultInstance();
+      }
+
+      public com.github.jtmsp.types.Types.PartSetHeader build() {
+        com.github.jtmsp.types.Types.PartSetHeader result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.github.jtmsp.types.Types.PartSetHeader buildPartial() {
+        com.github.jtmsp.types.Types.PartSetHeader result = new com.github.jtmsp.types.Types.PartSetHeader(this);
+        result.total_ = total_;
+        result.hash_ = hash_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.github.jtmsp.types.Types.PartSetHeader) {
+          return mergeFrom((com.github.jtmsp.types.Types.PartSetHeader)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.github.jtmsp.types.Types.PartSetHeader other) {
+        if (other == com.github.jtmsp.types.Types.PartSetHeader.getDefaultInstance()) return this;
+        if (other.getTotal() != 0L) {
+          setTotal(other.getTotal());
+        }
+        if (other.getHash() != com.google.protobuf.ByteString.EMPTY) {
+          setHash(other.getHash());
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.github.jtmsp.types.Types.PartSetHeader parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.github.jtmsp.types.Types.PartSetHeader) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+
+      private long total_ ;
+      /**
+       * <code>optional uint64 total = 1;</code>
+       */
+      public long getTotal() {
+        return total_;
+      }
+      /**
+       * <code>optional uint64 total = 1;</code>
+       */
+      public Builder setTotal(long value) {
+        
+        total_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional uint64 total = 1;</code>
+       */
+      public Builder clearTotal() {
+        
+        total_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString hash_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>optional bytes hash = 2;</code>
+       */
+      public com.google.protobuf.ByteString getHash() {
+        return hash_;
+      }
+      /**
+       * <code>optional bytes hash = 2;</code>
+       */
+      public Builder setHash(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        hash_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bytes hash = 2;</code>
+       */
+      public Builder clearHash() {
+        
+        hash_ = getDefaultInstance().getHash();
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:types.PartSetHeader)
+    }
+
+    // @@protoc_insertion_point(class_scope:types.PartSetHeader)
+    private static final com.github.jtmsp.types.Types.PartSetHeader DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.PartSetHeader();
+    }
+
+    public static com.github.jtmsp.types.Types.PartSetHeader getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<PartSetHeader>
+        PARSER = new com.google.protobuf.AbstractParser<PartSetHeader>() {
+      public PartSetHeader parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+          return new PartSetHeader(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<PartSetHeader> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<PartSetHeader> getParserForType() {
+      return PARSER;
+    }
+
+    public com.github.jtmsp.types.Types.PartSetHeader getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   public interface ValidatorOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.github.jtmsp.types.Validator)
+      // @@protoc_insertion_point(interface_extends:types.Validator)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -16072,11 +19655,11 @@ public final class Types {
     long getPower();
   }
   /**
-   * Protobuf type {@code com.github.jtmsp.types.Validator}
+   * Protobuf type {@code types.Validator}
    */
   public  static final class Validator extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.github.jtmsp.types.Validator)
+      // @@protoc_insertion_point(message_implements:types.Validator)
       ValidatorOrBuilder {
     // Use Validator.newBuilder() to construct.
     private Validator(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
@@ -16135,12 +19718,12 @@ public final class Types {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Validator_descriptor;
+      return com.github.jtmsp.types.Types.internal_static_types_Validator_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Validator_fieldAccessorTable
+      return com.github.jtmsp.types.Types.internal_static_types_Validator_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.github.jtmsp.types.Types.Validator.class, com.github.jtmsp.types.Types.Validator.Builder.class);
     }
@@ -16279,20 +19862,20 @@ public final class Types {
       return builder;
     }
     /**
-     * Protobuf type {@code com.github.jtmsp.types.Validator}
+     * Protobuf type {@code types.Validator}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.github.jtmsp.types.Validator)
+        // @@protoc_insertion_point(builder_implements:types.Validator)
         com.github.jtmsp.types.Types.ValidatorOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Validator_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_Validator_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Validator_fieldAccessorTable
+        return com.github.jtmsp.types.Types.internal_static_types_Validator_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.github.jtmsp.types.Types.Validator.class, com.github.jtmsp.types.Types.Validator.Builder.class);
       }
@@ -16322,7 +19905,7 @@ public final class Types {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.github.jtmsp.types.Types.internal_static_com_github_jtmsp_types_Validator_descriptor;
+        return com.github.jtmsp.types.Types.internal_static_types_Validator_descriptor;
       }
 
       public com.github.jtmsp.types.Types.Validator getDefaultInstanceForType() {
@@ -16453,10 +20036,10 @@ public final class Types {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:com.github.jtmsp.types.Validator)
+      // @@protoc_insertion_point(builder_scope:types.Validator)
     }
 
-    // @@protoc_insertion_point(class_scope:com.github.jtmsp.types.Validator)
+    // @@protoc_insertion_point(class_scope:types.Validator)
     private static final com.github.jtmsp.types.Types.Validator DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.github.jtmsp.types.Types.Validator();
@@ -16492,135 +20075,160 @@ public final class Types {
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_Request_descriptor;
+    internal_static_types_Request_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_Request_fieldAccessorTable;
+      internal_static_types_Request_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestEcho_descriptor;
+    internal_static_types_RequestEcho_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestEcho_fieldAccessorTable;
+      internal_static_types_RequestEcho_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestFlush_descriptor;
+    internal_static_types_RequestFlush_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestFlush_fieldAccessorTable;
+      internal_static_types_RequestFlush_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestInfo_descriptor;
+    internal_static_types_RequestInfo_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestInfo_fieldAccessorTable;
+      internal_static_types_RequestInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestSetOption_descriptor;
+    internal_static_types_RequestSetOption_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestSetOption_fieldAccessorTable;
+      internal_static_types_RequestSetOption_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestAppendTx_descriptor;
+    internal_static_types_RequestAppendTx_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestAppendTx_fieldAccessorTable;
+      internal_static_types_RequestAppendTx_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestCheckTx_descriptor;
+    internal_static_types_RequestCheckTx_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestCheckTx_fieldAccessorTable;
+      internal_static_types_RequestCheckTx_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestQuery_descriptor;
+    internal_static_types_RequestQuery_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestQuery_fieldAccessorTable;
+      internal_static_types_RequestQuery_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestCommit_descriptor;
+    internal_static_types_RequestCommit_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestCommit_fieldAccessorTable;
+      internal_static_types_RequestCommit_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestInitChain_descriptor;
+    internal_static_types_RequestInitChain_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestInitChain_fieldAccessorTable;
+      internal_static_types_RequestInitChain_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestBeginBlock_descriptor;
+    internal_static_types_RequestBeginBlock_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestBeginBlock_fieldAccessorTable;
+      internal_static_types_RequestBeginBlock_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_RequestEndBlock_descriptor;
+    internal_static_types_RequestEndBlock_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_RequestEndBlock_fieldAccessorTable;
+      internal_static_types_RequestEndBlock_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_Response_descriptor;
+    internal_static_types_Response_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_Response_fieldAccessorTable;
+      internal_static_types_Response_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseException_descriptor;
+    internal_static_types_ResponseException_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseException_fieldAccessorTable;
+      internal_static_types_ResponseException_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseEcho_descriptor;
+    internal_static_types_ResponseEcho_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseEcho_fieldAccessorTable;
+      internal_static_types_ResponseEcho_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseFlush_descriptor;
+    internal_static_types_ResponseFlush_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseFlush_fieldAccessorTable;
+      internal_static_types_ResponseFlush_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseInfo_descriptor;
+    internal_static_types_ResponseInfo_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseInfo_fieldAccessorTable;
+      internal_static_types_ResponseInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseSetOption_descriptor;
+    internal_static_types_ResponseSetOption_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseSetOption_fieldAccessorTable;
+      internal_static_types_ResponseSetOption_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseAppendTx_descriptor;
+    internal_static_types_ResponseAppendTx_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseAppendTx_fieldAccessorTable;
+      internal_static_types_ResponseAppendTx_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseCheckTx_descriptor;
+    internal_static_types_ResponseCheckTx_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseCheckTx_fieldAccessorTable;
+      internal_static_types_ResponseCheckTx_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseQuery_descriptor;
+    internal_static_types_ResponseQuery_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseQuery_fieldAccessorTable;
+      internal_static_types_ResponseQuery_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseCommit_descriptor;
+    internal_static_types_ResponseCommit_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseCommit_fieldAccessorTable;
+      internal_static_types_ResponseCommit_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseInitChain_descriptor;
+    internal_static_types_ResponseInitChain_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseInitChain_fieldAccessorTable;
+      internal_static_types_ResponseInitChain_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseBeginBlock_descriptor;
+    internal_static_types_ResponseBeginBlock_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseBeginBlock_fieldAccessorTable;
+      internal_static_types_ResponseBeginBlock_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_ResponseEndBlock_descriptor;
+    internal_static_types_ResponseEndBlock_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_ResponseEndBlock_fieldAccessorTable;
+      internal_static_types_ResponseEndBlock_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_com_github_jtmsp_types_Validator_descriptor;
+    internal_static_types_TMSPInfo_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_com_github_jtmsp_types_Validator_fieldAccessorTable;
+      internal_static_types_TMSPInfo_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_types_LastBlockInfo_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_types_LastBlockInfo_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_types_ConfigInfo_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_types_ConfigInfo_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_types_Header_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_types_Header_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_types_PartSetHeader_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_types_PartSetHeader_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_types_Validator_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_types_Validator_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -16630,117 +20238,110 @@ public final class Types {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\013types.proto\022\026com.github.jtmsp.types\"\235\005" +
-      "\n\007Request\0223\n\004echo\030\001 \001(\0132#.com.github.jtm" +
-      "sp.types.RequestEchoH\000\0225\n\005flush\030\002 \001(\0132$." +
-      "com.github.jtmsp.types.RequestFlushH\000\0223\n" +
-      "\004info\030\003 \001(\0132#.com.github.jtmsp.types.Req" +
-      "uestInfoH\000\022>\n\nset_option\030\004 \001(\0132(.com.git" +
-      "hub.jtmsp.types.RequestSetOptionH\000\022<\n\tap" +
-      "pend_tx\030\005 \001(\0132\'.com.github.jtmsp.types.R" +
-      "equestAppendTxH\000\022:\n\010check_tx\030\006 \001(\0132&.com" +
-      ".github.jtmsp.types.RequestCheckTxH\000\0227\n\006",
-      "commit\030\007 \001(\0132%.com.github.jtmsp.types.Re" +
-      "questCommitH\000\0225\n\005query\030\010 \001(\0132$.com.githu" +
-      "b.jtmsp.types.RequestQueryH\000\022>\n\ninit_cha" +
-      "in\030\t \001(\0132(.com.github.jtmsp.types.Reques" +
-      "tInitChainH\000\022@\n\013begin_block\030\n \001(\0132).com." +
-      "github.jtmsp.types.RequestBeginBlockH\000\022<" +
-      "\n\tend_block\030\013 \001(\0132\'.com.github.jtmsp.typ" +
-      "es.RequestEndBlockH\000B\007\n\005value\"\036\n\013Request" +
-      "Echo\022\017\n\007message\030\001 \001(\t\"\016\n\014RequestFlush\"\r\n" +
-      "\013RequestInfo\".\n\020RequestSetOption\022\013\n\003key\030",
-      "\001 \001(\t\022\r\n\005value\030\002 \001(\t\"\035\n\017RequestAppendTx\022" +
-      "\n\n\002tx\030\001 \001(\014\"\034\n\016RequestCheckTx\022\n\n\002tx\030\001 \001(" +
-      "\014\"\035\n\014RequestQuery\022\r\n\005query\030\001 \001(\014\"\017\n\rRequ" +
-      "estCommit\"I\n\020RequestInitChain\0225\n\nvalidat" +
-      "ors\030\001 \003(\0132!.com.github.jtmsp.types.Valid" +
-      "ator\"#\n\021RequestBeginBlock\022\016\n\006height\030\001 \001(" +
-      "\004\"!\n\017RequestEndBlock\022\016\n\006height\030\001 \001(\004\"\351\005\n" +
-      "\010Response\022>\n\texception\030\001 \001(\0132).com.githu" +
-      "b.jtmsp.types.ResponseExceptionH\000\0224\n\004ech" +
-      "o\030\002 \001(\0132$.com.github.jtmsp.types.Respons",
-      "eEchoH\000\0226\n\005flush\030\003 \001(\0132%.com.github.jtms" +
-      "p.types.ResponseFlushH\000\0224\n\004info\030\004 \001(\0132$." +
-      "com.github.jtmsp.types.ResponseInfoH\000\022?\n" +
-      "\nset_option\030\005 \001(\0132).com.github.jtmsp.typ" +
-      "es.ResponseSetOptionH\000\022=\n\tappend_tx\030\006 \001(" +
-      "\0132(.com.github.jtmsp.types.ResponseAppen" +
-      "dTxH\000\022;\n\010check_tx\030\007 \001(\0132\'.com.github.jtm" +
-      "sp.types.ResponseCheckTxH\000\0228\n\006commit\030\010 \001" +
-      "(\0132&.com.github.jtmsp.types.ResponseComm" +
-      "itH\000\0226\n\005query\030\t \001(\0132%.com.github.jtmsp.t",
-      "ypes.ResponseQueryH\000\022?\n\ninit_chain\030\n \001(\013" +
-      "2).com.github.jtmsp.types.ResponseInitCh" +
-      "ainH\000\022A\n\013begin_block\030\013 \001(\0132*.com.github." +
-      "jtmsp.types.ResponseBeginBlockH\000\022=\n\tend_" +
-      "block\030\014 \001(\0132(.com.github.jtmsp.types.Res" +
-      "ponseEndBlockH\000B\007\n\005value\"\"\n\021ResponseExce" +
-      "ption\022\r\n\005error\030\001 \001(\t\"\037\n\014ResponseEcho\022\017\n\007" +
-      "message\030\001 \001(\t\"\017\n\rResponseFlush\"\034\n\014Respon" +
-      "seInfo\022\014\n\004info\030\001 \001(\t\" \n\021ResponseSetOptio" +
-      "n\022\013\n\003log\030\001 \001(\t\"]\n\020ResponseAppendTx\022.\n\004co",
-      "de\030\001 \001(\0162 .com.github.jtmsp.types.CodeTy" +
-      "pe\022\014\n\004data\030\002 \001(\014\022\013\n\003log\030\003 \001(\t\"\\\n\017Respons" +
-      "eCheckTx\022.\n\004code\030\001 \001(\0162 .com.github.jtms" +
-      "p.types.CodeType\022\014\n\004data\030\002 \001(\014\022\013\n\003log\030\003 " +
-      "\001(\t\"Z\n\rResponseQuery\022.\n\004code\030\001 \001(\0162 .com" +
-      ".github.jtmsp.types.CodeType\022\014\n\004data\030\002 \001" +
-      "(\014\022\013\n\003log\030\003 \001(\t\"[\n\016ResponseCommit\022.\n\004cod" +
-      "e\030\001 \001(\0162 .com.github.jtmsp.types.CodeTyp" +
-      "e\022\014\n\004data\030\002 \001(\014\022\013\n\003log\030\003 \001(\t\"\023\n\021Response" +
-      "InitChain\"\024\n\022ResponseBeginBlock\"D\n\020Respo",
-      "nseEndBlock\0220\n\005diffs\030\004 \003(\0132!.com.github." +
-      "jtmsp.types.Validator\"*\n\tValidator\022\016\n\006pu" +
-      "bKey\030\001 \001(\014\022\r\n\005power\030\002 \001(\004*\272\001\n\013MessageTyp" +
-      "e\022\017\n\013NullMessage\020\000\022\010\n\004Echo\020\001\022\t\n\005Flush\020\002\022" +
-      "\010\n\004Info\020\003\022\r\n\tSetOption\020\004\022\r\n\tException\020\005\022" +
-      "\014\n\010AppendTx\020\021\022\013\n\007CheckTx\020\022\022\n\n\006Commit\020\023\022\t" +
-      "\n\005Query\020\024\022\r\n\tInitChain\020\025\022\016\n\nBeginBlock\020\026" +
-      "\022\014\n\010EndBlock\020\027*\265\005\n\010CodeType\022\006\n\002OK\020\000\022\021\n\rI" +
-      "nternalError\020\001\022\021\n\rEncodingError\020\002\022\014\n\010Bad" +
-      "Nonce\020\003\022\020\n\014Unauthorized\020\004\022\025\n\021Insufficien",
-      "tFunds\020\005\022\022\n\016UnknownRequest\020\006\022\030\n\024BaseDupl" +
-      "icateAddress\020e\022\025\n\021BaseEncodingError\020f\022\030\n" +
-      "\024BaseInsufficientFees\020g\022\031\n\025BaseInsuffici" +
-      "entFunds\020h\022\034\n\030BaseInsufficientGasPrice\020i" +
-      "\022\024\n\020BaseInvalidInput\020j\022\025\n\021BaseInvalidOut" +
-      "put\020k\022\025\n\021BaseInvalidPubKey\020l\022\027\n\023BaseInva" +
-      "lidSequence\020m\022\030\n\024BaseInvalidSignature\020n\022" +
-      "\026\n\022BaseUnknownAddress\020o\022\025\n\021BaseUnknownPu" +
-      "bKey\020p\022\025\n\021BaseUnknownPlugin\020q\022\025\n\020GovUnkn" +
-      "ownEntity\020\311\001\022\024\n\017GovUnknownGroup\020\312\001\022\027\n\022Go",
-      "vUnknownProposal\020\313\001\022\026\n\021GovDuplicateGroup" +
-      "\020\314\001\022\027\n\022GovDuplicateMember\020\315\001\022\031\n\024GovDupli" +
-      "cateProposal\020\316\001\022\025\n\020GovDuplicateVote\020\317\001\022\025" +
-      "\n\020GovInvalidMember\020\320\001\022\023\n\016GovInvalidVote\020" +
-      "\321\001\022\032\n\025GovInvalidVotingPower\020\322\0012\377\007\n\017TMSPA" +
-      "pplication\022Q\n\004Echo\022#.com.github.jtmsp.ty" +
-      "pes.RequestEcho\032$.com.github.jtmsp.types" +
-      ".ResponseEcho\022T\n\005Flush\022$.com.github.jtms" +
-      "p.types.RequestFlush\032%.com.github.jtmsp." +
-      "types.ResponseFlush\022Q\n\004Info\022#.com.github",
-      ".jtmsp.types.RequestInfo\032$.com.github.jt" +
-      "msp.types.ResponseInfo\022`\n\tSetOption\022(.co" +
-      "m.github.jtmsp.types.RequestSetOption\032)." +
-      "com.github.jtmsp.types.ResponseSetOption" +
-      "\022]\n\010AppendTx\022\'.com.github.jtmsp.types.Re" +
-      "questAppendTx\032(.com.github.jtmsp.types.R" +
-      "esponseAppendTx\022Z\n\007CheckTx\022&.com.github." +
-      "jtmsp.types.RequestCheckTx\032\'.com.github." +
-      "jtmsp.types.ResponseCheckTx\022T\n\005Query\022$.c" +
-      "om.github.jtmsp.types.RequestQuery\032%.com",
-      ".github.jtmsp.types.ResponseQuery\022W\n\006Com" +
-      "mit\022%.com.github.jtmsp.types.RequestComm" +
-      "it\032&.com.github.jtmsp.types.ResponseComm" +
-      "it\022`\n\tInitChain\022(.com.github.jtmsp.types" +
-      ".RequestInitChain\032).com.github.jtmsp.typ" +
-      "es.ResponseInitChain\022c\n\nBeginBlock\022).com" +
-      ".github.jtmsp.types.RequestBeginBlock\032*." +
-      "com.github.jtmsp.types.ResponseBeginBloc" +
-      "k\022]\n\010EndBlock\022\'.com.github.jtmsp.types.R" +
-      "equestEndBlock\032(.com.github.jtmsp.types.",
-      "ResponseEndBlockb\006proto3"
+      "\n\013types.proto\022\005types\"\342\003\n\007Request\022\"\n\004echo" +
+      "\030\001 \001(\0132\022.types.RequestEchoH\000\022$\n\005flush\030\002 " +
+      "\001(\0132\023.types.RequestFlushH\000\022\"\n\004info\030\003 \001(\013" +
+      "2\022.types.RequestInfoH\000\022-\n\nset_option\030\004 \001" +
+      "(\0132\027.types.RequestSetOptionH\000\022+\n\tappend_" +
+      "tx\030\005 \001(\0132\026.types.RequestAppendTxH\000\022)\n\010ch" +
+      "eck_tx\030\006 \001(\0132\025.types.RequestCheckTxH\000\022&\n" +
+      "\006commit\030\007 \001(\0132\024.types.RequestCommitH\000\022$\n" +
+      "\005query\030\010 \001(\0132\023.types.RequestQueryH\000\022-\n\ni" +
+      "nit_chain\030\t \001(\0132\027.types.RequestInitChain",
+      "H\000\022/\n\013begin_block\030\n \001(\0132\030.types.RequestB" +
+      "eginBlockH\000\022+\n\tend_block\030\013 \001(\0132\026.types.R" +
+      "equestEndBlockH\000B\007\n\005value\"\036\n\013RequestEcho" +
+      "\022\017\n\007message\030\001 \001(\t\"\016\n\014RequestFlush\"\r\n\013Req" +
+      "uestInfo\".\n\020RequestSetOption\022\013\n\003key\030\001 \001(" +
+      "\t\022\r\n\005value\030\002 \001(\t\"\035\n\017RequestAppendTx\022\n\n\002t" +
+      "x\030\001 \001(\014\"\034\n\016RequestCheckTx\022\n\n\002tx\030\001 \001(\014\"\035\n" +
+      "\014RequestQuery\022\r\n\005query\030\001 \001(\014\"\017\n\rRequestC" +
+      "ommit\"8\n\020RequestInitChain\022$\n\nvalidators\030" +
+      "\001 \003(\0132\020.types.Validator\"2\n\021RequestBeginB",
+      "lock\022\035\n\006header\030\001 \001(\0132\r.types.Header\"!\n\017R" +
+      "equestEndBlock\022\016\n\006height\030\001 \001(\004\"\235\004\n\010Respo" +
+      "nse\022-\n\texception\030\001 \001(\0132\030.types.ResponseE" +
+      "xceptionH\000\022#\n\004echo\030\002 \001(\0132\023.types.Respons" +
+      "eEchoH\000\022%\n\005flush\030\003 \001(\0132\024.types.ResponseF" +
+      "lushH\000\022#\n\004info\030\004 \001(\0132\023.types.ResponseInf" +
+      "oH\000\022.\n\nset_option\030\005 \001(\0132\030.types.Response" +
+      "SetOptionH\000\022,\n\tappend_tx\030\006 \001(\0132\027.types.R" +
+      "esponseAppendTxH\000\022*\n\010check_tx\030\007 \001(\0132\026.ty" +
+      "pes.ResponseCheckTxH\000\022\'\n\006commit\030\010 \001(\0132\025.",
+      "types.ResponseCommitH\000\022%\n\005query\030\t \001(\0132\024." +
+      "types.ResponseQueryH\000\022.\n\ninit_chain\030\n \001(" +
+      "\0132\030.types.ResponseInitChainH\000\0220\n\013begin_b" +
+      "lock\030\013 \001(\0132\031.types.ResponseBeginBlockH\000\022" +
+      ",\n\tend_block\030\014 \001(\0132\027.types.ResponseEndBl" +
+      "ockH\000B\007\n\005value\"\"\n\021ResponseException\022\r\n\005e" +
+      "rror\030\001 \001(\t\"\037\n\014ResponseEcho\022\017\n\007message\030\001 " +
+      "\001(\t\"\017\n\rResponseFlush\"\215\001\n\014ResponseInfo\022\014\n" +
+      "\004info\030\001 \001(\t\022\"\n\ttmsp_info\030\002 \001(\0132\017.types.T" +
+      "MSPInfo\022(\n\nlast_block\030\003 \001(\0132\024.types.Last",
+      "BlockInfo\022!\n\006config\030\004 \001(\0132\021.types.Config" +
+      "Info\" \n\021ResponseSetOption\022\013\n\003log\030\001 \001(\t\"L" +
+      "\n\020ResponseAppendTx\022\035\n\004code\030\001 \001(\0162\017.types" +
+      ".CodeType\022\014\n\004data\030\002 \001(\014\022\013\n\003log\030\003 \001(\t\"K\n\017" +
+      "ResponseCheckTx\022\035\n\004code\030\001 \001(\0162\017.types.Co" +
+      "deType\022\014\n\004data\030\002 \001(\014\022\013\n\003log\030\003 \001(\t\"I\n\rRes" +
+      "ponseQuery\022\035\n\004code\030\001 \001(\0162\017.types.CodeTyp" +
+      "e\022\014\n\004data\030\002 \001(\014\022\013\n\003log\030\003 \001(\t\"J\n\016Response" +
+      "Commit\022\035\n\004code\030\001 \001(\0162\017.types.CodeType\022\014\n" +
+      "\004data\030\002 \001(\014\022\013\n\003log\030\003 \001(\t\"\023\n\021ResponseInit",
+      "Chain\"\024\n\022ResponseBeginBlock\"3\n\020ResponseE" +
+      "ndBlock\022\037\n\005diffs\030\004 \003(\0132\020.types.Validator" +
+      "\"\033\n\010TMSPInfo\022\017\n\007Version\030\001 \001(\t\"K\n\rLastBlo" +
+      "ckInfo\022\024\n\014block_height\030\001 \001(\004\022\022\n\nblock_ha" +
+      "sh\030\002 \001(\014\022\020\n\010app_hash\030\003 \001(\014\"$\n\nConfigInfo" +
+      "\022\026\n\016max_block_size\030\001 \001(\004\"\352\001\n\006Header\022\020\n\010c" +
+      "hain_id\030\001 \001(\t\022\016\n\006height\030\002 \001(\004\022\014\n\004time\030\003 " +
+      "\001(\004\022\017\n\007num_txs\030\004 \001(\004\022\027\n\017last_block_hash\030" +
+      "\005 \001(\014\022.\n\020last_block_parts\030\006 \001(\0132\024.types." +
+      "PartSetHeader\022\030\n\020last_commit_hash\030\007 \001(\014\022",
+      "\021\n\tdata_hash\030\010 \001(\014\022\027\n\017validators_hash\030\t " +
+      "\001(\014\022\020\n\010app_hash\030\n \001(\014\",\n\rPartSetHeader\022\r" +
+      "\n\005total\030\001 \001(\004\022\014\n\004hash\030\002 \001(\014\"*\n\tValidator" +
+      "\022\016\n\006pubKey\030\001 \001(\014\022\r\n\005power\030\002 \001(\004*\272\001\n\013Mess" +
+      "ageType\022\017\n\013NullMessage\020\000\022\010\n\004Echo\020\001\022\t\n\005Fl" +
+      "ush\020\002\022\010\n\004Info\020\003\022\r\n\tSetOption\020\004\022\r\n\tExcept" +
+      "ion\020\005\022\014\n\010AppendTx\020\021\022\013\n\007CheckTx\020\022\022\n\n\006Comm" +
+      "it\020\023\022\t\n\005Query\020\024\022\r\n\tInitChain\020\025\022\016\n\nBeginB" +
+      "lock\020\026\022\014\n\010EndBlock\020\027*\265\005\n\010CodeType\022\006\n\002OK\020" +
+      "\000\022\021\n\rInternalError\020\001\022\021\n\rEncodingError\020\002\022",
+      "\014\n\010BadNonce\020\003\022\020\n\014Unauthorized\020\004\022\025\n\021Insuf" +
+      "ficientFunds\020\005\022\022\n\016UnknownRequest\020\006\022\030\n\024Ba" +
+      "seDuplicateAddress\020e\022\025\n\021BaseEncodingErro" +
+      "r\020f\022\030\n\024BaseInsufficientFees\020g\022\031\n\025BaseIns" +
+      "ufficientFunds\020h\022\034\n\030BaseInsufficientGasP" +
+      "rice\020i\022\024\n\020BaseInvalidInput\020j\022\025\n\021BaseInva" +
+      "lidOutput\020k\022\025\n\021BaseInvalidPubKey\020l\022\027\n\023Ba" +
+      "seInvalidSequence\020m\022\030\n\024BaseInvalidSignat" +
+      "ure\020n\022\026\n\022BaseUnknownAddress\020o\022\025\n\021BaseUnk" +
+      "nownPubKey\020p\022\025\n\021BaseUnknownPlugin\020q\022\025\n\020G",
+      "ovUnknownEntity\020\311\001\022\024\n\017GovUnknownGroup\020\312\001" +
+      "\022\027\n\022GovUnknownProposal\020\313\001\022\026\n\021GovDuplicat" +
+      "eGroup\020\314\001\022\027\n\022GovDuplicateMember\020\315\001\022\031\n\024Go" +
+      "vDuplicateProposal\020\316\001\022\025\n\020GovDuplicateVot" +
+      "e\020\317\001\022\025\n\020GovInvalidMember\020\320\001\022\023\n\016GovInvali" +
+      "dVote\020\321\001\022\032\n\025GovInvalidVotingPower\020\322\0012\211\005\n" +
+      "\017TMSPApplication\022/\n\004Echo\022\022.types.Request" +
+      "Echo\032\023.types.ResponseEcho\0222\n\005Flush\022\023.typ" +
+      "es.RequestFlush\032\024.types.ResponseFlush\022/\n" +
+      "\004Info\022\022.types.RequestInfo\032\023.types.Respon",
+      "seInfo\022>\n\tSetOption\022\027.types.RequestSetOp" +
+      "tion\032\030.types.ResponseSetOption\022;\n\010Append" +
+      "Tx\022\026.types.RequestAppendTx\032\027.types.Respo" +
+      "nseAppendTx\0228\n\007CheckTx\022\025.types.RequestCh" +
+      "eckTx\032\026.types.ResponseCheckTx\0222\n\005Query\022\023" +
+      ".types.RequestQuery\032\024.types.ResponseQuer" +
+      "y\0225\n\006Commit\022\024.types.RequestCommit\032\025.type" +
+      "s.ResponseCommit\022>\n\tInitChain\022\027.types.Re" +
+      "questInitChain\032\030.types.ResponseInitChain" +
+      "\022A\n\nBeginBlock\022\030.types.RequestBeginBlock",
+      "\032\031.types.ResponseBeginBlock\022;\n\010EndBlock\022" +
+      "\026.types.RequestEndBlock\032\027.types.Response" +
+      "EndBlockB\030\n\026com.github.jtmsp.typesb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -16754,161 +20355,191 @@ public final class Types {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         }, assigner);
-    internal_static_com_github_jtmsp_types_Request_descriptor =
+    internal_static_types_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_com_github_jtmsp_types_Request_fieldAccessorTable = new
+    internal_static_types_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_Request_descriptor,
+        internal_static_types_Request_descriptor,
         new java.lang.String[] { "Echo", "Flush", "Info", "SetOption", "AppendTx", "CheckTx", "Commit", "Query", "InitChain", "BeginBlock", "EndBlock", "Value", });
-    internal_static_com_github_jtmsp_types_RequestEcho_descriptor =
+    internal_static_types_RequestEcho_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_com_github_jtmsp_types_RequestEcho_fieldAccessorTable = new
+    internal_static_types_RequestEcho_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestEcho_descriptor,
+        internal_static_types_RequestEcho_descriptor,
         new java.lang.String[] { "Message", });
-    internal_static_com_github_jtmsp_types_RequestFlush_descriptor =
+    internal_static_types_RequestFlush_descriptor =
       getDescriptor().getMessageTypes().get(2);
-    internal_static_com_github_jtmsp_types_RequestFlush_fieldAccessorTable = new
+    internal_static_types_RequestFlush_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestFlush_descriptor,
+        internal_static_types_RequestFlush_descriptor,
         new java.lang.String[] { });
-    internal_static_com_github_jtmsp_types_RequestInfo_descriptor =
+    internal_static_types_RequestInfo_descriptor =
       getDescriptor().getMessageTypes().get(3);
-    internal_static_com_github_jtmsp_types_RequestInfo_fieldAccessorTable = new
+    internal_static_types_RequestInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestInfo_descriptor,
+        internal_static_types_RequestInfo_descriptor,
         new java.lang.String[] { });
-    internal_static_com_github_jtmsp_types_RequestSetOption_descriptor =
+    internal_static_types_RequestSetOption_descriptor =
       getDescriptor().getMessageTypes().get(4);
-    internal_static_com_github_jtmsp_types_RequestSetOption_fieldAccessorTable = new
+    internal_static_types_RequestSetOption_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestSetOption_descriptor,
+        internal_static_types_RequestSetOption_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_com_github_jtmsp_types_RequestAppendTx_descriptor =
+    internal_static_types_RequestAppendTx_descriptor =
       getDescriptor().getMessageTypes().get(5);
-    internal_static_com_github_jtmsp_types_RequestAppendTx_fieldAccessorTable = new
+    internal_static_types_RequestAppendTx_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestAppendTx_descriptor,
+        internal_static_types_RequestAppendTx_descriptor,
         new java.lang.String[] { "Tx", });
-    internal_static_com_github_jtmsp_types_RequestCheckTx_descriptor =
+    internal_static_types_RequestCheckTx_descriptor =
       getDescriptor().getMessageTypes().get(6);
-    internal_static_com_github_jtmsp_types_RequestCheckTx_fieldAccessorTable = new
+    internal_static_types_RequestCheckTx_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestCheckTx_descriptor,
+        internal_static_types_RequestCheckTx_descriptor,
         new java.lang.String[] { "Tx", });
-    internal_static_com_github_jtmsp_types_RequestQuery_descriptor =
+    internal_static_types_RequestQuery_descriptor =
       getDescriptor().getMessageTypes().get(7);
-    internal_static_com_github_jtmsp_types_RequestQuery_fieldAccessorTable = new
+    internal_static_types_RequestQuery_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestQuery_descriptor,
+        internal_static_types_RequestQuery_descriptor,
         new java.lang.String[] { "Query", });
-    internal_static_com_github_jtmsp_types_RequestCommit_descriptor =
+    internal_static_types_RequestCommit_descriptor =
       getDescriptor().getMessageTypes().get(8);
-    internal_static_com_github_jtmsp_types_RequestCommit_fieldAccessorTable = new
+    internal_static_types_RequestCommit_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestCommit_descriptor,
+        internal_static_types_RequestCommit_descriptor,
         new java.lang.String[] { });
-    internal_static_com_github_jtmsp_types_RequestInitChain_descriptor =
+    internal_static_types_RequestInitChain_descriptor =
       getDescriptor().getMessageTypes().get(9);
-    internal_static_com_github_jtmsp_types_RequestInitChain_fieldAccessorTable = new
+    internal_static_types_RequestInitChain_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestInitChain_descriptor,
+        internal_static_types_RequestInitChain_descriptor,
         new java.lang.String[] { "Validators", });
-    internal_static_com_github_jtmsp_types_RequestBeginBlock_descriptor =
+    internal_static_types_RequestBeginBlock_descriptor =
       getDescriptor().getMessageTypes().get(10);
-    internal_static_com_github_jtmsp_types_RequestBeginBlock_fieldAccessorTable = new
+    internal_static_types_RequestBeginBlock_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestBeginBlock_descriptor,
-        new java.lang.String[] { "Height", });
-    internal_static_com_github_jtmsp_types_RequestEndBlock_descriptor =
+        internal_static_types_RequestBeginBlock_descriptor,
+        new java.lang.String[] { "Header", });
+    internal_static_types_RequestEndBlock_descriptor =
       getDescriptor().getMessageTypes().get(11);
-    internal_static_com_github_jtmsp_types_RequestEndBlock_fieldAccessorTable = new
+    internal_static_types_RequestEndBlock_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_RequestEndBlock_descriptor,
+        internal_static_types_RequestEndBlock_descriptor,
         new java.lang.String[] { "Height", });
-    internal_static_com_github_jtmsp_types_Response_descriptor =
+    internal_static_types_Response_descriptor =
       getDescriptor().getMessageTypes().get(12);
-    internal_static_com_github_jtmsp_types_Response_fieldAccessorTable = new
+    internal_static_types_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_Response_descriptor,
+        internal_static_types_Response_descriptor,
         new java.lang.String[] { "Exception", "Echo", "Flush", "Info", "SetOption", "AppendTx", "CheckTx", "Commit", "Query", "InitChain", "BeginBlock", "EndBlock", "Value", });
-    internal_static_com_github_jtmsp_types_ResponseException_descriptor =
+    internal_static_types_ResponseException_descriptor =
       getDescriptor().getMessageTypes().get(13);
-    internal_static_com_github_jtmsp_types_ResponseException_fieldAccessorTable = new
+    internal_static_types_ResponseException_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseException_descriptor,
+        internal_static_types_ResponseException_descriptor,
         new java.lang.String[] { "Error", });
-    internal_static_com_github_jtmsp_types_ResponseEcho_descriptor =
+    internal_static_types_ResponseEcho_descriptor =
       getDescriptor().getMessageTypes().get(14);
-    internal_static_com_github_jtmsp_types_ResponseEcho_fieldAccessorTable = new
+    internal_static_types_ResponseEcho_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseEcho_descriptor,
+        internal_static_types_ResponseEcho_descriptor,
         new java.lang.String[] { "Message", });
-    internal_static_com_github_jtmsp_types_ResponseFlush_descriptor =
+    internal_static_types_ResponseFlush_descriptor =
       getDescriptor().getMessageTypes().get(15);
-    internal_static_com_github_jtmsp_types_ResponseFlush_fieldAccessorTable = new
+    internal_static_types_ResponseFlush_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseFlush_descriptor,
+        internal_static_types_ResponseFlush_descriptor,
         new java.lang.String[] { });
-    internal_static_com_github_jtmsp_types_ResponseInfo_descriptor =
+    internal_static_types_ResponseInfo_descriptor =
       getDescriptor().getMessageTypes().get(16);
-    internal_static_com_github_jtmsp_types_ResponseInfo_fieldAccessorTable = new
+    internal_static_types_ResponseInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseInfo_descriptor,
-        new java.lang.String[] { "Info", });
-    internal_static_com_github_jtmsp_types_ResponseSetOption_descriptor =
+        internal_static_types_ResponseInfo_descriptor,
+        new java.lang.String[] { "Info", "TmspInfo", "LastBlock", "Config", });
+    internal_static_types_ResponseSetOption_descriptor =
       getDescriptor().getMessageTypes().get(17);
-    internal_static_com_github_jtmsp_types_ResponseSetOption_fieldAccessorTable = new
+    internal_static_types_ResponseSetOption_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseSetOption_descriptor,
+        internal_static_types_ResponseSetOption_descriptor,
         new java.lang.String[] { "Log", });
-    internal_static_com_github_jtmsp_types_ResponseAppendTx_descriptor =
+    internal_static_types_ResponseAppendTx_descriptor =
       getDescriptor().getMessageTypes().get(18);
-    internal_static_com_github_jtmsp_types_ResponseAppendTx_fieldAccessorTable = new
+    internal_static_types_ResponseAppendTx_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseAppendTx_descriptor,
+        internal_static_types_ResponseAppendTx_descriptor,
         new java.lang.String[] { "Code", "Data", "Log", });
-    internal_static_com_github_jtmsp_types_ResponseCheckTx_descriptor =
+    internal_static_types_ResponseCheckTx_descriptor =
       getDescriptor().getMessageTypes().get(19);
-    internal_static_com_github_jtmsp_types_ResponseCheckTx_fieldAccessorTable = new
+    internal_static_types_ResponseCheckTx_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseCheckTx_descriptor,
+        internal_static_types_ResponseCheckTx_descriptor,
         new java.lang.String[] { "Code", "Data", "Log", });
-    internal_static_com_github_jtmsp_types_ResponseQuery_descriptor =
+    internal_static_types_ResponseQuery_descriptor =
       getDescriptor().getMessageTypes().get(20);
-    internal_static_com_github_jtmsp_types_ResponseQuery_fieldAccessorTable = new
+    internal_static_types_ResponseQuery_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseQuery_descriptor,
+        internal_static_types_ResponseQuery_descriptor,
         new java.lang.String[] { "Code", "Data", "Log", });
-    internal_static_com_github_jtmsp_types_ResponseCommit_descriptor =
+    internal_static_types_ResponseCommit_descriptor =
       getDescriptor().getMessageTypes().get(21);
-    internal_static_com_github_jtmsp_types_ResponseCommit_fieldAccessorTable = new
+    internal_static_types_ResponseCommit_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseCommit_descriptor,
+        internal_static_types_ResponseCommit_descriptor,
         new java.lang.String[] { "Code", "Data", "Log", });
-    internal_static_com_github_jtmsp_types_ResponseInitChain_descriptor =
+    internal_static_types_ResponseInitChain_descriptor =
       getDescriptor().getMessageTypes().get(22);
-    internal_static_com_github_jtmsp_types_ResponseInitChain_fieldAccessorTable = new
+    internal_static_types_ResponseInitChain_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseInitChain_descriptor,
+        internal_static_types_ResponseInitChain_descriptor,
         new java.lang.String[] { });
-    internal_static_com_github_jtmsp_types_ResponseBeginBlock_descriptor =
+    internal_static_types_ResponseBeginBlock_descriptor =
       getDescriptor().getMessageTypes().get(23);
-    internal_static_com_github_jtmsp_types_ResponseBeginBlock_fieldAccessorTable = new
+    internal_static_types_ResponseBeginBlock_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseBeginBlock_descriptor,
+        internal_static_types_ResponseBeginBlock_descriptor,
         new java.lang.String[] { });
-    internal_static_com_github_jtmsp_types_ResponseEndBlock_descriptor =
+    internal_static_types_ResponseEndBlock_descriptor =
       getDescriptor().getMessageTypes().get(24);
-    internal_static_com_github_jtmsp_types_ResponseEndBlock_fieldAccessorTable = new
+    internal_static_types_ResponseEndBlock_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_ResponseEndBlock_descriptor,
+        internal_static_types_ResponseEndBlock_descriptor,
         new java.lang.String[] { "Diffs", });
-    internal_static_com_github_jtmsp_types_Validator_descriptor =
+    internal_static_types_TMSPInfo_descriptor =
       getDescriptor().getMessageTypes().get(25);
-    internal_static_com_github_jtmsp_types_Validator_fieldAccessorTable = new
+    internal_static_types_TMSPInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_com_github_jtmsp_types_Validator_descriptor,
+        internal_static_types_TMSPInfo_descriptor,
+        new java.lang.String[] { "Version", });
+    internal_static_types_LastBlockInfo_descriptor =
+      getDescriptor().getMessageTypes().get(26);
+    internal_static_types_LastBlockInfo_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_types_LastBlockInfo_descriptor,
+        new java.lang.String[] { "BlockHeight", "BlockHash", "AppHash", });
+    internal_static_types_ConfigInfo_descriptor =
+      getDescriptor().getMessageTypes().get(27);
+    internal_static_types_ConfigInfo_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_types_ConfigInfo_descriptor,
+        new java.lang.String[] { "MaxBlockSize", });
+    internal_static_types_Header_descriptor =
+      getDescriptor().getMessageTypes().get(28);
+    internal_static_types_Header_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_types_Header_descriptor,
+        new java.lang.String[] { "ChainId", "Height", "Time", "NumTxs", "LastBlockHash", "LastBlockParts", "LastCommitHash", "DataHash", "ValidatorsHash", "AppHash", });
+    internal_static_types_PartSetHeader_descriptor =
+      getDescriptor().getMessageTypes().get(29);
+    internal_static_types_PartSetHeader_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_types_PartSetHeader_descriptor,
+        new java.lang.String[] { "Total", "Hash", });
+    internal_static_types_Validator_descriptor =
+      getDescriptor().getMessageTypes().get(30);
+    internal_static_types_Validator_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_types_Validator_descriptor,
         new java.lang.String[] { "PubKey", "Power", });
   }
 
